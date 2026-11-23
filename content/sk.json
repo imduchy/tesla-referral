@@ -1,0 +1,139 @@
+{
+  "lang": "sk",
+  "locale": "sk-SK",
+  "langName": "Slovenčina",
+  "termsUrl": "https://www.tesla.com/sk_SK/support/refer-and-earn",
+  "meta": {
+    "title": "Tesla referral kód ({monthYear}) – {km} km Supercharging zadarmo",
+    "description": "Tesla referral kód (odporúčací kód) {code}: k novému Model 3 alebo Model Y v Európe {km} km Supercharging zadarmo. Overené {checkedOn}."
+  },
+  "og": {
+    "kicker": "Tesla referral kód · Európa",
+    "headline": "{km} km Supercharging zadarmo",
+    "sub": "Nový Model 3 a Model Y · Kód {code}",
+    "alt": "Tesla referral kód pre Európu: {km} km nabíjania Supercharging zadarmo k novému Model 3 alebo Model Y"
+  },
+  "nav": {
+    "siteName": "Tesla referral kód",
+    "terms": "Oficiálne podmienky",
+    "languageLabel": "Jazyk"
+  },
+  "hero": {
+    "eyebrow": "Tesla referral kód · Európa",
+    "codeLabel": "Referral kód",
+    "copy": "Kopírovať",
+    "copied": "Skopírované",
+    "cta": "Objednať s referral kódom",
+    "secondary": "Ako to funguje",
+    "independent": "Nezávislá stránka majiteľa, bez prepojenia so spoločnosťou Tesla, Inc.",
+    "updated": "Aktualizované {checkedOn}"
+  },
+  "status": {
+    "active": {
+      "headline": "{km} km Supercharging zadarmo",
+      "subline": "Objednajte si nový Model 3 alebo Model Y cez môj referral odkaz a Tesla vám na účet pripíše {km} km nabíjania Supercharging zadarmo."
+    },
+    "ended": {
+      "headline": "Výhody z odporúčaní sú pozastavené",
+      "subline": "Tesla v Európe momentálne pozastavila výhody pre kupujúcich nových áut z odporúčania. Ak sa vrátia, túto stránku aktualizujem.",
+      "notice": "Použitie kódu vám teraz neprinesie žiadnu výhodu navyše. Aktuálny stav nájdete v oficiálnych podmienkach Tesly.",
+      "title": "Tesla referral kód Európa – výhody z odporúčaní pozastavené"
+    },
+    "capReached": {
+      "headline": "Tento kód je na tento rok vyčerpaný",
+      "subline": "Tesla obmedzuje, koľko odporúčaní môže jeden majiteľ uskutočniť za kalendárny rok, a tento kód dosiahol limit.",
+      "notice": "Objednávky cez tento kód do 1. januára nezískajú výhodu pre kupujúceho. Požiadajte o kód iného majiteľa alebo si pozrite oficiálne podmienky Tesly.",
+      "title": "Tesla referral kód Európa – kód je na tento rok vyčerpaný"
+    }
+  },
+  "benefits": {
+    "title": "Čo získate",
+    "items": [
+      {
+        "value": "{km} km",
+        "label": "Supercharging zadarmo",
+        "text": "Pripíše sa na váš účet Tesla a využiť ho môžete na Superchargeroch, ktoré vlastní Tesla."
+      },
+      {
+        "value": "Model 3 a Y",
+        "label": "Nové autá",
+        "text": "Autá objednané na mieru aj nové autá na sklade. Ojazdené autá sa nerátajú."
+      },
+      {
+        "value": "Európa",
+        "label": "Kde objednávate",
+        "text": "Výhodu určuje krajina, na ktorej webe Tesly objednávku zadáte."
+      }
+    ]
+  },
+  "steps": {
+    "title": "Ako to funguje",
+    "items": [
+      {
+        "title": "Otvorte referral odkaz",
+        "text": "Dostanete sa na oficiálny web Tesly, kde je odporúčanie už použité."
+      },
+      {
+        "title": "Nakonfigurujte a objednajte",
+        "text": "Objednajte počas tej istej návštevy. Pred zaplatením skontrolujte, či sa odporúčanie zobrazuje v súhrne objednávky."
+      },
+      {
+        "title": "Užívajte si Supercharging",
+        "text": "Kredit sa zobrazí v aplikácii Tesla, zvyčajne okolo odovzdania auta."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Otázky",
+    "items": [
+      {
+        "q": "Stojí ma použitie kódu niečo?",
+        "a": "Nie. Cena auta zostáva rovnaká – nabíjanie Supercharging zadarmo dostanete navyše."
+      },
+      {
+        "q": "Dáva Tesla v Európe za odporúčanie zľavu?",
+        "a": "Nie na cenu. V Európe kupujúci z odporúčania nezískava zľavu z ceny auta, ale nabíjanie Supercharging zadarmo – aktuálne {km} km k novému Model 3 alebo Model Y."
+      },
+      {
+        "q": "Platí kód aj pre Model S alebo Model X?",
+        "a": "Nie. V Európe sa referral program aktuálne vzťahuje len na objednávky nových áut Model 3 a Model Y."
+      },
+      {
+        "q": "Môžem kód použiť, keď objednávam v inej európskej krajine?",
+        "a": "Odkaz otvorí web Tesly, kde si zvolíte krajinu, v ktorej objednávate. Získate výhodu, ktorú Tesla ponúka v danej krajine, preto si pred zaplatením overte, či sa zobrazuje v súhrne objednávky."
+      },
+      {
+        "q": "Môžem kód pridať až po objednaní?",
+        "a": "Nie. Tesla odporúčanie uzná len vtedy, keď objednáte cez odkaz. K už zadanej objednávke ho pridať nemožno."
+      },
+      {
+        "q": "Ktoré autá sa rátajú?",
+        "a": "Nové autá Model 3 a Model Y, či už objednané na mieru, alebo kúpené ako nové autá na sklade. Ojazdené ani certifikované ojazdené autá sa nerátajú. Pri predvádzacích autách si pred zaplatením overte, či sa odporúčanie zobrazuje na stránke objednávky."
+      },
+      {
+        "q": "Ako dlho platí kredit na Supercharging?",
+        "a": "Podľa podmienok Tesly výhody z odporúčaní vypršia 12 mesiacov od ich udelenia. Kredit nemožno vymeniť za hotovosť ani previesť na inú osobu a zaniká, ak auto predáte."
+      },
+      {
+        "q": "Čo z toho máte vy?",
+        "a": "Tesla dáva odmenu za odporúčanie aj mne – tak program funguje. Vy za to nič navyše neplatíte."
+      },
+      {
+        "q": "Je toto web Tesly?",
+        "a": "Nie. Je to nezávislá stránka, ktorú prevádzkuje majiteľ Tesly. Samotná objednávka prebieha celá na oficiálnom webe Tesly."
+      }
+    ]
+  },
+  "footer": {
+    "checked": "Ponuka overená {checkedOn}. Tesla môže referral program kedykoľvek zmeniť alebo ukončiť – výhodu si vždy overte v súhrne objednávky a v <a href=\"{termsUrl}\" rel=\"noopener\">oficiálnych podmienkach referral programu Tesly</a>.",
+    "disclaimer": "Nezávislá stránka, ktorú prevádzkuje súkromný majiteľ Tesly. Nie je prepojená so spoločnosťou Tesla, Inc., ani ňou schválená či sponzorovaná. Tesla, Model 3, Model Y a Supercharger sú ochranné známky spoločnosti Tesla, Inc."
+  },
+  "notFound": {
+    "title": "Stránka sa nenašla",
+    "link": "Prejsť na slovenskú stránku"
+  },
+  "photo": {
+    "alt": "Detail nabíjajúceho sa bieleho elektromobilu s káblom zapojeným do nabíjacieho portu",
+    "credit": "Foto: {name} na Unsplash"
+  }
+}

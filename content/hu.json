@@ -1,0 +1,139 @@
+{
+  "lang": "hu",
+  "locale": "hu-HU",
+  "langName": "Magyar",
+  "termsUrl": "https://www.tesla.com/hu_HU/support/refer-and-earn",
+  "meta": {
+    "title": "Tesla ajánlói kód ({monthShort}) – {km} km ingyenes Supercharging",
+    "description": "Tesla ajánlói kód (referral kód) {code}: új Model 3-hoz vagy Model Y-hoz Európában {km} km ingyenes Supercharge-töltés. Ellenőrizve: {checkedOn}"
+  },
+  "og": {
+    "kicker": "Tesla ajánlói kód · Európa",
+    "headline": "{km} km ingyenes Supercharge-töltés",
+    "sub": "Új Model 3 és Model Y · Kód: {code}",
+    "alt": "Tesla ajánlói kód Európában: {km} km ingyenes Supercharge-töltés új Model 3-hoz vagy Model Y-hoz"
+  },
+  "nav": {
+    "siteName": "Tesla ajánlói kód",
+    "terms": "Hivatalos feltételek",
+    "languageLabel": "Nyelv"
+  },
+  "hero": {
+    "eyebrow": "Tesla ajánlói kód · Európa",
+    "codeLabel": "Ajánlói kód",
+    "copy": "Másolás",
+    "copied": "Másolva",
+    "cta": "Rendelés ajánlással",
+    "secondary": "Hogyan működik?",
+    "independent": "Független tulajdonosi oldal, nem kapcsolódik a Tesla, Inc.-hez.",
+    "updated": "Frissítve: {checkedOn}"
+  },
+  "status": {
+    "active": {
+      "headline": "{km} km ingyenes Supercharge-töltés",
+      "subline": "Rendelj új Model 3-at vagy Model Y-t az ajánlói linkemen keresztül, és a Tesla {km} km ingyenes Supercharge-töltést ír jóvá a fiókodban."
+    },
+    "ended": {
+      "headline": "Az ajánlói kedvezmények szünetelnek",
+      "subline": "A Tesla Európában jelenleg szünetelteti a vásárlói kedvezményeket az új autók ajánlásos rendelésénél. Ha visszatérnek, frissítem ezt az oldalt.",
+      "notice": "A kód használata most nem jár extra kedvezménnyel. A legfrissebb állapotot a Tesla hivatalos feltételeiben találod.",
+      "title": "Tesla ajánlói kód Európa – az ajánlói kedvezmények szünetelnek"
+    },
+    "capReached": {
+      "headline": "Ez a kód idénre elfogyott",
+      "subline": "A Tesla korlátozza, hány ajánlást tehet egy tulajdonos egy naptári évben, és ez a kód elérte ezt a határt.",
+      "notice": "Az ezzel a kóddal leadott rendelések január 1-ig nem kapják meg a vásárlói kedvezményt. Kérd el egy másik tulajdonos kódját, vagy nézd meg a Tesla hivatalos feltételeit.",
+      "title": "Tesla ajánlói kód Európa – ez a kód idénre elfogyott"
+    }
+  },
+  "benefits": {
+    "title": "Mit kapsz?",
+    "items": [
+      {
+        "value": "{km} km",
+        "label": "Ingyenes Supercharge-töltés",
+        "text": "A Tesla-fiókodban jelenik meg, és a Tesla tulajdonában lévő Supercharger-állomásokon használható fel."
+      },
+      {
+        "value": "Model 3 és Y",
+        "label": "Új autók",
+        "text": "Egyedi rendelésű és készleten lévő új autók. A használt autókra nem vonatkozik."
+      },
+      {
+        "value": "Európa",
+        "label": "Ahol rendelsz",
+        "text": "A kedvezményt annak az országnak a Tesla-oldala határozza meg, ahol a rendelést leadod."
+      }
+    ]
+  },
+  "steps": {
+    "title": "Hogyan működik?",
+    "items": [
+      {
+        "title": "Nyisd meg az ajánlói linket",
+        "text": "A Tesla saját weboldalára visz, ahol az ajánlás már érvényesítve van."
+      },
+      {
+        "title": "Konfigurálj és rendelj",
+        "text": "Ugyanabban a látogatásban rendelj. Fizetés előtt ellenőrizd, hogy az ajánlás megjelenik-e a rendelés összesítőjében."
+      },
+      {
+        "title": "Élvezd a Supercharge-töltést",
+        "text": "A jóváírás a Tesla alkalmazásban jelenik meg, általában az átadás körül."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Kérdések",
+    "items": [
+      {
+        "q": "Kerül nekem valamibe a kód használata?",
+        "a": "Nem. Az autó ára ugyanannyi – az ingyenes Supercharge-töltést pluszban kapod."
+      },
+      {
+        "q": "Jár kedvezmény a Tesla ajánlói programmal Európában?",
+        "a": "Az árból nem. Európában az ajánlással rendelő vásárló nem árengedményt kap, hanem ingyenes Supercharge-töltést – jelenleg {km} km-t új Model 3-hoz vagy Model Y-hoz."
+      },
+      {
+        "q": "Működik a kód Model S-re vagy Model X-re?",
+        "a": "Nem. Európában az ajánlói program jelenleg csak az új Model 3 és Model Y rendelésekre vonatkozik."
+      },
+      {
+        "q": "Használhatom a kódot, ha másik európai országban rendelek?",
+        "a": "A link a Tesla weboldalát nyitja meg, ahol kiválasztod, melyik országban rendelsz. Azt a kedvezményt kapod, amelyet a Tesla abban az országban kínál, ezért fizetés előtt ellenőrizd, hogy megjelenik-e a rendelés összesítőjében."
+      },
+      {
+        "q": "Hozzáadhatom a kódot a rendelés után?",
+        "a": "Nem. A Tesla csak akkor veszi figyelembe az ajánlást, ha a linken keresztül rendelsz. Meglévő rendeléshez utólag nem adható hozzá."
+      },
+      {
+        "q": "Mely autókra vonatkozik?",
+        "a": "Új Model 3-ra és Model Y-ra, akár egyedi rendelésről, akár készleten lévő új autóról van szó. Használt és minősített használt autókra nem vonatkozik. Bemutatóautóknál fizetés előtt ellenőrizd, hogy az ajánlás megjelenik-e a rendelési oldalon."
+      },
+      {
+        "q": "Meddig érvényes a Supercharge-jóváírás?",
+        "a": "A Tesla feltételei szerint az ajánlói kedvezmények a jóváírásuktól számított 12 hónap után lejárnak. A jóváírás nem váltható készpénzre, nem ruházható át, és megszűnik, ha eladod az autót."
+      },
+      {
+        "q": "Neked mi hasznod van belőle?",
+        "a": "A Tesla nekem is ad ajánlói jutalmat – így működik a program. Neked ezért semmivel sem kell többet fizetned."
+      },
+      {
+        "q": "Ez a Tesla weboldala?",
+        "a": "Nem. Ez egy Tesla-tulajdonos által üzemeltetett független oldal. Maga a rendelés teljes egészében a Tesla hivatalos weboldalán történik."
+      }
+    ]
+  },
+  "footer": {
+    "checked": "Az ajánlat ellenőrizve: {checkedOn} A Tesla bármikor módosíthatja vagy megszüntetheti az ajánlói programot – a kedvezményt mindig ellenőrizd a rendelés összesítőjében és a <a href=\"{termsUrl}\" rel=\"noopener\">Tesla hivatalos ajánlói feltételeiben</a>.",
+    "disclaimer": "Egy magánszemély Tesla-tulajdonos által üzemeltetett független oldal. Nem áll kapcsolatban a Tesla, Inc.-vel, és azt a Tesla, Inc. nem hagyta jóvá és nem szponzorálja. A Tesla, a Model 3, a Model Y és a Supercharger a Tesla, Inc. védjegyei."
+  },
+  "notFound": {
+    "title": "Az oldal nem található",
+    "link": "Ugrás a magyar oldalra"
+  },
+  "photo": {
+    "alt": "Töltés közben lévő fehér elektromos autó közelről, a töltőkábel a töltőcsatlakozóba dugva",
+    "credit": "Fotó: {name}, Unsplash"
+  }
+}

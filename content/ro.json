@@ -1,0 +1,139 @@
+{
+  "lang": "ro",
+  "locale": "ro-RO",
+  "langName": "Română",
+  "termsUrl": "https://www.tesla.com/ro_RO/support/refer-and-earn",
+  "meta": {
+    "title": "Cod referral Tesla ({monthShort}) – {km} km Supercharging gratuit",
+    "description": "Cod referral Tesla (cod de recomandare) {code}: {km} km de Supercharging gratuit la un Model 3 sau Model Y nou în Europa. Verificat la {checkedOn}."
+  },
+  "og": {
+    "kicker": "Cod referral Tesla · Europa",
+    "headline": "{km} km de Supercharging gratuit",
+    "sub": "Model 3 și Model Y noi · Cod {code}",
+    "alt": "Cod referral Tesla pentru Europa: {km} km de încărcare gratuită cu Supercharger la un Model 3 sau Model Y nou"
+  },
+  "nav": {
+    "siteName": "Cod referral Tesla",
+    "terms": "Condiții oficiale",
+    "languageLabel": "Limbă"
+  },
+  "hero": {
+    "eyebrow": "Cod referral Tesla · Europa",
+    "codeLabel": "Cod de recomandare",
+    "copy": "Copiază",
+    "copied": "Copiat",
+    "cta": "Comandă cu recomandare",
+    "secondary": "Cum funcționează",
+    "independent": "Site independent al unui proprietar, neafiliat cu Tesla, Inc.",
+    "updated": "Actualizat la {checkedOn}"
+  },
+  "status": {
+    "active": {
+      "headline": "{km} km de Supercharging gratuit",
+      "subline": "Comandă un Model 3 sau Model Y nou prin linkul meu de recomandare, iar Tesla îți adaugă în cont {km} km de încărcare gratuită cu Supercharger."
+    },
+    "ended": {
+      "headline": "Beneficiile din recomandări sunt suspendate",
+      "subline": "Tesla a suspendat momentan în Europa beneficiile pentru cumpărătorii de mașini noi care comandă prin recomandare. Voi actualiza pagina dacă revin.",
+      "notice": "Folosirea codului nu îți aduce acum niciun beneficiu suplimentar. Verifică situația actuală în condițiile oficiale Tesla.",
+      "title": "Cod referral Tesla Europa – beneficiile din recomandări sunt suspendate"
+    },
+    "capReached": {
+      "headline": "Acest cod s-a epuizat pentru anul acesta",
+      "subline": "Tesla limitează numărul de recomandări pe care le poate face un proprietar într-un an calendaristic, iar acest cod a atins limita.",
+      "notice": "Comenzile făcute cu acest cod nu primesc beneficiul pentru cumpărător până la 1 ianuarie. Cere codul altui proprietar sau verifică condițiile oficiale Tesla.",
+      "title": "Cod referral Tesla Europa – codul s-a epuizat pentru anul acesta"
+    }
+  },
+  "benefits": {
+    "title": "Ce primești",
+    "items": [
+      {
+        "value": "{km} km",
+        "label": "Supercharging gratuit",
+        "text": "Se adaugă în contul tău Tesla și poate fi folosit la Superchargerele deținute de Tesla."
+      },
+      {
+        "value": "Model 3 și Y",
+        "label": "Mașini noi",
+        "text": "Comenzi personalizate și mașini noi din stoc. Mașinile rulate nu sunt eligibile."
+      },
+      {
+        "value": "Europa",
+        "label": "Unde comanzi",
+        "text": "Beneficiul depinde de țara pe al cărei site Tesla plasezi comanda."
+      }
+    ]
+  },
+  "steps": {
+    "title": "Cum funcționează",
+    "items": [
+      {
+        "title": "Deschide linkul de recomandare",
+        "text": "Te duce pe site-ul oficial Tesla, cu recomandarea deja aplicată."
+      },
+      {
+        "title": "Configurează și comandă",
+        "text": "Comandă în aceeași vizită. Înainte să plătești, verifică dacă recomandarea apare în rezumatul comenzii."
+      },
+      {
+        "title": "Bucură-te de Supercharging",
+        "text": "Creditul apare în aplicația Tesla, de obicei în preajma livrării."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Întrebări",
+    "items": [
+      {
+        "q": "Mă costă ceva folosirea codului?",
+        "a": "Nu. Prețul mașinii rămâne același – primești doar, în plus, încărcarea gratuită cu Supercharger."
+      },
+      {
+        "q": "Există o reducere Tesla prin recomandare în Europa?",
+        "a": "Nu la preț. În Europa, beneficiul pentru cumpărătorii care comandă prin recomandare este încărcarea gratuită cu Supercharger – în prezent {km} km la un Model 3 sau Model Y nou –, nu o reducere din prețul mașinii."
+      },
+      {
+        "q": "Funcționează codul pentru Model S sau Model X?",
+        "a": "Nu. În Europa, programul de recomandare acoperă în prezent doar comenzile de Model 3 și Model Y noi."
+      },
+      {
+        "q": "Pot folosi codul dacă comand în altă țară europeană?",
+        "a": "Linkul deschide site-ul Tesla, unde alegi țara în care comanzi. Primești beneficiul pe care Tesla îl oferă în acea țară, așa că verifică înainte să plătești dacă apare în rezumatul comenzii."
+      },
+      {
+        "q": "Pot adăuga codul după ce am comandat?",
+        "a": "Nu. Tesla aplică o recomandare doar dacă comanzi prin link. Nu poate fi adăugată la o comandă existentă."
+      },
+      {
+        "q": "Ce mașini sunt eligibile?",
+        "a": "Model 3 și Model Y noi, fie comandate personalizat, fie cumpărate ca mașini noi din stoc. Mașinile rulate și cele rulate certificate nu sunt eligibile. Pentru mașinile demo, verifică înainte să plătești dacă recomandarea apare pe pagina comenzii."
+      },
+      {
+        "q": "Cât timp este valabil creditul de Supercharging?",
+        "a": "Conform condițiilor Tesla, beneficiile din recomandări expiră la 12 luni de la acordare. Creditul nu poate fi schimbat în bani și nu poate fi transferat, iar dacă vinzi mașina, acesta încetează."
+      },
+      {
+        "q": "Tu ce câștigi din asta?",
+        "a": "Tesla îmi oferă și mie o recompensă pentru recomandare – așa funcționează programul. Tu nu plătești nimic în plus pentru asta."
+      },
+      {
+        "q": "Acesta este site-ul Tesla?",
+        "a": "Nu. Aceasta este o pagină independentă, administrată de un proprietar de Tesla. Comanda propriu-zisă se face în întregime pe site-ul oficial Tesla."
+      }
+    ]
+  },
+  "footer": {
+    "checked": "Oferta a fost verificată la {checkedOn}. Tesla poate modifica sau încheia oricând programul de recomandare – verifică întotdeauna beneficiul în rezumatul comenzii și în <a href=\"{termsUrl}\" rel=\"noopener\">condițiile oficiale ale programului de recomandare Tesla</a>.",
+    "disclaimer": "Site independent, administrat de un proprietar privat de Tesla. Nu este afiliat cu Tesla, Inc. și nu este aprobat sau sponsorizat de aceasta. Tesla, Model 3, Model Y și Supercharger sunt mărci comerciale ale Tesla, Inc."
+  },
+  "notFound": {
+    "title": "Pagina nu a fost găsită",
+    "link": "Mergi la pagina în română"
+  },
+  "photo": {
+    "alt": "Prim-plan cu o mașină electrică albă la încărcare, cu cablul conectat la portul de încărcare",
+    "credit": "Foto: {name} pe Unsplash"
+  }
+}
