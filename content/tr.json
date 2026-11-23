@@ -1,0 +1,139 @@
+{
+  "lang": "tr",
+  "locale": "tr-TR",
+  "langName": "Türkçe",
+  "termsUrl": "https://www.tesla.com/tr_TR/support/refer-and-earn",
+  "meta": {
+    "title": "Tesla Referans Kodu ({monthShort}) – {km} km Ücretsiz Supercharge",
+    "description": "Tesla referans kodu {code}: Avrupa'da yeni bir Model 3 veya Model Y sipariş edin, {km} km ücretsiz Supercharge kazanın. Teklif kontrolü: {checkedOn}."
+  },
+  "og": {
+    "kicker": "Tesla Referans Kodu · Avrupa",
+    "headline": "{km} km ücretsiz Supercharge",
+    "sub": "Yeni Model 3 ve Model Y · Kod {code}",
+    "alt": "Tesla referans kodu Avrupa: yeni bir Model 3 veya Model Y ile {km} km ücretsiz Supercharge"
+  },
+  "nav": {
+    "siteName": "Tesla Referans Kodu",
+    "terms": "Resmi koşullar",
+    "languageLabel": "Dil"
+  },
+  "hero": {
+    "eyebrow": "Tesla Referans Kodu · Avrupa",
+    "codeLabel": "Referans kodu",
+    "copy": "Kopyala",
+    "copied": "Kopyalandı",
+    "cta": "Referansla sipariş ver",
+    "secondary": "Nasıl çalışır?",
+    "independent": "Bağımsız bir Tesla sahibinin sitesidir, Tesla, Inc. ile bağlantılı değildir.",
+    "updated": "Güncelleme: {checkedOn}"
+  },
+  "status": {
+    "active": {
+      "headline": "{km} km ücretsiz Supercharge",
+      "subline": "Referans bağlantım üzerinden yeni bir Model 3 veya Model Y sipariş edin, Tesla hesabınıza {km} km ücretsiz Supercharge eklesin."
+    },
+    "ended": {
+      "headline": "Referans avantajları duraklatıldı",
+      "subline": "Tesla, Avrupa'da yeni araç referanslarında alıcı avantajlarını şu an için durdurdu. Avantajlar geri gelirse bu sayfayı güncelleyeceğim.",
+      "notice": "Kodu şu anda kullanmak size ek bir avantaj sağlamaz. Güncel durum için Tesla'nın resmi koşullarına bakın.",
+      "title": "Tesla Referans Kodu Avrupa – referans avantajları duraklatıldı"
+    },
+    "capReached": {
+      "headline": "Bu kod bu yıl için doldu",
+      "subline": "Tesla, bir sahibin bir takvim yılında yapabileceği referans sayısını sınırlar ve bu kod o sınıra ulaştı.",
+      "notice": "Bu kodla verilen siparişler 1 Ocak'a kadar alıcı avantajı almaz. Başka bir Tesla sahibinden kodunu isteyin veya Tesla'nın resmi koşullarına bakın.",
+      "title": "Tesla Referans Kodu Avrupa – bu kod bu yıl için doldu"
+    }
+  },
+  "benefits": {
+    "title": "Ne kazanırsınız?",
+    "items": [
+      {
+        "value": "{km} km",
+        "label": "Ücretsiz Supercharge",
+        "text": "Tesla hesabınıza tanımlanır, Tesla'ya ait Supercharger istasyonlarında kullanılabilir."
+      },
+      {
+        "value": "Model 3 ve Y",
+        "label": "Yeni araçlar",
+        "text": "Özel siparişler ve stoktaki yeni araçlar. İkinci el araçlar kapsam dışıdır."
+      },
+      {
+        "value": "Avrupa",
+        "label": "Sipariş verdiğiniz yer",
+        "text": "Avantajı, sipariş verdiğiniz Tesla sitesinin ülkesi belirler."
+      }
+    ]
+  },
+  "steps": {
+    "title": "Nasıl çalışır?",
+    "items": [
+      {
+        "title": "Referans bağlantısını açın",
+        "text": "Sizi referansın zaten uygulandığı Tesla'nın kendi web sitesine götürür."
+      },
+      {
+        "title": "Yapılandırın ve sipariş verin",
+        "text": "Siparişi aynı ziyarette verin. Ödeme yapmadan önce referansın sipariş özetinizde göründüğünü kontrol edin."
+      },
+      {
+        "title": "Supercharge'ın keyfini çıkarın",
+        "text": "Kredi, genellikle teslimat civarında Tesla uygulamanızda görünür."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Sorular",
+    "items": [
+      {
+        "q": "Kodu kullanmak bana bir maliyet getirir mi?",
+        "a": "Hayır. Aracın fiyatı aynı kalır; ücretsiz Supercharge ek olarak gelir."
+      },
+      {
+        "q": "Avrupa'da Tesla referans indirimi var mı?",
+        "a": "Fiyatta yok. Avrupa'da alıcılar için referans avantajı araçta indirim değil, ücretsiz Supercharge'dır: şu anda yeni bir Model 3 veya Model Y için {km} km."
+      },
+      {
+        "q": "Kod Model S veya Model X için geçerli mi?",
+        "a": "Hayır. Avrupa'da tavsiye programı şu anda yalnızca yeni Model 3 ve Model Y siparişlerini kapsıyor."
+      },
+      {
+        "q": "Başka bir Avrupa ülkesinde sipariş verirsem kodu kullanabilir miyim?",
+        "a": "Bağlantı, sipariş vereceğiniz ülkeyi seçtiğiniz Tesla web sitesini açar. Alacağınız avantaj, Tesla'nın o ülkede sunduğu avantajdır; bu yüzden ödeme yapmadan önce sipariş özetinizde göründüğünü kontrol edin."
+      },
+      {
+        "q": "Kodu sipariş verdikten sonra ekleyebilir miyim?",
+        "a": "Hayır. Tesla referansı yalnızca bağlantı üzerinden sipariş verirseniz uygular. Mevcut bir siparişe sonradan eklenemez."
+      },
+      {
+        "q": "Hangi araçlar uygun?",
+        "a": "Özel sipariş edilen veya stoktan yeni olarak alınan yeni Model 3 ve Model Y. İkinci el ve sertifikalı ikinci el (Certified Pre-Owned) araçlar kapsam dışıdır. Demo araçlarda, ödeme yapmadan önce referansın sipariş sayfasında göründüğünü kontrol edin."
+      },
+      {
+        "q": "Supercharge kredisi ne kadar süre geçerli?",
+        "a": "Tesla'nın koşullarına göre referans avantajlarının süresi, tanımlandıkları tarihten 12 ay sonra dolar. Kredi nakde çevrilemez, devredilemez ve aracı satarsanız sona erer."
+      },
+      {
+        "q": "Sizin bundan kazancınız ne?",
+        "a": "Tesla bana da bir referans ödülü veriyor; program bu şekilde işliyor. Bunun için ek bir ücret ödemezsiniz."
+      },
+      {
+        "q": "Bu Tesla'nın web sitesi mi?",
+        "a": "Hayır. Bu, bir Tesla sahibinin yönettiği bağımsız bir sayfadır. Siparişin kendisi tamamen Tesla'nın resmi web sitesinde gerçekleşir."
+      }
+    ]
+  },
+  "footer": {
+    "checked": "Teklif {checkedOn} tarihinde kontrol edildi. Tesla tavsiye programını istediği zaman değiştirebilir veya sona erdirebilir; avantajı her zaman sipariş özetinizden ve <a href=\"{termsUrl}\" rel=\"noopener\">Tesla'nın resmi Tavsiye Edin ve Kazanın koşullarından</a> teyit edin.",
+    "disclaimer": "Özel bir Tesla sahibinin yönettiği bağımsız bir sitedir. Tesla, Inc. ile bağlantılı değildir; Tesla, Inc. tarafından onaylanmamış veya sponsor edilmemiştir. Tesla, Model 3, Model Y ve Supercharger, Tesla, Inc.'in ticari markalarıdır."
+  },
+  "notFound": {
+    "title": "Sayfa bulunamadı",
+    "link": "Türkçe sayfaya git"
+  },
+  "photo": {
+    "alt": "Şarj olan beyaz bir elektrikli otomobilin yakın çekimi; kablo şarj soketine takılı",
+    "credit": "Fotoğraf: {name} / Unsplash"
+  }
+}
