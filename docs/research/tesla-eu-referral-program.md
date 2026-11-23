@@ -42,3 +42,39 @@ _Researched: 2026-11-23. **Not verified against tesla.com directly**: Tesla's si
 
 1. Re-check periodically that EU buyer benefits are still offered (US ended them 30 Oct 2026, Canada 12 Nov 2026).
 2. Whether demo vehicles qualify.
+
+## Verification against Tesla's own pages (2026-11-23)
+
+tesla.com blocks automated page fetches, so these were checked through search-engine excerpts of tesla.com pages, not full page reads.
+
+### Claims on the site and their Tesla source
+
+| Claim on the site | Status | Tesla source |
+| --- | --- | --- |
+| Link must be used when ordering; can't be added afterwards | ✅ "Referral links cannot be applied after the order has been placed." | [Refer and Earn (IE)](https://www.tesla.com/en_ie/support/refer-and-earn) |
+| Credit expires 12 months after it is granted | ✅ "expire 12 months from their respective Grant Dates" (referrer may extend to 36 months) | [Refer and Earn (IE)](https://www.tesla.com/en_ie/support/refer-and-earn) |
+| Shows in the Tesla app, around delivery | ✅ "will appear as 'pending' in the Tesla app until the Grant Date" | [Refer and Earn (IE)](https://www.tesla.com/en_ie/support/refer-and-earn) |
+| Only usable at Tesla-owned Superchargers | ✅ | [Terms](https://www.tesla.com/legal/terms), [Supercharging](https://www.tesla.com/support/charging/supercharging) |
+| Not transferable, no cash value | ✅ "non-transferable or redeemable for cash" | [Refer and Earn (IE)](https://www.tesla.com/en_ie/support/refer-and-earn) |
+| 10 referrals per calendar year; at the cap, buyers get nothing | ✅ "If you have reached your referrer benefits limit, buyers … will not receive any buyer benefits." | [Refer and Earn (IE)](https://www.tesla.com/en_ie/support/refer-and-earn) |
+| Used / Certified Pre-Owned cars don't qualify | ✅ | [Loyalty Benefits (GB)](https://www.tesla.com/en_gb/support/refer-and-earn/loyalty) |
+| Model 3 and Model Y only (not S/X) | ✅ by implication: Tesla's eligible products are Model 3, Model Y, Cybertruck and Solar Panels | [Refer and Earn](https://www.tesla.com/support/refer-and-earn) |
+| Credit ends when the car is sold | ✅ | [Terms](https://www.tesla.com/legal/terms) |
+| Buyer gets 1,000 km | ⚠️ Confirmed by the site owner on 2026-11-23; no Tesla page excerpt with the amount was found | — |
+| Ordering from another European country | ⚠️ Not stated by Tesla; the site hedges ("check your order summary") | — |
+| Demo cars | ⚠️ Not stated by Tesla; the site hedges | — |
+
+### ⚠️ Status warning
+
+The localized titles of Tesla's **global** page ([/support/refer-and-earn](https://www.tesla.com/support/refer-and-earn): "Empfehlen und Verdienen", "Refiere y gana", "Parrainez et gagnez", "Refereren en verdienen") carry the text "As of October 30, 2026, purchases of new Tesla vehicles are no longer eligible to receive buyer and referrer benefits." That global page is the US program. Country pages such as [en_IE](https://www.tesla.com/en_ie/support/refer-and-earn) still describe the vehicle referral rules. Re-check the local page or the Tesla app regularly, and switch `offerStatus` to `ended` as soon as Europe changes.
+
+### Tesla's own wording per language
+
+| Language | Program name on tesla.com | Terms Tesla uses | Site uses |
+| --- | --- | --- | --- |
+| EN | Refer and Earn | referral link, Supercharging, Tesla Credits | ✅ same |
+| DE | Empfehlen und Verdienen | Empfehlungsprogramm, Weiterempfehlung, Supercharging, Supercharger-Gebühren | ✅ Empfehlungscode/-link, Supercharging. Tesla addresses customers with "Sie"; the site uses "du" on purpose (owner site) |
+| ES | Refiere y gana | programa de referidos, Supercarga | ✅ same |
+| FR | Parrainez et gagnez | programme de parrainage, lien de parrainage, Superchargeur, Supercharge | ✅ same |
+| NL | Refereren en verdienen | referral link, Supercharging | ✅ referral/referrallink. The site writes "Superchargen" (verb), which is common Dutch usage |
+| IT | (no Italian page found) | — | "codice referral", "Supercharging" follow the common Italian usage |
