@@ -24,7 +24,7 @@ All page text lives in **`content/en.json`**. To add a language, copy it to e.g.
 node build.mjs
 ```
 
-Output goes to `dist/` (no dependencies). Pushing to `main` deploys to GitHub Pages via `.github/workflows/deploy.yml` — enable it once under **Settings → Pages → Source: GitHub Actions**.
+Output goes to `dist/` (no dependencies). Pushing to `main` deploys to GitHub Pages via `.github/workflows/static.yml` (Settings → Pages → Source: GitHub Actions) and is served at https://teslareferralcode.eu.
 
 ## Rules we follow
 
