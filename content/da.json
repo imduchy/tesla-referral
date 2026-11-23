@@ -1,0 +1,139 @@
+{
+  "lang": "da",
+  "locale": "da-DK",
+  "langName": "Dansk",
+  "termsUrl": "https://www.tesla.com/da_DK/support/refer-and-earn",
+  "meta": {
+    "title": "Tesla henvisningskode ({monthShort}) – {km} km gratis Supercharging",
+    "description": "Tesla henvisningskode (referral) {code}: bestil en ny Model 3 eller Model Y og få {km} km gratis Supercharging. Tilbuddet tjekket {checkedOn}."
+  },
+  "og": {
+    "kicker": "Tesla henvisningskode · Europa",
+    "headline": "{km} km gratis Supercharging",
+    "sub": "Ny Model 3 og Model Y · Kode {code}",
+    "alt": "Tesla henvisningskode: {km} km gratis Supercharging ved køb af ny Model 3 eller Model Y"
+  },
+  "nav": {
+    "siteName": "Tesla henvisningskode",
+    "terms": "Officielle vilkår",
+    "languageLabel": "Sprog"
+  },
+  "hero": {
+    "eyebrow": "Tesla henvisningskode · Europa",
+    "codeLabel": "Henvisningskode",
+    "copy": "Kopiér",
+    "copied": "Kopieret",
+    "cta": "Bestil med henvisning",
+    "secondary": "Sådan virker det",
+    "independent": "Uafhængig side drevet af en ejer, ikke tilknyttet Tesla, Inc.",
+    "updated": "Opdateret {checkedOn}"
+  },
+  "status": {
+    "active": {
+      "headline": "{km} km gratis Supercharging",
+      "subline": "Bestil en ny Model 3 eller Model Y via mit henvisningslink, så tilføjer Tesla {km} km gratis Supercharging til din konto."
+    },
+    "ended": {
+      "headline": "Henvisningsfordelene er sat på pause",
+      "subline": "Tesla har i øjeblikket sat køberfordelene ved henvisning til nye biler i Europa på pause. Jeg opdaterer siden, hvis de kommer tilbage.",
+      "notice": "Koden giver dig ingen ekstra fordel lige nu. Se Teslas officielle vilkår for den aktuelle status.",
+      "title": "Tesla henvisningskode – henvisningsfordelene er sat på pause"
+    },
+    "capReached": {
+      "headline": "Denne kode er brugt op for i år",
+      "subline": "Tesla begrænser, hvor mange henvisninger en ejer kan lave pr. kalenderår, og denne kode har nået grænsen.",
+      "notice": "Bestillinger med denne kode får ikke køberfordelen før 1. januar. Spørg en anden ejer om deres kode, eller se Teslas officielle vilkår.",
+      "title": "Tesla henvisningskode – koden er brugt op for i år"
+    }
+  },
+  "benefits": {
+    "title": "Det får du",
+    "items": [
+      {
+        "value": "{km} km",
+        "label": "Gratis Supercharging",
+        "text": "Tilføjes din Tesla-konto og kan bruges på Superchargere, som Tesla ejer."
+      },
+      {
+        "value": "Model 3 og Y",
+        "label": "Nye biler",
+        "text": "Bestilte biler og nye lagerbiler. Brugte biler giver ikke fordelen."
+      },
+      {
+        "value": "Europa",
+        "label": "Hvor du bestiller",
+        "text": "Fordelen afhænger af landet for den Tesla-side, du bestiller på."
+      }
+    ]
+  },
+  "steps": {
+    "title": "Sådan virker det",
+    "items": [
+      {
+        "title": "Åbn henvisningslinket",
+        "text": "Det fører dig til Teslas egen hjemmeside med henvisningen allerede tilføjet."
+      },
+      {
+        "title": "Konfigurer og bestil",
+        "text": "Bestil i samme besøg. Tjek, at henvisningen står i din ordreoversigt, før du betaler."
+      },
+      {
+        "title": "Nyd din Supercharging",
+        "text": "Kreditten vises i Tesla-appen, typisk omkring leveringen."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Spørgsmål",
+    "items": [
+      {
+        "q": "Koster det noget at bruge koden?",
+        "a": "Nej. Prisen på bilen er den samme – du får bare gratis Supercharging oveni."
+      },
+      {
+        "q": "Giver en Tesla-henvisning rabat i Europa?",
+        "a": "Ikke på prisen. I Europa er køberfordelen ved henvisning gratis Supercharging – lige nu {km} km på en ny Model 3 eller Model Y – i stedet for rabat på bilen."
+      },
+      {
+        "q": "Virker koden til Model S eller Model X?",
+        "a": "Nej. I Europa gælder henvisningsprogrammet i øjeblikket kun bestillinger af nye Model 3 og Model Y."
+      },
+      {
+        "q": "Kan jeg bruge koden, hvis jeg bestiller i et andet europæisk land?",
+        "a": "Linket åbner Teslas hjemmeside, hvor du vælger det land, du bestiller i. Du får den fordel, Tesla tilbyder i det land, så tjek, at den står i din ordreoversigt, før du betaler."
+      },
+      {
+        "q": "Kan jeg tilføje koden, efter jeg har bestilt?",
+        "a": "Nej. Tesla tilføjer kun en henvisning, hvis du bestiller via linket. Den kan ikke tilføjes til en eksisterende bestilling."
+      },
+      {
+        "q": "Hvilke biler er omfattet?",
+        "a": "Nye Model 3 og Model Y, enten bestilt efter eget valg eller købt som ny lagerbil. Brugte og certificerede brugte biler er ikke omfattet. For demobiler: tjek, at henvisningen står på bestillingssiden, før du betaler."
+      },
+      {
+        "q": "Hvor længe gælder Supercharging-kreditten?",
+        "a": "Ifølge Teslas vilkår udløber henvisningsfordele 12 måneder efter, at de er tildelt. Kreditten kan ikke veksles til kontanter eller overdrages, og den bortfalder, hvis du sælger bilen."
+      },
+      {
+        "q": "Hvad får du selv ud af det?",
+        "a": "Tesla giver også mig en henvisningsbelønning – sådan fungerer programmet. Det koster ikke dig noget ekstra."
+      },
+      {
+        "q": "Er dette Teslas hjemmeside?",
+        "a": "Nej. Dette er en uafhængig side drevet af en Tesla-ejer. Selve bestillingen foregår udelukkende på Teslas officielle hjemmeside."
+      }
+    ]
+  },
+  "footer": {
+    "checked": "Tilbuddet tjekket {checkedOn}. Tesla kan når som helst ændre eller afslutte henvisningsprogrammet – bekræft altid fordelen i din ordreoversigt og i <a href=\"{termsUrl}\" rel=\"noopener\">Teslas officielle henvisningsvilkår</a>.",
+    "disclaimer": "Uafhængig side drevet af en privat Tesla-ejer. Ikke tilknyttet, godkendt eller sponsoreret af Tesla, Inc. Tesla, Model 3, Model Y og Supercharger er varemærker tilhørende Tesla, Inc."
+  },
+  "notFound": {
+    "title": "Siden blev ikke fundet",
+    "link": "Gå til den danske side"
+  },
+  "photo": {
+    "alt": "Nærbillede af en hvid elbil, der lader, med kablet sat i ladeporten",
+    "credit": "Foto: {name} på Unsplash"
+  }
+}

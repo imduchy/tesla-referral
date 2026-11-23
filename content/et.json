@@ -1,0 +1,139 @@
+{
+  "lang": "et",
+  "locale": "et-EE",
+  "langName": "Eesti",
+  "termsUrl": "https://www.tesla.com/et_EE/support/refer-and-earn",
+  "meta": {
+    "title": "Tesla soovituskood ({monthShort}) – {km} km tasuta laadimist",
+    "description": "Tesla soovituskood (referral) {code}: telli uus Model 3 või Model Y ja saad {km} km tasuta Superchargeri laadimist. Kontrollitud {checkedOn}."
+  },
+  "og": {
+    "kicker": "Tesla soovituskood · Euroopa",
+    "headline": "{km} km tasuta Superchargeri laadimist",
+    "sub": "Uus Model 3 ja Model Y · Kood {code}",
+    "alt": "Tesla soovituskood: {km} km tasuta Superchargeri laadimist uue Model 3 või Model Y ostmisel"
+  },
+  "nav": {
+    "siteName": "Tesla soovituskood",
+    "terms": "Ametlikud tingimused",
+    "languageLabel": "Keel"
+  },
+  "hero": {
+    "eyebrow": "Tesla soovituskood · Euroopa",
+    "codeLabel": "Soovituskood",
+    "copy": "Kopeeri",
+    "copied": "Kopeeritud",
+    "cta": "Telli soovitusega",
+    "secondary": "Kuidas see toimib",
+    "independent": "Omaniku sõltumatu leht, ei ole seotud ettevõttega Tesla, Inc.",
+    "updated": "Uuendatud {checkedOn}"
+  },
+  "status": {
+    "active": {
+      "headline": "{km} km tasuta Superchargeri laadimist",
+      "subline": "Telli uus Model 3 või Model Y minu soovituslingi kaudu ja Tesla lisab sinu kontole {km} km tasuta Superchargeri laadimist."
+    },
+    "ended": {
+      "headline": "Soovitushüved on peatatud",
+      "subline": "Tesla on praegu peatanud ostja hüved uute autode soovitamisel Euroopas. Uuendan seda lehte, kui need tagasi tulevad.",
+      "notice": "Koodi kasutamine ei anna praegu lisahüve. Viimase seisu leiad Tesla ametlikest tingimustest.",
+      "title": "Tesla soovituskood – soovitushüved on peatatud"
+    },
+    "capReached": {
+      "headline": "See kood on selleks aastaks ära kasutatud",
+      "subline": "Tesla piirab, mitu soovitust saab üks omanik kalendriaasta jooksul teha, ja see kood on piirini jõudnud.",
+      "notice": "Selle koodiga tehtud tellimused ei saa ostja hüve enne 1. jaanuari. Küsi koodi mõnelt teiselt omanikult või vaata Tesla ametlikke tingimusi.",
+      "title": "Tesla soovituskood – kood on selleks aastaks ära kasutatud"
+    }
+  },
+  "benefits": {
+    "title": "Mida sa saad",
+    "items": [
+      {
+        "value": "{km} km",
+        "label": "Tasuta Superchargeri laadimine",
+        "text": "Lisatakse sinu Tesla kontole, kasutatav Teslale kuuluvates Superchargerites."
+      },
+      {
+        "value": "Model 3 ja Y",
+        "label": "Uued autod",
+        "text": "Tellimusautod ja uued laoautod. Kasutatud autod hüve ei saa."
+      },
+      {
+        "value": "Euroopa",
+        "label": "Kus sa tellid",
+        "text": "Hüve sõltub riigist, mille Tesla veebilehel tellimuse teed."
+      }
+    ]
+  },
+  "steps": {
+    "title": "Kuidas see toimib",
+    "items": [
+      {
+        "title": "Ava soovituslink",
+        "text": "See viib sind Tesla enda veebilehele, kus soovitus on juba lisatud."
+      },
+      {
+        "title": "Seadista ja telli",
+        "text": "Telli sama külastuse ajal. Enne maksmist kontrolli, et soovitus oleks tellimuse kokkuvõttes näha."
+      },
+      {
+        "title": "Naudi laadimist",
+        "text": "Krediit ilmub Tesla äppi, tavaliselt üleandmise paiku."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Küsimused",
+    "items": [
+      {
+        "q": "Kas koodi kasutamine maksab mulle midagi?",
+        "a": "Ei. Auto hind jääb samaks – saad lihtsalt lisaks tasuta Superchargeri laadimist."
+      },
+      {
+        "q": "Kas Tesla soovitusega saab Euroopas allahindlust?",
+        "a": "Hinnast mitte. Euroopas on ostja soovitushüve tasuta Superchargeri laadimine – praegu {km} km uue Model 3 või Model Y puhul – mitte allahindlus auto hinnast."
+      },
+      {
+        "q": "Kas kood kehtib Model S või Model X puhul?",
+        "a": "Ei. Euroopas hõlmab soovitusprogramm praegu ainult uute Model 3 ja Model Y tellimusi."
+      },
+      {
+        "q": "Kas saan koodi kasutada, kui tellin mõnes teises Euroopa riigis?",
+        "a": "Link avab Tesla veebilehe, kus valid riigi, kus tellimuse teed. Saad hüve, mida Tesla selles riigis pakub, seega kontrolli enne maksmist, et see oleks tellimuse kokkuvõttes näha."
+      },
+      {
+        "q": "Kas saan koodi lisada pärast tellimist?",
+        "a": "Ei. Tesla lisab soovituse ainult siis, kui tellid lingi kaudu. Olemasolevale tellimusele seda lisada ei saa."
+      },
+      {
+        "q": "Millised autod sobivad?",
+        "a": "Uued Model 3 ja Model Y, kas oma valikute järgi tellitud või uue laoautona ostetud. Kasutatud ja sertifitseeritud kasutatud autod ei sobi. Demoautode puhul kontrolli enne maksmist, et soovitus oleks tellimuse lehel näha."
+      },
+      {
+        "q": "Kui kaua Superchargeri krediit kehtib?",
+        "a": "Tesla tingimuste järgi aeguvad soovitushüved 12 kuud pärast nende andmist. Krediiti ei saa rahaks vahetada ega teisele üle anda ning see lõpeb, kui auto müüd."
+      },
+      {
+        "q": "Mida sina sellest saad?",
+        "a": "Tesla annab ka mulle soovitustasu – nii programm toimib. Sinule ei maksa see midagi lisaks."
+      },
+      {
+        "q": "Kas see on Tesla veebileht?",
+        "a": "Ei. See on Tesla omaniku sõltumatu leht. Tellimus ise tehakse täielikult Tesla ametlikul veebilehel."
+      }
+    ]
+  },
+  "footer": {
+    "checked": "Pakkumist kontrolliti {checkedOn}. Tesla võib soovitusprogrammi igal ajal muuta või lõpetada – kontrolli hüve alati tellimuse kokkuvõttest ja <a href=\"{termsUrl}\" rel=\"noopener\">Tesla ametlikest soovitusprogrammi tingimustest</a>.",
+    "disclaimer": "Tesla eraomaniku sõltumatu leht. Ei ole seotud ettevõttega Tesla, Inc. ega selle poolt heaks kiidetud ega sponsitud. Tesla, Model 3, Model Y ja Supercharger on ettevõtte Tesla, Inc. kaubamärgid."
+  },
+  "notFound": {
+    "title": "Lehte ei leitud",
+    "link": "Mine eestikeelsele lehele"
+  },
+  "photo": {
+    "alt": "Lähivõte laadivast valgest elektriautost, mille laadimispesasse on ühendatud kaabel",
+    "credit": "Foto: {name}, Unsplash"
+  }
+}

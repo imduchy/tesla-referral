@@ -1,0 +1,139 @@
+{
+  "lang": "fi",
+  "locale": "fi-FI",
+  "langName": "Suomi",
+  "termsUrl": "https://www.tesla.com/fi_FI/support/refer-and-earn",
+  "meta": {
+    "title": "Tesla suosittelukoodi ({monthShort}) – {km} km ilmaista latausta",
+    "description": "Tesla suosittelukoodi {code}: tilaa uusi Model 3 tai Model Y ja saat {km} km ilmaista Supercharging-latausta. Tarkistettu {checkedOn}."
+  },
+  "og": {
+    "kicker": "Tesla suosittelukoodi · Eurooppa",
+    "headline": "{km} km ilmaista Supercharging-latausta",
+    "sub": "Uusi Model 3 ja Model Y · Koodi {code}",
+    "alt": "Tesla suosittelukoodi: {km} km ilmaista Supercharging-latausta uuden Model 3:n tai Model Y:n ostajalle"
+  },
+  "nav": {
+    "siteName": "Tesla suosittelukoodi",
+    "terms": "Viralliset ehdot",
+    "languageLabel": "Kieli"
+  },
+  "hero": {
+    "eyebrow": "Tesla suosittelukoodi · Eurooppa",
+    "codeLabel": "Suosittelukoodi",
+    "copy": "Kopioi",
+    "copied": "Kopioitu",
+    "cta": "Tilaa suosituksella",
+    "secondary": "Näin se toimii",
+    "independent": "Omistajan itsenäinen sivu, ei yhteydessä Tesla, Inc. -yhtiöön.",
+    "updated": "Päivitetty {checkedOn}"
+  },
+  "status": {
+    "active": {
+      "headline": "{km} km ilmaista Supercharging-latausta",
+      "subline": "Tilaa uusi Model 3 tai Model Y suosittelulinkkini kautta, niin Tesla lisää tilillesi {km} km ilmaista Supercharging-latausta."
+    },
+    "ended": {
+      "headline": "Suosittelun edut ovat tauolla",
+      "subline": "Tesla on toistaiseksi keskeyttänyt ostajan edut uusien autojen suosittelussa Euroopassa. Päivitän sivun, jos edut palaavat.",
+      "notice": "Koodista ei tällä hetkellä saa lisäetua. Tarkista ajantasainen tilanne Teslan virallisista ehdoista.",
+      "title": "Tesla suosittelukoodi – suosittelun edut ovat tauolla"
+    },
+    "capReached": {
+      "headline": "Tämä koodi on käytetty loppuun tältä vuodelta",
+      "subline": "Tesla rajoittaa, kuinka monta suosittelua yksi omistaja voi tehdä kalenterivuodessa, ja tämä koodi on saavuttanut rajan.",
+      "notice": "Tällä koodilla tehdyt tilaukset eivät saa ostajan etua ennen 1. tammikuuta. Pyydä koodia toiselta omistajalta tai tarkista Teslan viralliset ehdot.",
+      "title": "Tesla suosittelukoodi – koodi on käytetty loppuun tältä vuodelta"
+    }
+  },
+  "benefits": {
+    "title": "Mitä saat",
+    "items": [
+      {
+        "value": "{km} km",
+        "label": "Ilmaista Supercharging-latausta",
+        "text": "Lisätään Tesla-tilillesi, käytettävissä Teslan omistamilla Superchargereilla."
+      },
+      {
+        "value": "Model 3 ja Y",
+        "label": "Uudet autot",
+        "text": "Tilausautot ja uudet varastoautot. Käytetyt autot eivät oikeuta etuun."
+      },
+      {
+        "value": "Eurooppa",
+        "label": "Missä tilaat",
+        "text": "Etu määräytyy sen maan mukaan, jonka Tesla-sivustolla teet tilauksen."
+      }
+    ]
+  },
+  "steps": {
+    "title": "Näin se toimii",
+    "items": [
+      {
+        "title": "Avaa suosittelulinkki",
+        "text": "Se vie sinut Teslan omalle verkkosivustolle, ja suosittelu on jo lisätty."
+      },
+      {
+        "title": "Valitse varusteet ja tilaa",
+        "text": "Tee tilaus saman käynnin aikana. Tarkista ennen maksamista, että suosittelu näkyy tilauksesi yhteenvedossa."
+      },
+      {
+        "title": "Nauti latauksesta",
+        "text": "Krediitti näkyy Tesla-sovelluksessa, yleensä toimituksen aikoihin."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Kysymyksiä",
+    "items": [
+      {
+        "q": "Maksaako koodin käyttö minulle jotain?",
+        "a": "Ei. Auton hinta pysyy samana – saat vain ilmaisen Supercharging-latauksen lisäksi."
+      },
+      {
+        "q": "Saako Teslan suosittelulla alennusta Euroopassa?",
+        "a": "Ei hinnasta. Euroopassa ostajan suositteluetu on ilmainen Supercharging-lataus – tällä hetkellä {km} km uuteen Model 3:een tai Model Y:hyn – eikä alennus auton hinnasta."
+      },
+      {
+        "q": "Toimiiko koodi Model S:ssä tai Model X:ssä?",
+        "a": "Ei. Euroopassa suositteluohjelma koskee tällä hetkellä vain uusien Model 3:n ja Model Y:n tilauksia."
+      },
+      {
+        "q": "Voinko käyttää koodia, jos tilaan toisesta Euroopan maasta?",
+        "a": "Linkki avaa Teslan verkkosivuston, jossa valitset maan, josta tilaat. Saat sen edun, jota Tesla tarjoaa kyseisessä maassa, joten tarkista ennen maksamista, että se näkyy tilauksesi yhteenvedossa."
+      },
+      {
+        "q": "Voinko lisätä koodin tilauksen jälkeen?",
+        "a": "Et. Tesla lisää suosittelun vain, jos tilaat linkin kautta. Sitä ei voi lisätä jo tehtyyn tilaukseen."
+      },
+      {
+        "q": "Mitkä autot oikeuttavat etuun?",
+        "a": "Uudet Model 3 ja Model Y, joko omien valintojen mukaan tilattuina tai uusina varastoautoina. Käytetyt ja sertifioidut käytetyt autot eivät oikeuta etuun. Esittelyautoissa tarkista ennen maksamista, että suosittelu näkyy tilaussivulla."
+      },
+      {
+        "q": "Kuinka kauan Supercharging-krediitti on voimassa?",
+        "a": "Teslan ehtojen mukaan suositteluedut vanhenevat 12 kuukauden kuluttua myöntämisestä. Krediittiä ei voi vaihtaa rahaksi tai siirtää, ja se päättyy, jos myyt auton."
+      },
+      {
+        "q": "Mitä sinä hyödyt tästä?",
+        "a": "Tesla antaa myös minulle suosittelupalkkion – näin ohjelma toimii. Se ei maksa sinulle mitään ylimääräistä."
+      },
+      {
+        "q": "Onko tämä Teslan sivusto?",
+        "a": "Ei. Tämä on Tesla-omistajan ylläpitämä itsenäinen sivu. Itse tilaus tehdään kokonaan Teslan virallisella verkkosivustolla."
+      }
+    ]
+  },
+  "footer": {
+    "checked": "Tarjous tarkistettu {checkedOn}. Tesla voi muuttaa suositteluohjelmaa tai lopettaa sen milloin tahansa – varmista etu aina tilauksesi yhteenvedosta ja <a href=\"{termsUrl}\" rel=\"noopener\">Teslan virallisista suosittelun ehdoista</a>.",
+    "disclaimer": "Yksityisen Tesla-omistajan ylläpitämä itsenäinen sivu. Ei yhteydessä Tesla, Inc. -yhtiöön, eikä Tesla, Inc. ole hyväksynyt tai sponsoroinut sitä. Tesla, Model 3, Model Y ja Supercharger ovat Tesla, Inc. -yhtiön tavaramerkkejä."
+  },
+  "notFound": {
+    "title": "Sivua ei löytynyt",
+    "link": "Siirry suomenkieliselle sivulle"
+  },
+  "photo": {
+    "alt": "Lähikuva latautuvasta valkoisesta sähköautosta, jonka latausliitäntään on kytketty kaapeli",
+    "credit": "Kuva: {name} / Unsplash"
+  }
+}

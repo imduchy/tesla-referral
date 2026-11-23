@@ -1,0 +1,139 @@
+{
+  "lang": "is",
+  "locale": "is-IS",
+  "langName": "Íslenska",
+  "termsUrl": "https://www.tesla.com/is_IS/support/refer-and-earn",
+  "meta": {
+    "title": "Tesla boðskóði ({monthShort}) – {km} km ókeypis Supercharger-hleðsla",
+    "description": "Tesla boðskóði (referral) {code}: pantaðu nýjan Model 3 eða Model Y og fáðu {km} km ókeypis Supercharger-hleðslu. Tilboð athugað {checkedOn}."
+  },
+  "og": {
+    "kicker": "Tesla boðskóði · Evrópa",
+    "headline": "{km} km ókeypis Supercharger-hleðsla",
+    "sub": "Nýr Model 3 og Model Y · Kóði {code}",
+    "alt": "Tesla boðskóði: {km} km ókeypis Supercharger-hleðsla við kaup á nýjum Model 3 eða Model Y"
+  },
+  "nav": {
+    "siteName": "Tesla boðskóði",
+    "terms": "Opinberir skilmálar",
+    "languageLabel": "Tungumál"
+  },
+  "hero": {
+    "eyebrow": "Tesla boðskóði · Evrópa",
+    "codeLabel": "Boðskóði",
+    "copy": "Afrita",
+    "copied": "Afritað",
+    "cta": "Panta með boði",
+    "secondary": "Svona virkar þetta",
+    "independent": "Óháð síða í umsjá eiganda, ekki tengd Tesla, Inc.",
+    "updated": "Uppfært {checkedOn}"
+  },
+  "status": {
+    "active": {
+      "headline": "{km} km ókeypis Supercharger-hleðsla",
+      "subline": "Pantaðu nýjan Model 3 eða Model Y í gegnum boðstengilinn minn og Tesla bætir {km} km ókeypis Supercharger-hleðslu við reikninginn þinn."
+    },
+    "ended": {
+      "headline": "Boðsfríðindi eru í biðstöðu",
+      "subline": "Tesla hefur í bili stöðvað kaupandafríðindi vegna boða við kaup á nýjum bílum í Evrópu. Ég uppfæri síðuna ef þau koma aftur.",
+      "notice": "Kóðinn veitir þér engin aukafríðindi eins og er. Skoðaðu opinbera skilmála Tesla til að sjá nýjustu stöðu.",
+      "title": "Tesla boðskóði – boðsfríðindi eru í biðstöðu"
+    },
+    "capReached": {
+      "headline": "Þessi kóði er uppurinn á þessu ári",
+      "subline": "Tesla takmarkar hve mörg boð hver eigandi getur sent á hverju almanaksári og þessi kóði hefur náð því hámarki.",
+      "notice": "Pantanir með þessum kóða fá ekki kaupandafríðindin fyrr en 1. janúar. Biddu annan eiganda um kóðann sinn eða skoðaðu opinbera skilmála Tesla.",
+      "title": "Tesla boðskóði – kóðinn er uppurinn á þessu ári"
+    }
+  },
+  "benefits": {
+    "title": "Þetta færðu",
+    "items": [
+      {
+        "value": "{km} km",
+        "label": "Ókeypis Supercharger-hleðsla",
+        "text": "Bætist við Tesla-reikninginn þinn og nýtist á Supercharger-stöðvum í eigu Tesla."
+      },
+      {
+        "value": "Model 3 og Y",
+        "label": "Nýir bílar",
+        "text": "Sérpantaðir bílar og nýir lagerbílar. Notaðir bílar eiga ekki rétt á fríðindunum."
+      },
+      {
+        "value": "Evrópa",
+        "label": "Hvar þú pantar",
+        "text": "Fríðindin ráðast af landinu á þeirri Tesla-síðu sem þú pantar á."
+      }
+    ]
+  },
+  "steps": {
+    "title": "Svona virkar þetta",
+    "items": [
+      {
+        "title": "Opnaðu boðstengilinn",
+        "text": "Hann fer með þig á vefsíðu Tesla þar sem boðið hefur þegar verið skráð."
+      },
+      {
+        "title": "Veldu útfærslu og pantaðu",
+        "text": "Pantaðu í sömu heimsókn. Gakktu úr skugga um að boðið sjáist í pöntunaryfirlitinu áður en þú greiðir."
+      },
+      {
+        "title": "Njóttu hleðslunnar",
+        "text": "Inneignin birtist í Tesla-appinu, yfirleitt um það leyti sem bíllinn er afhentur."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Spurningar",
+    "items": [
+      {
+        "q": "Kostar það mig eitthvað að nota kóðann?",
+        "a": "Nei. Verð bílsins er það sama – þú færð bara ókeypis Supercharger-hleðslu að auki."
+      },
+      {
+        "q": "Fæst afsláttur með Tesla-boði í Evrópu?",
+        "a": "Ekki af verðinu. Í Evrópu eru boðsfríðindi kaupanda ókeypis Supercharger-hleðsla – nú {km} km á nýjan Model 3 eða Model Y – en ekki afsláttur af bílnum."
+      },
+      {
+        "q": "Virkar kóðinn fyrir Model S eða Model X?",
+        "a": "Nei. Í Evrópu nær boðskerfið sem stendur aðeins til pantana á nýjum Model 3 og Model Y."
+      },
+      {
+        "q": "Get ég notað kóðann ef ég panta í öðru Evrópulandi?",
+        "a": "Tengillinn opnar vefsíðu Tesla þar sem þú velur landið sem þú pantar í. Þú færð þau fríðindi sem Tesla býður í því landi, svo gakktu úr skugga um að þau sjáist í pöntunaryfirlitinu áður en þú greiðir."
+      },
+      {
+        "q": "Get ég bætt kóðanum við eftir að ég hef pantað?",
+        "a": "Nei. Tesla skráir boð aðeins ef þú pantar í gegnum tengilinn. Ekki er hægt að bæta því við pöntun sem þegar hefur verið gerð."
+      },
+      {
+        "q": "Hvaða bílar eiga rétt á fríðindunum?",
+        "a": "Nýir Model 3 og Model Y, annaðhvort sérpantaðir eða keyptir sem nýir lagerbílar. Notaðir bílar, líka vottaðir notaðir bílar, eiga ekki rétt á þeim. Fyrir sýningarbíla skaltu ganga úr skugga um að boðið sjáist á pöntunarsíðunni áður en þú greiðir."
+      },
+      {
+        "q": "Hve lengi gildir Supercharger-inneignin?",
+        "a": "Samkvæmt skilmálum Tesla renna boðsfríðindi út 12 mánuðum eftir að þau eru veitt. Ekki er hægt að skipta inneigninni í peninga eða framselja hana og hún fellur niður ef þú selur bílinn."
+      },
+      {
+        "q": "Hvað færð þú út úr þessu?",
+        "a": "Tesla veitir mér líka umbun fyrir boðið – þannig virkar kerfið. Þú borgar ekkert aukalega fyrir það."
+      },
+      {
+        "q": "Er þetta vefsíða Tesla?",
+        "a": "Nei. Þetta er óháð síða í umsjá Tesla-eiganda. Pöntunin sjálf fer alfarið fram á opinberri vefsíðu Tesla."
+      }
+    ]
+  },
+  "footer": {
+    "checked": "Tilboð athugað {checkedOn}. Tesla getur breytt boðskerfinu eða hætt því hvenær sem er – staðfestu alltaf fríðindin í pöntunaryfirlitinu og í <a href=\"{termsUrl}\" rel=\"noopener\">opinberum boðsskilmálum Tesla</a>.",
+    "disclaimer": "Óháð síða í umsjá einkaaðila sem á Tesla. Ekki tengd Tesla, Inc. né samþykkt eða styrkt af Tesla, Inc. Tesla, Model 3, Model Y og Supercharger eru vörumerki Tesla, Inc."
+  },
+  "notFound": {
+    "title": "Síðan fannst ekki",
+    "link": "Fara á íslensku síðuna"
+  },
+  "photo": {
+    "alt": "Nærmynd af hvítum rafbíl í hleðslu, með snúruna tengda við hleðslutengið",
+    "credit": "Ljósmynd: {name} á Unsplash"
+  }
+}
