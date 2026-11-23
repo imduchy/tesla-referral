@@ -46,7 +46,11 @@ function helpers(t) {
   return { vars, f, plain };
 }
 
+const EN = languages.find((l) => l.lang === DEFAULT_LANG);
+
 function renderPage(t) {
+  // Keys added later fall back to English until a translation exists.
+  t = { ...t, hero: { ...EN.hero, ...t.hero } };
   const { vars, f, plain } = helpers(t);
   const status = t.status[site.offerStatus];
   const active = site.offerStatus === 'active';
@@ -155,9 +159,11 @@ ${goatcounter}
     </div>
 
     <div class="actions">
-      ${active ? `<a class="btn btn-primary" href="${escapeHtml(site.referralUrl)}" rel="noopener" data-goatcounter-click="click-referral-link-${t.lang}" data-goatcounter-title="Referral link clicked (${t.lang})">${f(t.hero.cta)}</a>` : ''}
+      ${active ? `<a class="btn btn-primary" href="${escapeHtml(site.referralUrl)}" rel="sponsored noopener" data-goatcounter-click="click-referral-link-${t.lang}" data-goatcounter-title="Referral link clicked (${t.lang})">${f(t.hero.cta)}</a>` : ''}
       <a class="btn btn-secondary" href="${active ? '#how-it-works' : vars.termsUrl}"${active ? '' : ' rel="noopener" target="_blank"'}>${active ? f(t.hero.secondary) : f(t.nav.terms)}</a>
     </div>
+
+    <p class="disclosure"><span class="ad-label">${f(t.hero.adLabel)}</span> ${f(t.hero.disclosure)}</p>
 
     <p class="independent"><time datetime="${site.offerCheckedOn}">${f(t.hero.updated)}</time> · ${f(t.hero.independent)}</p>
     ${renderPhotoCredit(t)}
