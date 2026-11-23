@@ -230,11 +230,68 @@ h1 {
 
 :focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
 
-/* Photo */
-.photo { max-width: 832px; margin: 0 auto; padding: 0 16px; }
-.photo img { display: block; width: 100%; height: auto; border-radius: 12px; background: var(--surface); }
-.photo figcaption { margin-top: 8px; font-size: 12px; color: var(--muted); text-align: right; }
-.photo figcaption a { color: inherit; }
+/* Hero on photo. The photo is bright, so the hero (and the nav above it) always uses
+   light text on a dark scrim, in both colour schemes. The scrim is strong enough that all
+   hero text keeps WCAG AA contrast against the brightest part of the photo. */
+.nav, .hero-photo {
+  --text: #ffffff;
+  --muted: #e2e4e7;
+  --line: rgba(255, 255, 255, .22);
+  --btn-bg: #ffffff;
+  --btn-text: #16181c;
+  --btn2-bg: rgba(255, 255, 255, .14);
+  --btn2-text: #ffffff;
+  color: var(--text);
+}
+.nav { --bg: #1b1d21; }
+.nav-link:hover, .lang-menu summary:hover, .lang-menu[open] summary { background: rgba(255, 255, 255, .16); }
+.lang-menu ul { box-shadow: 0 10px 30px rgba(0, 0, 0, .45); }
+.lang-menu li [aria-current] { color: #b9bcc2; }
+
+.hero-photo {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background: #1b1d21; /* shown until the photo loads */
+}
+.hero-media, .hero-media img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+}
+.hero-media img { display: block; object-fit: cover; object-position: 42% 40%; }
+.hero-photo::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(ellipse 62% 52% at 50% 50%, rgba(10, 11, 13, .5), rgba(10, 11, 13, 0)),
+    linear-gradient(180deg, rgba(10, 11, 13, .78) 0%, rgba(10, 11, 13, .56) 28%, rgba(10, 11, 13, .56) 72%, rgba(10, 11, 13, .74) 100%);
+}
+/* Portrait crop: the bright car body sits behind the text column, so darken more evenly. */
+@media (orientation: portrait) {
+  .hero-photo::before {
+    background:
+      radial-gradient(ellipse 80% 50% at 50% 50%, rgba(10, 11, 13, .45), rgba(10, 11, 13, 0)),
+      linear-gradient(180deg, rgba(10, 11, 13, .8) 0%, rgba(10, 11, 13, .68) 25%, rgba(10, 11, 13, .68) 75%, rgba(10, 11, 13, .8) 100%);
+  }
+}
+.hero-photo h1, .hero-photo .subline { text-shadow: 0 1px 12px rgba(0, 0, 0, .35); }
+.hero-photo .code-card {
+  background: rgba(17, 18, 20, .82);
+  border-color: rgba(255, 255, 255, .2);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+.hero-photo .code-card.is-muted { opacity: .8; }
+.hero-photo .btn-copy:hover, .hero-photo .btn-secondary:hover { filter: none; background: rgba(255, 255, 255, .24); }
+.hero-photo .btn-secondary { box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .4); }
+.hero-photo .btn-primary:hover { opacity: .9; }
+.hero-credit { position: absolute; right: 12px; bottom: 8px; font-size: 11px; color: var(--muted); }
+.hero-credit a { color: inherit; }
 
 /* Sections */
 .section {

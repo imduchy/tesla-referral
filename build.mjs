@@ -123,8 +123,7 @@ ${ogImage ? `<meta property="og:image" content="${ogImage}">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="${escapeHtml(plain(t.og.alt))}">
 <meta name="twitter:card" content="summary_large_image">` : ''}
-<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#111214" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#111214">
 <link rel="icon" href="${prefix}favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="${prefix}apple-touch-icon.png">
 <link rel="preload" href="${prefix}fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
@@ -143,7 +142,8 @@ ${goatcounter}
 </header>
 
 <main>
-  <section class="hero">
+  <section class="hero hero-photo">
+    ${renderHeroPhoto(t, prefix)}
     <h1><span class="eyebrow">${f(t.hero.eyebrow)}</span> <span class="headline">${f(status.headline)}</span></h1>
     <p class="subline">${f(status.subline)}</p>
     ${status.notice ? `<p class="notice" role="status">${f(status.notice)}</p>` : ''}
@@ -160,9 +160,8 @@ ${goatcounter}
     </div>
 
     <p class="independent"><time datetime="${site.offerCheckedOn}">${f(t.hero.updated)}</time> · ${f(t.hero.independent)}</p>
+    ${renderPhotoCredit(t)}
   </section>
-
-  ${renderPhoto(t, prefix)}
 
   ${active ? `
   <section class="section" aria-labelledby="benefits-title">
@@ -209,25 +208,27 @@ ${goatcounter}
 `;
 }
 
-function renderPhoto(t, prefix) {
+// Full-bleed hero background: portrait crop for portrait viewports (phones), wide crop otherwise.
+// It is the LCP element, so it is fetched eagerly with high priority.
+function renderHeroPhoto(t, prefix) {
   const set = (name, widths, ext) => widths.map((w) => `${prefix}img/photo-${name}-${w}.${ext} ${w}w`).join(', ');
-  const wide = [800, 1200, 1600];
-  const mobile = [480, 720, 1080];
-  const wideSizes = '(max-width: 832px) calc(100vw - 32px), 800px';
-  const credit = site.photoCredit && site.photoCredit.name
-    ? `<figcaption>${t.photo.credit.replace('{name}', site.photoCredit.url
-        ? `<a href="${escapeHtml(site.photoCredit.url)}" rel="noopener">${escapeHtml(site.photoCredit.name)}</a>`
-        : escapeHtml(site.photoCredit.name))}</figcaption>`
-    : '';
-  return `<figure class="photo">
-    <picture>
-      <source media="(max-width: 760px)" type="image/webp" srcset="${set('mobile', mobile, 'webp')}" sizes="calc(100vw - 32px)" width="1080" height="720">
-      <source media="(max-width: 760px)" srcset="${set('mobile', mobile, 'jpg')}" sizes="calc(100vw - 32px)" width="1080" height="720">
-      <source type="image/webp" srcset="${set('wide', wide, 'webp')}" sizes="${wideSizes}">
-      <img src="${prefix}img/photo-wide-1200.jpg" srcset="${set('wide', wide, 'jpg')}" sizes="${wideSizes}" width="1600" height="800" alt="${escapeHtml(t.photo.alt)}" decoding="async">
-    </picture>
-    ${credit}
-  </figure>`;
+  const wide = [960, 1440, 1920];
+  const portrait = [480, 720, 1080];
+  const portraitMedia = '(orientation: portrait)';
+  return `<picture class="hero-media">
+      <source media="${portraitMedia}" type="image/webp" srcset="${set('hero-portrait', portrait, 'webp')}" sizes="100vw" width="1080" height="1620">
+      <source media="${portraitMedia}" srcset="${set('hero-portrait', portrait, 'jpg')}" sizes="100vw" width="1080" height="1620">
+      <source type="image/webp" srcset="${set('hero-wide', wide, 'webp')}" sizes="100vw">
+      <img src="${prefix}img/photo-hero-wide-1440.jpg" srcset="${set('hero-wide', wide, 'jpg')}" sizes="100vw" width="1920" height="1200" alt="${escapeHtml(t.photo.alt)}" fetchpriority="high">
+    </picture>`;
+}
+
+function renderPhotoCredit(t) {
+  if (!site.photoCredit || !site.photoCredit.name) return '';
+  const name = site.photoCredit.url
+    ? `<a href="${escapeHtml(site.photoCredit.url)}" rel="noopener">${escapeHtml(site.photoCredit.name)}</a>`
+    : escapeHtml(site.photoCredit.name);
+  return `<p class="hero-credit">${t.photo.credit.replace('{name}', name)}</p>`;
 }
 
 function render404() {

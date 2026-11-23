@@ -1,0 +1,139 @@
+{
+  "lang": "hr",
+  "locale": "hr-HR",
+  "langName": "Hrvatski",
+  "termsUrl": "https://www.tesla.com/hr_HR/support/refer-and-earn",
+  "meta": {
+    "title": "Tesla referral kod ({monthShort}) – {km} km besplatnog Supercharginga",
+    "description": "Tesla referral kod (kod za preporuku) {code}: novi Model 3 ili Model Y u Europi uz {km} km besplatnog Supercharginga. Provjereno {checkedOn}"
+  },
+  "og": {
+    "kicker": "Tesla referral kod · Europa",
+    "headline": "{km} km besplatnog Supercharginga",
+    "sub": "Novi Model 3 i Model Y · Kod {code}",
+    "alt": "Tesla referral kod za Europu: {km} km besplatnog Supercharginga uz novi Model 3 ili Model Y"
+  },
+  "nav": {
+    "siteName": "Tesla referral kod",
+    "terms": "Službeni uvjeti",
+    "languageLabel": "Jezik"
+  },
+  "hero": {
+    "eyebrow": "Tesla referral kod · Europa",
+    "codeLabel": "Referral kod",
+    "copy": "Kopiraj",
+    "copied": "Kopirano",
+    "cta": "Naručite uz preporuku",
+    "secondary": "Kako funkcionira",
+    "independent": "Neovisna stranica vlasnika, nije povezana s Tesla, Inc.",
+    "updated": "Ažurirano {checkedOn}"
+  },
+  "status": {
+    "active": {
+      "headline": "{km} km besplatnog Supercharginga",
+      "subline": "Naručite novi Model 3 ili Model Y putem moje poveznice za preporuku i Tesla će vam na račun dodati {km} km besplatnog Supercharginga."
+    },
+    "ended": {
+      "headline": "Pogodnosti preporuke trenutno su pauzirane",
+      "subline": "Tesla je trenutno pauzirala pogodnosti za kupce novih vozila putem preporuke u Europi. Ažurirat ću ovu stranicu ako se vrate.",
+      "notice": "Korištenje koda trenutno vam ne donosi nikakvu dodatnu pogodnost. Najnovije stanje provjerite u Teslinim službenim uvjetima.",
+      "title": "Tesla referral kod za Europu – pogodnosti preporuke pauzirane"
+    },
+    "capReached": {
+      "headline": "Ovaj kod je iskorišten za ovu godinu",
+      "subline": "Tesla ograničava broj preporuka koje jedan vlasnik može dati u kalendarskoj godini, a ovaj kod dosegao je to ograničenje.",
+      "notice": "Narudžbe s ovim kodom neće dobiti pogodnost za kupca do 1. siječnja. Zatražite kod od drugog vlasnika ili provjerite Tesline službene uvjete.",
+      "title": "Tesla referral kod za Europu – kod je iskorišten za ovu godinu"
+    }
+  },
+  "benefits": {
+    "title": "Što dobivate",
+    "items": [
+      {
+        "value": "{km} km",
+        "label": "Besplatan Supercharging",
+        "text": "Dodaje se na vaš Tesla račun, za korištenje na Superchargerima u vlasništvu Tesle."
+      },
+      {
+        "value": "Model 3 i Y",
+        "label": "Nova vozila",
+        "text": "Narudžbe po vlastitoj konfiguraciji i nova vozila iz zalihe. Rabljena vozila nisu obuhvaćena."
+      },
+      {
+        "value": "Europa",
+        "label": "Gdje naručujete",
+        "text": "Pogodnost ovisi o zemlji na čijoj Tesla stranici naručujete."
+      }
+    ]
+  },
+  "steps": {
+    "title": "Kako funkcionira",
+    "items": [
+      {
+        "title": "Otvorite poveznicu za preporuku",
+        "text": "Vodi vas na Teslinu službenu stranicu s već primijenjenom preporukom."
+      },
+      {
+        "title": "Konfigurirajte i naručite",
+        "text": "Naručite u istom posjetu. Prije plaćanja provjerite je li preporuka prikazana u sažetku narudžbe."
+      },
+      {
+        "title": "Uživajte u Superchargingu",
+        "text": "Kredit se pojavljuje u aplikaciji Tesla, obično oko isporuke vozila."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Pitanja",
+    "items": [
+      {
+        "q": "Košta li me korištenje koda išta?",
+        "a": "Ne. Cijena vozila je ista – uz to samo dobivate besplatan Supercharging."
+      },
+      {
+        "q": "Postoji li u Europi Tesla popust za preporuku?",
+        "a": "Ne na cijenu. U Europi kupac uz preporuku umjesto popusta na cijenu vozila dobiva besplatan Supercharging – trenutno {km} km uz novi Model 3 ili Model Y."
+      },
+      {
+        "q": "Vrijedi li kod za Model S ili Model X?",
+        "a": "Ne. U Europi program preporuka trenutno obuhvaća samo narudžbe novih vozila Model 3 i Model Y."
+      },
+      {
+        "q": "Mogu li koristiti kod ako naručujem u drugoj europskoj zemlji?",
+        "a": "Poveznica otvara Teslinu stranicu na kojoj birate zemlju narudžbe. Dobivate pogodnost koju Tesla nudi u toj zemlji, pa prije plaćanja provjerite je li prikazana u sažetku narudžbe."
+      },
+      {
+        "q": "Mogu li dodati kod nakon narudžbe?",
+        "a": "Ne. Tesla primjenjuje preporuku samo ako naručite putem poveznice. Ne može se dodati postojećoj narudžbi."
+      },
+      {
+        "q": "Koja su vozila obuhvaćena?",
+        "a": "Novi Model 3 i Model Y, naručeni po vlastitoj konfiguraciji ili kupljeni kao nova vozila iz zalihe. Rabljena i certificirana rabljena vozila nisu obuhvaćena. Kod demonstracijskih vozila prije plaćanja provjerite je li preporuka prikazana na stranici narudžbe."
+      },
+      {
+        "q": "Koliko dugo vrijedi kredit za Supercharging?",
+        "a": "Prema Teslinim uvjetima pogodnosti preporuke istječu 12 mjeseci nakon dodjele. Kredit se ne može zamijeniti za novac niti prenijeti, a prestaje vrijediti ako prodate vozilo."
+      },
+      {
+        "q": "Što vi dobivate od toga?",
+        "a": "I ja od Tesle dobivam nagradu za preporuku – tako program funkcionira. Vi zbog toga ne plaćate ništa dodatno."
+      },
+      {
+        "q": "Je li ovo Teslina stranica?",
+        "a": "Ne. Ovo je neovisna stranica koju vodi vlasnik Tesle. Sama narudžba u cijelosti se obavlja na Teslinoj službenoj stranici."
+      }
+    ]
+  },
+  "footer": {
+    "checked": "Ponuda je provjerena {checkedOn}, no Tesla može u bilo kojem trenutku promijeniti ili ukinuti program preporuka – uvijek provjerite pogodnost u sažetku narudžbe i u <a href=\"{termsUrl}\" rel=\"noopener\">Teslinim službenim uvjetima programa preporuka</a>.",
+    "disclaimer": "Neovisna stranica koju vodi privatni vlasnik Tesle. Nije povezana s tvrtkom Tesla, Inc., niti je ona podržava ili sponzorira. Tesla, Model 3, Model Y i Supercharger zaštitni su znakovi tvrtke Tesla, Inc."
+  },
+  "notFound": {
+    "title": "Stranica nije pronađena",
+    "link": "Idi na hrvatsku stranicu"
+  },
+  "photo": {
+    "alt": "Bijeli električni automobil izbliza tijekom punjenja, s kabelom priključenim u priključak za punjenje",
+    "credit": "Fotografija: {name} na Unsplashu"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "lang": "lv",
+  "locale": "lv-LV",
+  "langName": "Latviešu",
+  "termsUrl": "https://www.tesla.com/lv_LV/support/refer-and-earn",
+  "meta": {
+    "title": "Tesla referral kods ({monthShort}) – {km} km bezmaksas uzlādes",
+    "description": "Tesla referral (ieteikuma) kods {code}: jauns Model 3 vai Model Y Eiropā ar {km} km bezmaksas Supercharger uzlādes. Pārbaudīts: {checkedOn}."
+  },
+  "og": {
+    "kicker": "Tesla referral kods · Eiropa",
+    "headline": "{km} km bezmaksas Supercharger uzlādes",
+    "sub": "Jauns Model 3 un Model Y · Kods {code}",
+    "alt": "Tesla referral kods Eiropā: {km} km bezmaksas Supercharger uzlādes, pērkot jaunu Model 3 vai Model Y"
+  },
+  "nav": {
+    "siteName": "Tesla referral kods",
+    "terms": "Oficiālie noteikumi",
+    "languageLabel": "Valoda"
+  },
+  "hero": {
+    "eyebrow": "Tesla referral kods · Eiropa",
+    "codeLabel": "Referral kods",
+    "copy": "Kopēt",
+    "copied": "Nokopēts",
+    "cta": "Pasūtīt ar ieteikumu",
+    "secondary": "Kā tas darbojas",
+    "independent": "Neatkarīga īpašnieka vietne, nav saistīta ar Tesla, Inc.",
+    "updated": "Atjaunināts: {checkedOn}"
+  },
+  "status": {
+    "active": {
+      "headline": "{km} km bezmaksas Supercharger uzlādes",
+      "subline": "Pasūtiet jaunu Model 3 vai Model Y, izmantojot manu ieteikuma saiti, un Tesla jūsu kontam pievienos {km} km bezmaksas Supercharger uzlādes."
+    },
+    "ended": {
+      "headline": "Ieteikumu priekšrocības ir apturētas",
+      "subline": "Tesla pašlaik Eiropā ir apturējusi priekšrocības pircējiem, kuri jaunu automobili pasūta pēc ieteikuma. Ja tās atgriezīsies, es atjaunināšu šo lapu.",
+      "notice": "Pašlaik koda izmantošana jums nedod nekādas papildu priekšrocības. Jaunāko informāciju skatiet Tesla oficiālajos noteikumos.",
+      "title": "Tesla referral kods Eiropā – ieteikumu priekšrocības apturētas"
+    },
+    "capReached": {
+      "headline": "Šogad šis kods ir izlietots",
+      "subline": "Tesla ierobežo, cik ieteikumu viens īpašnieks var veikt kalendārajā gadā, un šis kods ir sasniedzis šo limitu.",
+      "notice": "Pasūtījumi ar šo kodu līdz 1. janvārim nesaņems pircēja priekšrocību. Palūdziet kodu citam īpašniekam vai pārbaudiet Tesla oficiālos noteikumus.",
+      "title": "Tesla referral kods Eiropā – šogad kods ir izlietots"
+    }
+  },
+  "benefits": {
+    "title": "Ko jūs saņemat",
+    "items": [
+      {
+        "value": "{km} km",
+        "label": "Bezmaksas Supercharger uzlāde",
+        "text": "Tiek pievienota jūsu Tesla kontam, izmantojama Tesla piederošajās Supercharger stacijās."
+      },
+      {
+        "value": "Model 3 un Y",
+        "label": "Jauni automobiļi",
+        "text": "Individuāli pasūtījumi un jauni automobiļi no noliktavas. Lietoti automobiļi neatbilst."
+      },
+      {
+        "value": "Eiropa",
+        "label": "Kur pasūtāt",
+        "text": "Priekšrocību nosaka valsts, kuras Tesla vietnē veicat pasūtījumu."
+      }
+    ]
+  },
+  "steps": {
+    "title": "Kā tas darbojas",
+    "items": [
+      {
+        "title": "Atveriet ieteikuma saiti",
+        "text": "Tā jūs aizvedīs uz Tesla oficiālo vietni, kur ieteikums jau ir piemērots."
+      },
+      {
+        "title": "Konfigurējiet un pasūtiet",
+        "text": "Pasūtiet tā paša apmeklējuma laikā. Pirms maksājat, pārbaudiet, vai ieteikums ir redzams pasūtījuma kopsavilkumā."
+      },
+      {
+        "title": "Izmantojiet Supercharger uzlādi",
+        "text": "Kredīts parādīsies Tesla lietotnē, parasti ap automobiļa piegādes laiku."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Jautājumi",
+    "items": [
+      {
+        "q": "Vai koda izmantošana man kaut ko maksā?",
+        "a": "Nē. Automobiļa cena ir tāda pati – jūs vienkārši papildus saņemat bezmaksas Supercharger uzlādi."
+      },
+      {
+        "q": "Vai Eiropā ir Tesla ieteikuma atlaide?",
+        "a": "Ne cenai. Eiropā pircēji par ieteikumu saņem nevis atlaidi automobiļa cenai, bet bezmaksas Supercharger uzlādi – pašlaik {km} km, pērkot jaunu Model 3 vai Model Y."
+      },
+      {
+        "q": "Vai kods derīgs Model S vai Model X?",
+        "a": "Nē. Eiropā ieteikumu programma pašlaik attiecas tikai uz jaunu Model 3 un Model Y pasūtījumiem."
+      },
+      {
+        "q": "Vai varu izmantot kodu, ja pasūtu citā Eiropas valstī?",
+        "a": "Saite atver Tesla vietni, kurā izvēlaties pasūtījuma valsti. Jūs saņemsiet to priekšrocību, ko Tesla piedāvā attiecīgajā valstī, tāpēc pirms maksāšanas pārbaudiet, vai tā ir redzama pasūtījuma kopsavilkumā."
+      },
+      {
+        "q": "Vai varu pievienot kodu pēc pasūtījuma veikšanas?",
+        "a": "Nē. Tesla piemēro ieteikumu tikai tad, ja pasūtāt, izmantojot saiti. To nevar pievienot jau esošam pasūtījumam."
+      },
+      {
+        "q": "Kuri automobiļi atbilst?",
+        "a": "Jauni Model 3 un Model Y – gan individuāli pasūtīti, gan nopirkti kā jauni automobiļi no noliktavas. Lietoti un sertificēti lietoti automobiļi neatbilst. Demonstrācijas automobiļiem pirms maksāšanas pārbaudiet, vai ieteikums ir redzams pasūtījuma lapā."
+      },
+      {
+        "q": "Cik ilgi ir derīgs Supercharger uzlādes kredīts?",
+        "a": "Saskaņā ar Tesla noteikumiem ieteikumu priekšrocību derīgums beidzas 12 mēnešus pēc to piešķiršanas. Kredītu nevar apmainīt pret naudu vai nodot citai personai, un tā derīgums beidzas, ja pārdodat automobili."
+      },
+      {
+        "q": "Ko jūs no tā iegūstat?",
+        "a": "Arī es no Tesla saņemu ieteikuma atlīdzību – tā darbojas šī programma. Jums par to nekas papildus nav jāmaksā."
+      },
+      {
+        "q": "Vai šī ir Tesla vietne?",
+        "a": "Nē. Šī ir neatkarīga lapa, ko uztur Tesla īpašnieks. Pats pasūtījums pilnībā notiek Tesla oficiālajā vietnē."
+      }
+    ]
+  },
+  "footer": {
+    "checked": "Piedāvājums pārbaudīts: {checkedOn}. Tesla jebkurā laikā var mainīt vai izbeigt ieteikumu programmu – vienmēr pārliecinieties par priekšrocību pasūtījuma kopsavilkumā un <a href=\"{termsUrl}\" rel=\"noopener\">Tesla oficiālajos ieteikumu programmas noteikumos</a>.",
+    "disclaimer": "Neatkarīga vietne, ko uztur privāts Tesla īpašnieks. Nav saistīta ar Tesla, Inc., un Tesla, Inc. to nav apstiprinājis vai sponsorējis. Tesla, Model 3, Model Y un Supercharger ir Tesla, Inc. preču zīmes."
+  },
+  "notFound": {
+    "title": "Lapa nav atrasta",
+    "link": "Doties uz latviešu lapu"
+  },
+  "photo": {
+    "alt": "Tuvplānā balts elektroauto uzlādes laikā, kabelis pievienots uzlādes pieslēgvietai",
+    "credit": "Foto: {name}, Unsplash"
+  }
+}

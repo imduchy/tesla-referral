@@ -1,0 +1,139 @@
+{
+  "lang": "sl",
+  "locale": "sl-SI",
+  "langName": "Slovenščina",
+  "termsUrl": "https://www.tesla.com/sl_SI/support/refer-and-earn",
+  "meta": {
+    "title": "Tesla referral koda ({monthShort}) – {km} km brezplačnega polnjenja",
+    "description": "Tesla referral koda (napotitvena koda) {code}: nov Model 3 ali Model Y v Evropi z {km} km brezplačnega hitrega polnjenja. Preverjeno: {checkedOn}."
+  },
+  "og": {
+    "kicker": "Tesla referral koda · Evropa",
+    "headline": "{km} km brezplačnega hitrega polnjenja",
+    "sub": "Nov Model 3 in Model Y · Koda {code}",
+    "alt": "Tesla referral koda za Evropo: {km} km brezplačnega hitrega polnjenja ob nakupu novega vozila Model 3 ali Model Y"
+  },
+  "nav": {
+    "siteName": "Tesla referral koda",
+    "terms": "Uradni pogoji",
+    "languageLabel": "Jezik"
+  },
+  "hero": {
+    "eyebrow": "Tesla referral koda · Evropa",
+    "codeLabel": "Referral koda",
+    "copy": "Kopiraj",
+    "copied": "Kopirano",
+    "cta": "Naročite z napotitvijo",
+    "secondary": "Kako deluje",
+    "independent": "Neodvisna stran lastnika, ni povezana s Tesla, Inc.",
+    "updated": "Posodobljeno: {checkedOn}"
+  },
+  "status": {
+    "active": {
+      "headline": "{km} km brezplačnega hitrega polnjenja",
+      "subline": "Naročite nov Model 3 ali Model Y prek moje napotitvene povezave in Tesla vam bo v račun dodala {km} km brezplačnega hitrega polnjenja na polnilnicah Supercharger."
+    },
+    "ended": {
+      "headline": "Ugodnosti napotitev so začasno ustavljene",
+      "subline": "Tesla je v Evropi trenutno začasno ustavila ugodnosti za kupce novih vozil prek napotitve. Če se vrnejo, bom stran posodobil.",
+      "notice": "Uporaba kode vam trenutno ne prinaša nobene dodatne ugodnosti. Najnovejše stanje preverite v Teslinih uradnih pogojih.",
+      "title": "Tesla referral koda za Evropo – ugodnosti napotitev ustavljene"
+    },
+    "capReached": {
+      "headline": "Ta koda je za letos porabljena",
+      "subline": "Tesla omejuje, koliko napotitev lahko en lastnik opravi v koledarskem letu, in ta koda je dosegla to omejitev.",
+      "notice": "Naročila s to kodo do 1. januarja ne bodo prejela ugodnosti za kupca. Kodo prosite drugega lastnika ali preverite Tesline uradne pogoje.",
+      "title": "Tesla referral koda za Evropo – koda je za letos porabljena"
+    }
+  },
+  "benefits": {
+    "title": "Kaj dobite",
+    "items": [
+      {
+        "value": "{km} km",
+        "label": "Brezplačno hitro polnjenje",
+        "text": "Dodano v vaš račun Tesla, za uporabo na polnilnicah Supercharger v Teslini lasti."
+      },
+      {
+        "value": "Model 3 in Y",
+        "label": "Nova vozila",
+        "text": "Naročila po meri in nova vozila iz zaloge. Rabljena vozila niso upravičena."
+      },
+      {
+        "value": "Evropa",
+        "label": "Kje naročite",
+        "text": "Ugodnost je odvisna od države, na Teslini spletni strani katere oddate naročilo."
+      }
+    ]
+  },
+  "steps": {
+    "title": "Kako deluje",
+    "items": [
+      {
+        "title": "Odprite napotitveno povezavo",
+        "text": "Pripelje vas na Teslino uradno spletno stran, kjer je napotitev že upoštevana."
+      },
+      {
+        "title": "Konfigurirajte in naročite",
+        "text": "Naročite v istem obisku. Pred plačilom preverite, ali je napotitev prikazana v povzetku naročila."
+      },
+      {
+        "title": "Uživajte v hitrem polnjenju",
+        "text": "Dobroimetje se prikaže v aplikaciji Tesla, običajno okoli prevzema vozila."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Vprašanja",
+    "items": [
+      {
+        "q": "Ali me uporaba kode kaj stane?",
+        "a": "Ne. Cena vozila je enaka – brezplačno hitro polnjenje dobite povrhu."
+      },
+      {
+        "q": "Ali v Evropi obstaja Teslin popust za napotitev?",
+        "a": "Ne pri ceni. V Evropi kupec prek napotitve namesto popusta pri ceni vozila prejme brezplačno hitro polnjenje – trenutno {km} km ob nakupu novega vozila Model 3 ali Model Y."
+      },
+      {
+        "q": "Ali koda velja za Model S ali Model X?",
+        "a": "Ne. V Evropi napotitveni program trenutno zajema samo naročila novih vozil Model 3 in Model Y."
+      },
+      {
+        "q": "Ali lahko kodo uporabim, če naročim v drugi evropski državi?",
+        "a": "Povezava odpre Teslino spletno stran, kjer izberete državo naročila. Prejmete ugodnost, ki jo Tesla ponuja v tej državi, zato pred plačilom preverite, ali je prikazana v povzetku naročila."
+      },
+      {
+        "q": "Ali lahko kodo dodam po oddaji naročila?",
+        "a": "Ne. Tesla upošteva napotitev samo, če naročite prek povezave. Obstoječemu naročilu je ni mogoče dodati."
+      },
+      {
+        "q": "Katera vozila so upravičena?",
+        "a": "Nova vozila Model 3 in Model Y, naročena po meri ali kupljena kot nova vozila iz zaloge. Rabljena in certificirana rabljena vozila niso upravičena. Pri predstavitvenih vozilih pred plačilom preverite, ali je napotitev prikazana na strani naročila."
+      },
+      {
+        "q": "Kako dolgo velja dobroimetje za hitro polnjenje?",
+        "a": "Po Teslinih pogojih ugodnosti napotitev potečejo 12 mesecev po dodelitvi. Dobroimetja ni mogoče zamenjati za denar ali prenesti, poteče pa tudi, če vozilo prodate."
+      },
+      {
+        "q": "Kaj imate od tega vi?",
+        "a": "Tesla tudi meni podeli nagrado za napotitev – tako program deluje. Vi za to ne plačate ničesar dodatno."
+      },
+      {
+        "q": "Ali je to Teslina spletna stran?",
+        "a": "Ne. To je neodvisna stran, ki jo upravlja lastnik Tesle. Samo naročilo v celoti poteka na Teslini uradni spletni strani."
+      }
+    ]
+  },
+  "footer": {
+    "checked": "Ponudba preverjena: {checkedOn}. Tesla lahko napotitveni program kadar koli spremeni ali ukine – ugodnost vedno preverite v povzetku naročila in v <a href=\"{termsUrl}\" rel=\"noopener\">Teslinih uradnih pogojih napotitvenega programa</a>.",
+    "disclaimer": "Neodvisna stran, ki jo upravlja zasebni lastnik Tesle. Ni povezana z družbo Tesla, Inc., niti je ta ne podpira ali sponzorira. Tesla, Model 3, Model Y in Supercharger so blagovne znamke družbe Tesla, Inc."
+  },
+  "notFound": {
+    "title": "Strani ni mogoče najti",
+    "link": "Na slovensko stran"
+  },
+  "photo": {
+    "alt": "Bel električni avtomobil od blizu med polnjenjem, s kablom, priključenim v polnilni priključek",
+    "credit": "Fotografija: {name}, Unsplash"
+  }
+}

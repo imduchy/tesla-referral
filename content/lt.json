@@ -1,0 +1,139 @@
+{
+  "lang": "lt",
+  "locale": "lt-LT",
+  "langName": "Lietuvių",
+  "termsUrl": "https://www.tesla.com/lt_LT/support/refer-and-earn",
+  "meta": {
+    "title": "Tesla referral kodas ({monthShort}) – {km} km nemokamo įkrovimo",
+    "description": "Tesla referral kodas {code}: naujas Model 3 ar Model Y Europoje su {km} km nemokamo Supercharging įkrovimo. Patikrinta {checkedOn}"
+  },
+  "og": {
+    "kicker": "Tesla referral kodas · Europa",
+    "headline": "{km} km nemokamo Supercharging įkrovimo",
+    "sub": "Naujas Model 3 ir Model Y · Kodas {code}",
+    "alt": "Tesla referral kodas Europoje: {km} km nemokamo Supercharging įkrovimo įsigyjant naują Model 3 arba Model Y"
+  },
+  "nav": {
+    "siteName": "Tesla referral kodas",
+    "terms": "Oficialios sąlygos",
+    "languageLabel": "Kalba"
+  },
+  "hero": {
+    "eyebrow": "Tesla referral kodas · Europa",
+    "codeLabel": "Referral kodas",
+    "copy": "Kopijuoti",
+    "copied": "Nukopijuota",
+    "cta": "Užsakyti su rekomendacija",
+    "secondary": "Kaip tai veikia",
+    "independent": "Nepriklausoma savininko svetainė, nesusijusi su Tesla, Inc.",
+    "updated": "Atnaujinta {checkedOn}"
+  },
+  "status": {
+    "active": {
+      "headline": "{km} km nemokamo Supercharging įkrovimo",
+      "subline": "Užsisakykite naują Model 3 arba Model Y per mano rekomendacijos nuorodą, ir Tesla į jūsų paskyrą įskaitys {km} km nemokamo Supercharging įkrovimo."
+    },
+    "ended": {
+      "headline": "Rekomendacijų privalumai sustabdyti",
+      "subline": "Šiuo metu Tesla Europoje yra sustabdžiusi privalumus pirkėjams, naują automobilį užsakantiems pagal rekomendaciją. Jei jie sugrįš, atnaujinsiu šį puslapį.",
+      "notice": "Šiuo metu kodas jums nesuteikia jokios papildomos naudos. Naujausią informaciją rasite oficialiose Tesla sąlygose.",
+      "title": "Tesla referral kodas – rekomendacijų privalumai sustabdyti"
+    },
+    "capReached": {
+      "headline": "Šiais metais šis kodas jau išnaudotas",
+      "subline": "Tesla riboja, kiek rekomendacijų vienas savininkas gali pateikti per kalendorinius metus, ir šis kodas šią ribą pasiekė.",
+      "notice": "Užsakymams su šiuo kodu pirkėjo privalumas nebus taikomas iki sausio 1 d. Paprašykite kodo kito savininko arba patikrinkite oficialias Tesla sąlygas.",
+      "title": "Tesla referral kodas Europoje – šiais metais kodas išnaudotas"
+    }
+  },
+  "benefits": {
+    "title": "Ką gaunate",
+    "items": [
+      {
+        "value": "{km} km",
+        "label": "Nemokamas Supercharging įkrovimas",
+        "text": "Įskaitoma į jūsų Tesla paskyrą, galima naudoti Tesla priklausančiose Supercharger stotyse."
+      },
+      {
+        "value": "Model 3 ir Y",
+        "label": "Nauji automobiliai",
+        "text": "Individualūs užsakymai ir nauji automobiliai iš sandėlio. Naudoti automobiliai netinka."
+      },
+      {
+        "value": "Europa",
+        "label": "Kur užsakote",
+        "text": "Privalumą lemia šalis, kurios Tesla svetainėje pateikiate užsakymą."
+      }
+    ]
+  },
+  "steps": {
+    "title": "Kaip tai veikia",
+    "items": [
+      {
+        "title": "Atidarykite rekomendacijos nuorodą",
+        "text": "Ji nuves jus į oficialią Tesla svetainę, kurioje rekomendacija jau pritaikyta."
+      },
+      {
+        "title": "Sukonfigūruokite ir užsakykite",
+        "text": "Užsakykite to paties apsilankymo metu. Prieš mokėdami patikrinkite, ar rekomendacija rodoma užsakymo suvestinėje."
+      },
+      {
+        "title": "Naudokitės Supercharging įkrovimu",
+        "text": "Kreditas atsiras Tesla programėlėje, paprastai maždaug automobilio pristatymo metu."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Klausimai",
+    "items": [
+      {
+        "q": "Ar kodo naudojimas man ką nors kainuoja?",
+        "a": "Ne. Automobilio kaina nesikeičia – tiesiog papildomai gaunate nemokamą Supercharging įkrovimą."
+      },
+      {
+        "q": "Ar Europoje taikoma Tesla rekomendacijos nuolaida?",
+        "a": "Kaina nemažėja. Europoje pirkėjams skirtas rekomendacijos privalumas yra ne nuolaida automobiliui, o nemokamas Supercharging įkrovimas – šiuo metu {km} km įsigyjant naują Model 3 arba Model Y."
+      },
+      {
+        "q": "Ar kodas galioja Model S arba Model X?",
+        "a": "Ne. Europoje rekomendacijų programa šiuo metu taikoma tik naujų Model 3 ir Model Y užsakymams."
+      },
+      {
+        "q": "Ar galiu naudoti kodą, jei užsakau kitoje Europos šalyje?",
+        "a": "Nuoroda atidaro Tesla svetainę, kurioje pasirenkate užsakymo šalį. Gausite tą privalumą, kurį Tesla siūlo toje šalyje, todėl prieš mokėdami patikrinkite, ar jis rodomas užsakymo suvestinėje."
+      },
+      {
+        "q": "Ar galiu pridėti kodą jau pateikus užsakymą?",
+        "a": "Ne. Tesla pritaiko rekomendaciją tik tada, kai užsakote per nuorodą. Jos negalima pridėti prie jau pateikto užsakymo."
+      },
+      {
+        "q": "Kurie automobiliai tinka?",
+        "a": "Nauji Model 3 ir Model Y – tiek individualiai užsakyti, tiek įsigyti kaip nauji automobiliai iš sandėlio. Naudoti ir sertifikuoti naudoti automobiliai netinka. Jei perkate demonstracinį automobilį, prieš mokėdami patikrinkite, ar rekomendacija rodoma užsakymo puslapyje."
+      },
+      {
+        "q": "Kiek laiko galioja Supercharging kreditas?",
+        "a": "Pagal Tesla sąlygas rekomendacijų privalumai nustoja galioti praėjus 12 mėnesių nuo jų suteikimo. Kredito negalima iškeisti į pinigus ar perleisti, o pardavus automobilį jis nustoja galioti."
+      },
+      {
+        "q": "O ką iš to gaunate jūs?",
+        "a": "Tesla ir man suteikia atlygį už rekomendaciją – taip veikia ši programa. Jums tai nieko papildomai nekainuoja."
+      },
+      {
+        "q": "Ar tai Tesla svetainė?",
+        "a": "Ne. Tai nepriklausomas puslapis, kurį tvarko Tesla savininkas. Pats užsakymas visas vyksta oficialioje Tesla svetainėje."
+      }
+    ]
+  },
+  "footer": {
+    "checked": "Pasiūlymas patikrintas {checkedOn}, tačiau Tesla bet kada gali pakeisti arba nutraukti rekomendacijų programą – visada patikrinkite privalumą užsakymo suvestinėje ir <a href=\"{termsUrl}\" rel=\"noopener\">oficialiose Tesla rekomendacijų programos sąlygose</a>.",
+    "disclaimer": "Nepriklausoma svetainė, kurią tvarko privatus Tesla savininkas. Nesusijusi su Tesla, Inc., jos nepatvirtinta ir neremiama. Tesla, Model 3, Model Y ir Supercharger yra Tesla, Inc. prekių ženklai."
+  },
+  "notFound": {
+    "title": "Puslapis nerastas",
+    "link": "Eiti į lietuvišką puslapį"
+  },
+  "photo": {
+    "alt": "Stambiu planu – kraunamas baltas elektromobilis, kabelis prijungtas prie įkrovimo lizdo",
+    "credit": "Nuotrauka: {name}, Unsplash"
+  }
+}
