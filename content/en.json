@@ -4,8 +4,8 @@
   "langName": "English",
   "termsUrl": "https://www.tesla.com/en_IE/support/refer-and-earn",
   "meta": {
-    "title": "Tesla Referral Code Europe ({monthYear}) – {km} km Free Supercharging",
-    "description": "Use Tesla referral code {code} when you order a new Model 3 or Model Y in Europe and get {km} km of free Supercharging. Offer checked {checkedOn}."
+    "title": "Tesla Referral Code ({monthShort}) – {km} km Free Supercharging",
+    "description": "Tesla referral code {code}: order a new Model 3 or Model Y in Europe and get {km} km of free Supercharging. Offer checked {checkedOn}."
   },
   "og": {
     "kicker": "Tesla Referral Code · Europe",
@@ -89,6 +89,18 @@
       {
         "q": "Does using the code cost me anything?",
         "a": "No. The price of the car is the same — you just get the free Supercharging on top."
+      },
+      {
+        "q": "Is there a Tesla referral discount in Europe?",
+        "a": "Not on the price. In Europe the referral benefit for buyers is free Supercharging – currently {km} km on a new Model 3 or Model Y – rather than money off the car."
+      },
+      {
+        "q": "Does the code work for Model S or Model X?",
+        "a": "No. In Europe the referral program currently covers only new Model 3 and Model Y orders."
+      },
+      {
+        "q": "Can I use the code if I order in another European country?",
+        "a": "The link opens Tesla's website, where you choose the country you order in. The benefit you get is the one Tesla offers in that country, so check that it shows in your order summary before you pay."
       },
       {
         "q": "Can I add the code after I've ordered?",

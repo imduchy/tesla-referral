@@ -48,7 +48,7 @@ Everyday changes only touch `site.json`:
 | `siteUrl` | Public URL, used for canonical links, hreflang and the sitemap |
 | `photoCredit` | Photographer name and link shown under the photo (empty name = no credit line) |
 
-Pushing to `main` deploys automatically via `.github/workflows/static.yml`.
+Pushing to `main` deploys automatically via `.github/workflows/static.yml`, which afterwards notifies search engines through [IndexNow](https://www.indexnow.org) (`indexNowKey` in `site.json`; the key is public by design).
 
 ## Adding a language
 

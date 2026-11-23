@@ -4,8 +4,8 @@
   "langName": "Deutsch",
   "termsUrl": "https://www.tesla.com/de_DE/support/refer-and-earn",
   "meta": {
-    "title": "Tesla Empfehlungscode Europa ({monthYear}) – {km} km kostenloses Supercharging",
-    "description": "Mit dem Tesla Empfehlungscode {code} bekommst du beim Kauf eines neuen Model 3 oder Model Y in Europa {km} km kostenloses Supercharging. Angebot geprüft am {checkedOn}."
+    "title": "Tesla Empfehlungscode ({monthShort}) – {km} km gratis Supercharging",
+    "description": "Tesla Empfehlungscode {code}: Bestelle ein neues Model 3 oder Model Y in Europa und erhalte {km} km kostenloses Supercharging. Stand: {checkedOn}."
   },
   "og": {
     "kicker": "Tesla Empfehlungscode · Europa",
@@ -89,6 +89,18 @@
       {
         "q": "Kostet mich der Code etwas?",
         "a": "Nein. Der Preis des Autos bleibt gleich – du bekommst das kostenlose Supercharging zusätzlich."
+      },
+      {
+        "q": "Gibt es einen Tesla-Empfehlungsrabatt in Europa?",
+        "a": "Nicht auf den Preis. In Europa erhalten Käufer statt eines Rabatts kostenloses Supercharging – derzeit {km} km für ein neues Model 3 oder Model Y."
+      },
+      {
+        "q": "Gilt der Code für Model S oder Model X?",
+        "a": "Nein. In Europa umfasst das Empfehlungsprogramm derzeit nur neue Model 3 und Model Y."
+      },
+      {
+        "q": "Kann ich den Code nutzen, wenn ich in einem anderen europäischen Land bestelle?",
+        "a": "Der Link öffnet Teslas Website, auf der du das Land für deine Bestellung wählst. Du erhältst die Prämie, die Tesla in diesem Land anbietet – prüfe vor dem Bezahlen, ob sie in deiner Bestellübersicht steht."
       },
       {
         "q": "Kann ich den Code nach der Bestellung noch eintragen?",

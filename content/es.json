@@ -4,8 +4,8 @@
   "langName": "Español",
   "termsUrl": "https://www.tesla.com/es_ES/support/refer-and-earn",
   "meta": {
-    "title": "Código de referido Tesla Europa ({monthYear}) – {km} km de Supercarga gratis",
-    "description": "Usa el código de referido de Tesla {code} al pedir un Model 3 o Model Y nuevo en Europa y consigue {km} km de Supercarga gratis. Oferta comprobada el {checkedOn}."
+    "title": "Código referido Tesla ({monthShort}): {km} km de Supercarga gratis",
+    "description": "Código de referido Tesla {code}: pide un Model 3 o Model Y nuevo en Europa y consigue {km} km de Supercarga gratis. Revisado: {checkedOn}."
   },
   "og": {
     "kicker": "Código de referido Tesla · Europa",
@@ -89,6 +89,18 @@
       {
         "q": "¿Usar el código me cuesta algo?",
         "a": "No. El precio del coche es el mismo; simplemente recibes la Supercarga gratis además."
+      },
+      {
+        "q": "¿Hay descuento por referido de Tesla en Europa?",
+        "a": "No en el precio. En Europa, quien compra con referido recibe Supercarga gratis – actualmente {km} km con un Model 3 o Model Y nuevo – en lugar de un descuento."
+      },
+      {
+        "q": "¿El código sirve para Model S o Model X?",
+        "a": "No. En Europa el programa de referidos solo incluye ahora pedidos nuevos de Model 3 y Model Y."
+      },
+      {
+        "q": "¿Puedo usar el código si hago el pedido en otro país europeo?",
+        "a": "El enlace abre la web de Tesla, donde eliges el país del pedido. Recibirás la ventaja que Tesla ofrezca en ese país, así que comprueba que aparece en el resumen del pedido antes de pagar."
       },
       {
         "q": "¿Puedo añadir el código después de hacer el pedido?",

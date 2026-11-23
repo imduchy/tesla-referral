@@ -33,6 +33,7 @@ function helpers(t) {
     termsUrl: escapeHtml(t.termsUrl || site.termsUrl),
     checkedOn: new Intl.DateTimeFormat(t.locale, { dateStyle: 'long', timeZone: 'UTC' }).format(date),
     monthYear: new Intl.DateTimeFormat(t.locale, { month: 'long', year: 'numeric', timeZone: 'UTC' }).format(date),
+    monthShort: new Intl.DateTimeFormat(t.locale, { month: 'short', year: 'numeric', timeZone: 'UTC' }).format(date),
   };
   // Content strings are trusted (authored in this repo) and may contain inline HTML.
   const f = (s) => s.replace(/\{(\w+)\}/g, (m, k) => (k in vars ? vars[k] : m));
@@ -115,6 +116,7 @@ ${ogImage ? `<meta property="og:image" content="${ogImage}">
 <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#111214" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="${prefix}favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="${prefix}apple-touch-icon.png">
 <link rel="preload" href="${prefix}fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="${prefix}styles.css">
 <script type="application/ld+json">${JSON.stringify(jsonLd).replace(/</g, '\\u003c')}</script>
@@ -264,7 +266,7 @@ ${urls}
 
 rmSync(OUT, { recursive: true, force: true });
 mkdirSync(OUT, { recursive: true });
-for (const asset of ['styles.css', 'app.js', 'favicon.svg', 'fonts', 'og', 'img']) {
+for (const asset of ['styles.css', 'app.js', 'favicon.svg', 'apple-touch-icon.png', 'fonts', 'og', 'img']) {
   if (existsSync(join('src', asset))) cpSync(join('src', asset), join(OUT, asset), { recursive: true });
 }
 
@@ -278,4 +280,6 @@ for (const t of languages) {
 writeFileSync(join(OUT, '404.html'), render404());
 writeFileSync(join(OUT, 'robots.txt'), `User-agent: *\nAllow: /\n${siteUrl ? `\nSitemap: ${absUrl('/sitemap.xml')}\n` : ''}`);
 if (siteUrl) writeFileSync(join(OUT, 'sitemap.xml'), renderSitemap());
+// IndexNow ownership file (the key is public by design; see scripts/indexnow.mjs).
+if (site.indexNowKey) writeFileSync(join(OUT, `${site.indexNowKey}.txt`), site.indexNowKey);
 console.log('built 404.html, robots.txt' + (siteUrl ? ', sitemap.xml' : ''));
