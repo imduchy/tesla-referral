@@ -25,13 +25,15 @@
     "copied": "Copiado",
     "cta": "Encomendar com referência",
     "secondary": "Como funciona",
+    "adLabel": "Publicidade",
+    "disclosure": "Esta é a minha ligação de referência pessoal da Tesla. Se encomendar através dela, a Tesla também me dá uma recompensa de referência. O seu preço mantém-se igual.",
     "independent": "Site independente de um proprietário, sem ligação à Tesla, Inc.",
     "updated": "Atualizado a {checkedOn}"
   },
   "status": {
     "active": {
       "headline": "{km} km de Supercharging grátis",
-      "subline": "Encomende um Model 3 ou Model Y novo através da minha ligação de referência e a Tesla adiciona {km} km de Supercharging gratuito à sua conta."
+      "subline": "Encomende o seu primeiro Model 3 ou Model Y novo através da minha ligação de referência e, com a oferta de referência atual da Tesla na Europa, recebe {km} km de Supercharging gratuito."
     },
     "ended": {
       "title": "Código de referência Tesla – benefícios suspensos",
@@ -50,8 +52,8 @@
     "title": "O que recebe",
     "items": [
       { "value": "{km} km", "label": "Supercharging grátis", "text": "Creditados na sua conta Tesla, para usar em Superchargers da Tesla." },
-      { "value": "Model 3 e Y", "label": "Veículos novos", "text": "Encomendas personalizadas e carros novos em stock. Carros usados não estão incluídos." },
-      { "value": "Europa", "label": "Onde encomenda", "text": "O benefício depende do país do site da Tesla onde faz a encomenda." }
+      { "value": "Model 3 e Y", "label": "Veículos novos", "text": "O seu primeiro Model 3 ou Model Y, em encomenda personalizada ou novo em stock. Carros usados não estão incluídos." },
+      { "value": "Europa", "label": "Onde encomenda", "text": "A Tesla define o benefício por país. O que o resumo da encomenda no site da Tesla mostrar é o que recebe." }
     ]
   },
   "steps": {
@@ -59,20 +61,21 @@
     "items": [
       { "title": "Abra a ligação de referência", "text": "Leva-o ao site oficial da Tesla com a referência já aplicada." },
       { "title": "Configure e encomende", "text": "Encomende na mesma visita. Antes de pagar, confirme que a referência aparece no resumo da encomenda." },
-      { "title": "Aproveite o Supercharging", "text": "O crédito aparece na sua app Tesla, normalmente perto da entrega." }
+      { "title": "Aproveite o Supercharging", "text": "O crédito é atribuído no momento da entrega e depois aparece na sua app Tesla." }
     ]
   },
   "faq": {
     "title": "Perguntas frequentes",
     "items": [
-      { "q": "Usar o código custa-me alguma coisa?", "a": "Não. O preço do carro é o mesmo – recebe apenas o Supercharging gratuito como extra." },
-      { "q": "Existe desconto de referência Tesla na Europa?", "a": "Não no preço. Na Europa, quem compra com referência recebe Supercharging gratuito em vez de desconto – atualmente {km} km com um Model 3 ou Model Y novo." },
-      { "q": "O código funciona para o Model S ou Model X?", "a": "Não. Na Europa, o programa de referências abrange atualmente apenas encomendas de Model 3 e Model Y novos." },
+      { "q": "Usar o código custa-me alguma coisa?", "a": "Não. O preço do carro é o mesmo com ou sem referência. Recebe o Supercharging gratuito como extra se a referência aparecer no resumo da encomenda, por isso confirme antes de pagar." },
+      { "q": "Existe desconto de referência Tesla na Europa?", "a": "Não no preço. Para o Model 3 e o Model Y, a oferta de referência da Tesla na Europa dá atualmente aos compradores {km} km de Supercharging gratuito (verificado a {checkedOn}) em vez de desconto no carro." },
+      { "q": "O código funciona para o Model S ou Model X?", "a": "A minha ligação de referência mostra atualmente um benefício apenas para Model 3 e Model Y novos. Para o Model S ou Model X, consulte os termos de referência da Tesla para o seu país." },
       { "q": "Posso usar o código se encomendar noutro país europeu?", "a": "A ligação abre o site da Tesla, onde escolhe o país da encomenda. Recebe o benefício que a Tesla oferece nesse país, por isso confirme que aparece no resumo da encomenda antes de pagar." },
       { "q": "Posso adicionar o código depois de encomendar?", "a": "Não. A Tesla só aplica a referência se encomendar através da ligação. Não pode ser adicionada a uma encomenda existente." },
       { "q": "Que carros estão incluídos?", "a": "Model 3 e Model Y novos, encomendados ou em stock. Carros usados, incluindo certificados, não estão incluídos. Em carros de demonstração, confirme que a referência aparece na página da encomenda antes de pagar." },
-      { "q": "Durante quanto tempo é válido o crédito de Supercharging?", "a": "Segundo os termos da Tesla, os benefícios de referência expiram 12 meses após a atribuição. O crédito não é convertível em dinheiro nem transmissível, e termina se vender o carro." },
-      { "q": "O que ganha com isto?", "a": "A Tesla também me dá uma recompensa de referência – é assim que o programa funciona. Para si não tem qualquer custo extra." },
+      { "q": "Posso usar o código se já tiver um Tesla?", "a": "Apenas se for o seu primeiro Model 3 ou Model Y. A Tesla atribui o benefício de comprador uma única vez, na sua primeira compra elegível através de uma ligação de referência, e tem de ter pelo menos 18 anos. Quem já tem um Tesla pode, em alternativa, obter os benefícios de fidelização da Tesla." },
+      { "q": "Durante quanto tempo é válido o crédito de Supercharging?", "a": "Segundo os termos da Tesla, o benefício expira 12 meses após a atribuição, que acontece no momento da entrega. Não tem valor monetário, não é transmissível, só funciona em Superchargers da Tesla e termina se vender o carro. Se a Tesla terminar o programa, os benefícios não utilizados podem ser cancelados." },
+      { "q": "O que ganha com isto?", "a": "Quando encomenda através da minha ligação, a Tesla também me dá uma recompensa de referência (crédito de Supercharging ou Tesla Credits). É por isso que esta página existe. O seu preço é o mesmo em qualquer caso." },
       { "q": "Este é o site da Tesla?", "a": "Não. É uma página independente gerida por um proprietário de Tesla. A encomenda é feita inteiramente no site oficial da Tesla." }
     ]
   },

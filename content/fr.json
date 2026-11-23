@@ -25,13 +25,15 @@
     "copied": "Copié",
     "cta": "Commander avec parrainage",
     "secondary": "Comment ça marche",
+    "adLabel": "Publicité",
+    "disclosure": "Ceci est mon lien de parrainage Tesla personnel. Si vous commandez via ce lien, Tesla m'offre aussi une récompense de parrainage. Votre prix reste le même.",
     "independent": "Site indépendant d'un propriétaire, sans lien avec Tesla, Inc.",
     "updated": "Mis à jour le {checkedOn}"
   },
   "status": {
     "active": {
       "headline": "{km} km de Supercharge offerts",
-      "subline": "Commandez une Model 3 ou un Model Y neuf via mon lien de parrainage et Tesla crédite {km} km de Supercharge gratuite sur votre compte."
+      "subline": "Commandez votre première Model 3 ou votre premier Model Y neuf via mon lien de parrainage et, avec l'offre de parrainage actuelle de Tesla en Europe, vous recevez {km} km de Supercharge gratuite."
     },
     "ended": {
       "title": "Code parrainage Tesla Europe – avantages suspendus",
@@ -57,12 +59,12 @@
       {
         "value": "Model 3 et Y",
         "label": "Véhicules neufs",
-        "text": "Commandes personnalisées et véhicules neufs en stock. Les véhicules d'occasion ne sont pas éligibles."
+        "text": "Votre première Model 3 ou votre premier Model Y, en commande personnalisée ou neuf en stock. Les véhicules d'occasion ne sont pas éligibles."
       },
       {
         "value": "Europe",
         "label": "Où vous commandez",
-        "text": "L'avantage dépend du pays du site Tesla sur lequel vous commandez."
+        "text": "Tesla fixe l'avantage pour chaque pays. Ce qu'indique votre récapitulatif de commande sur le site de Tesla, c'est ce que vous recevez."
       }
     ]
   },
@@ -79,7 +81,7 @@
       },
       {
         "title": "Profitez de la Supercharge",
-        "text": "Le crédit apparaît dans votre application Tesla, généralement autour de la livraison."
+        "text": "Le crédit est attribué lorsque vous prenez livraison, puis apparaît dans votre application Tesla."
       }
     ]
   },
@@ -88,15 +90,15 @@
     "items": [
       {
         "q": "Le code me coûte-t-il quelque chose ?",
-        "a": "Non. Le prix de la voiture reste le même : vous recevez simplement la Supercharge gratuite en plus."
+        "a": "Non. Le prix de la voiture est le même avec ou sans parrainage. Vous recevez la Supercharge gratuite en plus si le parrainage apparaît dans votre récapitulatif de commande : vérifiez-le donc avant de payer."
       },
       {
         "q": "Existe-t-il une remise de parrainage Tesla en Europe ?",
-        "a": "Pas sur le prix. En Europe, l'acheteur parrainé reçoit de la Supercharge gratuite – actuellement {km} km pour une Model 3 ou un Model Y neuf – plutôt qu'une remise."
+        "a": "Pas sur le prix. Pour la Model 3 et le Model Y, l'offre de parrainage de Tesla en Europe donne actuellement aux acheteurs {km} km de Supercharge gratuite (vérifié le {checkedOn}) plutôt qu'une remise sur la voiture."
       },
       {
         "q": "Le code fonctionne-t-il pour la Model S ou le Model X ?",
-        "a": "Non. En Europe, le programme de parrainage couvre actuellement uniquement les commandes de Model 3 et Model Y neufs."
+        "a": "Mon lien de parrainage n'affiche actuellement un avantage que pour les Model 3 et Model Y neufs. Pour la Model S ou le Model X, consultez les conditions de parrainage de Tesla pour votre pays."
       },
       {
         "q": "Puis-je utiliser le code si je commande dans un autre pays européen ?",
@@ -111,12 +113,16 @@
         "a": "Les Model 3 et Model Y neufs, en commande personnalisée ou en stock. Les véhicules d'occasion, certifiés ou non, ne sont pas éligibles. Pour un véhicule de démonstration, vérifiez que le parrainage apparaît sur la page de commande avant de payer."
       },
       {
+        "q": "Puis-je utiliser le code si je possède déjà une Tesla ?",
+        "a": "Seulement s'il s'agit de votre première Model 3 ou de votre premier Model Y. Tesla accorde l'avantage acheteur une seule fois, lors de votre premier achat éligible via un lien de parrainage, et vous devez avoir au moins 18 ans. Les propriétaires actuels peuvent bénéficier à la place des avantages de fidélité de Tesla."
+      },
+      {
         "q": "Combien de temps le crédit de Supercharge est-il valable ?",
-        "a": "Selon les conditions de Tesla, les avantages de parrainage expirent 12 mois après leur attribution. Le crédit n'est ni échangeable contre de l'argent ni transférable, et il prend fin si vous vendez la voiture."
+        "a": "Selon les conditions de Tesla, l'avantage expire 12 mois après son attribution, qui a lieu lorsque vous prenez livraison. Il n'a aucune valeur monétaire, n'est pas transférable, n'est utilisable que sur les Superchargeurs appartenant à Tesla et prend fin si vous vendez la voiture. Si Tesla met fin au programme, les avantages non utilisés peuvent être annulés."
       },
       {
         "q": "Qu'est-ce que vous y gagnez ?",
-        "a": "Tesla m'offre aussi une récompense de parrainage – c'est le principe du programme. Cela ne vous coûte rien de plus."
+        "a": "Lorsque vous commandez via mon lien, Tesla m'offre aussi une récompense de parrainage (crédit de Supercharge ou Tesla Credits). C'est pour cela que cette page existe. Votre prix est le même dans tous les cas."
       },
       {
         "q": "Est-ce le site de Tesla ?",

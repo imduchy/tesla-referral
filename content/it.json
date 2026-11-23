@@ -25,13 +25,15 @@
     "copied": "Copiato",
     "cta": "Ordina con referral",
     "secondary": "Come funziona",
+    "adLabel": "Pubblicità",
+    "disclosure": "Questo è il mio link referral personale Tesla. Se ordini tramite questo link, anche io ricevo un premio referral da Tesla. Il tuo prezzo resta lo stesso.",
     "independent": "Sito indipendente di un proprietario, non affiliato a Tesla, Inc.",
     "updated": "Aggiornato il {checkedOn}"
   },
   "status": {
     "active": {
       "headline": "{km} km di Supercharging gratis",
-      "subline": "Ordina una Model 3 o Model Y nuova con il mio link referral e Tesla aggiunge {km} km di Supercharging gratuito al tuo account."
+      "subline": "Ordina la tua prima Model 3 o Model Y nuova con il mio link referral e, con l'attuale offerta referral di Tesla in Europa, ricevi {km} km di Supercharging gratuito."
     },
     "ended": {
       "title": "Codice referral Tesla Europa – vantaggi sospesi",
@@ -57,12 +59,12 @@
       {
         "value": "Model 3 e Y",
         "label": "Veicoli nuovi",
-        "text": "Ordini personalizzati e auto nuove in pronta consegna. Le auto usate sono escluse."
+        "text": "La tua prima Model 3 o Model Y, ordinata su misura o nuova in pronta consegna. Le auto usate sono escluse."
       },
       {
         "value": "Europa",
         "label": "Dove ordini",
-        "text": "Il vantaggio dipende dal Paese del sito Tesla su cui effettui l'ordine."
+        "text": "Tesla stabilisce il vantaggio per ogni Paese. Ricevi ciò che mostra il riepilogo dell'ordine sul sito di Tesla."
       }
     ]
   },
@@ -79,7 +81,7 @@
       },
       {
         "title": "Goditi il Supercharging",
-        "text": "Il credito compare nella tua app Tesla, di solito intorno alla consegna."
+        "text": "Il credito viene assegnato al momento della consegna e poi compare nella tua app Tesla."
       }
     ]
   },
@@ -88,15 +90,15 @@
     "items": [
       {
         "q": "Usare il codice mi costa qualcosa?",
-        "a": "No. Il prezzo dell'auto resta lo stesso: ricevi semplicemente il Supercharging gratuito in più."
+        "a": "No. Il prezzo dell'auto è lo stesso con o senza referral. Ricevi il Supercharging gratuito in più se il referral compare nel riepilogo dell'ordine, quindi controllalo prima di pagare."
       },
       {
         "q": "Esiste uno sconto referral Tesla in Europa?",
-        "a": "Non sul prezzo. In Europa chi acquista con referral riceve Supercharging gratuito – attualmente {km} km con una Model 3 o Model Y nuova – invece di uno sconto."
+        "a": "Non sul prezzo. Per Model 3 e Model Y, l'offerta referral di Tesla in Europa offre attualmente agli acquirenti {km} km di Supercharging gratuito (verificato il {checkedOn}) invece di uno sconto sull'auto."
       },
       {
         "q": "Il codice vale per Model S o Model X?",
-        "a": "No. In Europa il programma referral copre attualmente solo gli ordini di Model 3 e Model Y nuove."
+        "a": "Il mio link referral mostra attualmente un vantaggio solo per Model 3 e Model Y nuove. Per Model S o Model X, controlla i termini del programma referral di Tesla per il tuo Paese."
       },
       {
         "q": "Posso usare il codice se ordino in un altro Paese europeo?",
@@ -111,12 +113,16 @@
         "a": "Model 3 e Model Y nuove, ordinate su misura o in pronta consegna. Le auto usate, anche certificate, sono escluse. Per le auto dimostrative, controlla che il referral compaia nella pagina dell'ordine prima di pagare."
       },
       {
+        "q": "Posso usare il codice se ho già una Tesla?",
+        "a": "Solo se è la tua prima Model 3 o Model Y. Tesla concede il vantaggio per l'acquirente una sola volta, sul tuo primo acquisto idoneo tramite un link referral, e devi avere almeno 18 anni. Chi possiede già una Tesla può invece ottenere i vantaggi fedeltà di Tesla."
+      },
+      {
         "q": "Quanto dura il credito di Supercharging?",
-        "a": "Secondo i termini di Tesla, i vantaggi referral scadono 12 mesi dopo l'assegnazione. Il credito non è convertibile in denaro né trasferibile, e termina se vendi l'auto."
+        "a": "Secondo i termini di Tesla, il vantaggio scade 12 mesi dopo l'assegnazione, che avviene al momento della consegna. Non ha valore in denaro, non è trasferibile, vale solo ai Supercharger di proprietà Tesla e termina se vendi l'auto. Se Tesla chiude il programma, i vantaggi non utilizzati potrebbero essere annullati."
       },
       {
         "q": "Tu cosa ci guadagni?",
-        "a": "Anche io ricevo un premio referral da Tesla: è così che funziona il programma. Per te non c'è alcun costo aggiuntivo."
+        "a": "Quando ordini tramite il mio link, anche io ricevo un premio referral da Tesla (credito di Supercharging o Tesla Credits). Per questo esiste questa pagina. Il tuo prezzo è lo stesso in ogni caso."
       },
       {
         "q": "È il sito di Tesla?",

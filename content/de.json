@@ -25,13 +25,15 @@
     "copied": "Kopiert",
     "cta": "Mit Empfehlung bestellen",
     "secondary": "So funktioniert's",
+    "adLabel": "Werbung",
+    "disclosure": "Das ist mein persönlicher Tesla-Empfehlungslink. Wenn du darüber bestellst, erhalte auch ich eine Empfehlungsprämie von Tesla. Dein Preis bleibt gleich.",
     "independent": "Unabhängige Seite eines Tesla-Fahrers, nicht mit Tesla, Inc. verbunden.",
     "updated": "Aktualisiert am {checkedOn}"
   },
   "status": {
     "active": {
       "headline": "{km} km kostenloses Supercharging",
-      "subline": "Bestelle ein neues Model 3 oder Model Y über meinen Empfehlungslink und Tesla schreibt dir {km} km kostenloses Supercharging gut."
+      "subline": "Bestelle dein erstes neues Model 3 oder Model Y über meinen Empfehlungslink und erhalte mit Teslas aktuellem Empfehlungsangebot in Europa {km} km kostenloses Supercharging."
     },
     "ended": {
       "title": "Tesla Empfehlungscode Europa – Prämien derzeit pausiert",
@@ -57,12 +59,12 @@
       {
         "value": "Model 3 & Y",
         "label": "Neufahrzeuge",
-        "text": "Individuelle Bestellungen und Neuwagen ab Lager. Gebrauchtwagen sind ausgeschlossen."
+        "text": "Dein erstes Model 3 oder Model Y, individuell bestellt oder als Neuwagen ab Lager. Gebrauchtwagen sind ausgeschlossen."
       },
       {
         "value": "Europa",
         "label": "Wo du bestellst",
-        "text": "Die Prämie richtet sich nach dem Land der Tesla-Website, auf der du bestellst."
+        "text": "Tesla legt die Prämie je Land fest. Was deine Bestellübersicht auf Teslas Website anzeigt, bekommst du."
       }
     ]
   },
@@ -79,7 +81,7 @@
       },
       {
         "title": "Supercharging genießen",
-        "text": "Das Guthaben erscheint in deiner Tesla-App, meist rund um die Auslieferung."
+        "text": "Das Guthaben wird bei der Auslieferung gutgeschrieben und erscheint dann in deiner Tesla-App."
       }
     ]
   },
@@ -88,15 +90,15 @@
     "items": [
       {
         "q": "Kostet mich der Code etwas?",
-        "a": "Nein. Der Preis des Autos bleibt gleich – du bekommst das kostenlose Supercharging zusätzlich."
+        "a": "Nein. Der Preis des Autos ist mit und ohne Empfehlung gleich. Das kostenlose Supercharging bekommst du zusätzlich, wenn die Empfehlung in deiner Bestellübersicht angezeigt wird – prüfe das also vor dem Bezahlen."
       },
       {
         "q": "Gibt es einen Tesla-Empfehlungsrabatt in Europa?",
-        "a": "Nicht auf den Preis. In Europa erhalten Käufer statt eines Rabatts kostenloses Supercharging – derzeit {km} km für ein neues Model 3 oder Model Y."
+        "a": "Nicht auf den Preis. Für Model 3 und Model Y gibt Teslas Empfehlungsangebot in Europa Käufern derzeit {km} km kostenloses Supercharging (geprüft am {checkedOn}) statt eines Rabatts auf das Auto."
       },
       {
         "q": "Gilt der Code für Model S oder Model X?",
-        "a": "Nein. In Europa umfasst das Empfehlungsprogramm derzeit nur neue Model 3 und Model Y."
+        "a": "Mein Empfehlungslink zeigt derzeit nur für neue Model 3 und Model Y eine Prämie an. Für Model S oder Model X prüfe die Bedingungen von Teslas Programm „Empfehlen und Verdienen“ für dein Land."
       },
       {
         "q": "Kann ich den Code nutzen, wenn ich in einem anderen europäischen Land bestelle?",
@@ -111,12 +113,16 @@
         "a": "Neue Model 3 und Model Y, individuell bestellt oder als Neuwagen ab Lager. Gebrauchte und Certified-Pre-Owned-Fahrzeuge sind ausgeschlossen. Bei Vorführwagen prüfe vor dem Bezahlen, ob die Empfehlung auf der Bestellseite angezeigt wird."
       },
       {
+        "q": "Kann ich den Code nutzen, wenn ich schon einen Tesla habe?",
+        "a": "Nur, wenn es dein erstes Model 3 oder Model Y ist. Tesla gewährt die Käuferprämie einmal, beim ersten berechtigten Kauf über einen Empfehlungslink, und du musst mindestens 18 Jahre alt sein. Bestehende Tesla-Besitzer können stattdessen Teslas Treuevorteile erhalten."
+      },
+      {
         "q": "Wie lange ist das Supercharging-Guthaben gültig?",
-        "a": "Laut Teslas Bedingungen verfallen Empfehlungsprämien 12 Monate nach der Gutschrift. Das Guthaben ist nicht übertragbar, wird nicht ausgezahlt und endet, wenn du das Auto verkaufst."
+        "a": "Laut Teslas Bedingungen verfällt die Prämie 12 Monate nach der Gutschrift, die bei der Auslieferung erfolgt. Sie hat keinen Barwert, ist nicht übertragbar, gilt nur an Tesla-eigenen Superchargern und endet, wenn du das Auto verkaufst. Beendet Tesla das Programm, können nicht genutzte Prämien gestrichen werden."
       },
       {
         "q": "Was hast du davon?",
-        "a": "Tesla gibt auch mir eine Empfehlungsprämie – so funktioniert das Programm. Für dich entstehen dadurch keine Mehrkosten."
+        "a": "Wenn du über meinen Link bestellst, gibt Tesla auch mir eine Empfehlungsprämie (Supercharging-Guthaben oder Tesla Credits). Deshalb gibt es diese Seite. Dein Preis ist in jedem Fall derselbe."
       },
       {
         "q": "Ist das die Website von Tesla?",
