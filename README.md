@@ -1,6 +1,6 @@
 # Tesla Referral Code
 
-Source of **[teslareferralcode.eu](https://teslareferralcode.eu)**, a small independent page where I share my Tesla referral code with people ordering a new Model 3 or Model Y in Europe. Available in English, German, Spanish, French, Italian and Dutch.
+Source of **[teslareferralcode.eu](https://teslareferralcode.eu)**, a small independent page where I share my Tesla referral code with people ordering a new Model 3 or Model Y in Europe. Available in 24 languages, covering every European market Tesla sells in.
 
 It is a plain static site: HTML, CSS and a few lines of JavaScript, with no framework and no dependencies. A tiny build script turns the text files into pages, and GitHub Pages hosts them.
 
@@ -10,7 +10,7 @@ It is a plain static site: HTML, CSS and a few lines of JavaScript, with no fram
 
 ```
 site.json            Referral code, offer status, km amount, analytics, domain
-content/<lang>.json  All page text, one file per language (en, de, es, fr, it, nl)
+content/<lang>.json  All page text, one file per language (24 languages)
 src/                 CSS, JS, fonts, favicon and generated images
 build.mjs            Builds everything into dist/
 scripts/             Image helpers (photo crops, social share images)
@@ -52,7 +52,7 @@ Pushing to `main` deploys automatically via `.github/workflows/static.yml`, whic
 
 ## Adding a language
 
-Copy `content/en.json` to e.g. `content/fr.json`. Set `lang`, `locale`, `langName` and `termsUrl`, translate the text, then regenerate the share images (see below). The language switcher, hreflang tags and sitemap pick it up automatically.
+Copy `content/en.json` to e.g. `content/fr.json`. Set `lang`, `locale`, `langName` and `termsUrl`, translate the text (including the local word for "Ad" in `hero.adLabel`, which the advertising disclosure needs), then regenerate the share images and add a flag in `src/styles.css`. The language switcher, hreflang tags and sitemap pick it up automatically.
 
 ## Images
 

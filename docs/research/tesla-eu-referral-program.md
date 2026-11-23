@@ -31,7 +31,8 @@ _Researched: 2026-11-23. **Not verified against tesla.com directly**: Tesla's si
   - Not OK: commercializing, **advertising (paid ads)**, mass distribution, spam, **aggregating codes on deal sites**, selling links, **offering incentives** for using your link.
   - OK: YouTube, **information/fan sites**, your own social media.
   - Tesla can withhold benefits for bad-faith use.
-- No explicit Tesla clause found on trademarks or logos or on keyword bidding. General trademark law still applies, so: no Tesla logo, a clear "not affiliated" disclaimer, and avoid "tesla" in the domain.
+- No explicit Tesla clause found on trademarks or logos or on keyword bidding. General trademark law still applies: no Tesla logo, a clear "not affiliated" disclaimer. The domain teslareferralcode.eu does contain "tesla": an accepted, mitigated risk (referential use under EUTMR Art. 14(1)(c); if Tesla objects, move to a domain without it).
+- The OK / Not OK promotion list above is from an older version of Tesla's page. The current terms (es_ES, updated 4 Jun 2025) say paid advertising, selling, paying or offering incentives for referral links are not allowed.
 - Tesla can change or end the program at any time without notice.
 
 ## Link format
@@ -53,13 +54,15 @@ tesla.com blocks automated page fetches, so these were checked through search-en
 | --- | --- | --- |
 | Link must be used when ordering; can't be added afterwards | ✅ "Referral links cannot be applied after the order has been placed." | [Refer and Earn (IE)](https://www.tesla.com/en_ie/support/refer-and-earn) |
 | Credit expires 12 months after it is granted | ✅ "expire 12 months from their respective Grant Dates" (referrer may extend to 36 months) | [Refer and Earn (IE)](https://www.tesla.com/en_ie/support/refer-and-earn) |
-| Shows in the Tesla app, around delivery | ✅ "will appear as 'pending' in the Tesla app until the Grant Date" | [Refer and Earn (IE)](https://www.tesla.com/en_ie/support/refer-and-earn) |
+| Granted at delivery, then in the Tesla app | ✅ Tesla Spain FAQ: the Grant Date "será cuando aceptes la entrega del vehículo". The "pending" quote is about the referrer | [Refer and Earn (ES)](https://www.tesla.com/es_es/support/refer-and-earn) |
 | Only usable at Tesla-owned Superchargers | ✅ | [Terms](https://www.tesla.com/legal/terms), [Supercharging](https://www.tesla.com/support/charging/supercharging) |
 | Not transferable, no cash value | ✅ "non-transferable or redeemable for cash" | [Refer and Earn (IE)](https://www.tesla.com/en_ie/support/refer-and-earn) |
-| 10 referrals per calendar year; at the cap, buyers get nothing | ✅ "If you have reached your referrer benefits limit, buyers … will not receive any buyer benefits." | [Refer and Earn (IE)](https://www.tesla.com/en_ie/support/refer-and-earn) |
+| 10 referrals per calendar year; at the cap, buyers get nothing | ✅ Tesla Spain terms: "un máximo de 10 recomendaciones en pedidos por año natural" plus the no-buyer-benefit-at-limit note | [Refer and Earn (ES)](https://www.tesla.com/es_es/support/refer-and-earn) |
 | Used / Certified Pre-Owned cars don't qualify | ✅ | [Loyalty Benefits (GB)](https://www.tesla.com/en_gb/support/refer-and-earn/loyalty) |
-| Model 3 and Model Y only (not S/X) | ✅ by implication: Tesla's eligible products are Model 3, Model Y, Cybertruck and Solar Panels | [Refer and Earn](https://www.tesla.com/support/refer-and-earn) |
+| Model 3 and Model Y only (not S/X) | ✅ Tesla Spain terms list only Model 3 and Model Y as eligible products. Some cached referral pages show "1,000 km or €500 off"; the €500 appears to be the S/X benefit. The owner's own link showed only 1,000 km on 2026-11-23 | [Refer and Earn (ES)](https://www.tesla.com/es_es/support/refer-and-earn) |
 | Credit ends when the car is sold | ✅ | [Terms](https://www.tesla.com/legal/terms) |
+| First eligible Tesla only; 18+ | ✅ (added after legal review) | [Refer and Earn (ES)](https://www.tesla.com/es_es/support/refer-and-earn), [en_IE](https://www.tesla.com/en_ie/support/refer-and-earn) |
+| Unused benefits may be cancelled if the program ends | ✅ | [Refer and Earn (ES)](https://www.tesla.com/es_es/support/refer-and-earn) |
 | Buyer gets 1,000 km | ⚠️ Confirmed by the site owner on 2026-11-23; no Tesla page excerpt with the amount was found | — |
 | Ordering from another European country | ⚠️ Not stated by Tesla; the site hedges ("check your order summary") | — |
 | Demo cars | ⚠️ Not stated by Tesla; the site hedges | — |
