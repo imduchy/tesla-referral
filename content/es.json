@@ -23,7 +23,7 @@
     "codeLabel": "Código de referido",
     "copy": "Copiar",
     "copied": "Copiado",
-    "cta": "Pedir con referido",
+    "cta": "Pedir con recomendación",
     "secondary": "Cómo funciona",
     "adLabel": "Publicidad",
     "disclosure": "Este es mi enlace de recomendación personal de Tesla. Si haces el pedido a través de él, Tesla también me da una recompensa por recomendación. Tu precio no cambia.",
@@ -37,14 +37,14 @@
     },
     "ended": {
       "title": "Código de referido Tesla Europa – ventajas en pausa",
-      "headline": "Las ventajas por referido están en pausa",
-      "subline": "Tesla ha pausado por ahora las ventajas para compradores de coches nuevos con referido en Europa. Actualizaré esta página si vuelven.",
+      "headline": "Las ventajas por recomendación están en pausa",
+      "subline": "Tesla ha pausado por ahora las ventajas para compradores de coches nuevos con recomendación en Europa. Actualizaré esta página si vuelven.",
       "notice": "Ahora mismo usar el código no te da ninguna ventaja adicional. Consulta el estado actual en las condiciones oficiales de Tesla."
     },
     "capReached": {
       "title": "Código de referido Tesla Europa – código agotado este año",
       "headline": "Este código está agotado este año",
-      "subline": "Tesla limita el número de referidos por propietario y año natural, y este código ya ha alcanzado ese límite.",
+      "subline": "Tesla limita el número de recomendaciones por propietario y año natural, y este código ya ha alcanzado ese límite.",
       "notice": "Los pedidos con este código no recibirán la ventaja hasta el 1 de enero. Pide su código a otro propietario o consulta las condiciones oficiales de Tesla."
     }
   },
@@ -72,12 +72,12 @@
     "title": "Cómo funciona",
     "items": [
       {
-        "title": "Abre el enlace de referido",
-        "text": "Te lleva a la web oficial de Tesla con el referido ya aplicado."
+        "title": "Abre el enlace de recomendación",
+        "text": "Te lleva a la web oficial de Tesla con la recomendación ya aplicada."
       },
       {
         "title": "Configura y haz el pedido",
-        "text": "Haz el pedido en la misma visita. Antes de pagar, comprueba que el referido aparece en el resumen del pedido."
+        "text": "Haz el pedido en la misma visita. Antes de pagar, comprueba que la recomendación aparece en el resumen del pedido."
       },
       {
         "title": "Disfruta de la Supercarga",
@@ -106,11 +106,11 @@
       },
       {
         "q": "¿Puedo añadir el código después de hacer el pedido?",
-        "a": "No. Tesla solo aplica el referido si haces el pedido a través del enlace. No se puede añadir a un pedido ya hecho."
+        "a": "No. Tesla solo aplica la recomendación si haces el pedido a través del enlace. No se puede añadir a un pedido ya hecho."
       },
       {
         "q": "¿Qué coches participan?",
-        "a": "Model 3 y Model Y nuevos, ya sean pedidos personalizados o coches nuevos en stock. Los coches usados y de ocasión certificados no participan. En coches de demostración, comprueba que el referido aparece en la página del pedido antes de pagar."
+        "a": "Model 3 y Model Y nuevos, ya sean pedidos personalizados o coches nuevos en stock. Los coches usados y de ocasión certificados no participan. En coches de demostración, comprueba que la recomendación aparece en la página del pedido antes de pagar."
       },
       {
         "q": "¿Puedo usar el código si ya tengo un Tesla?",
@@ -131,7 +131,7 @@
     ]
   },
   "footer": {
-    "checked": "Oferta comprobada el {checkedOn}. Tesla puede cambiar o finalizar el programa de referidos en cualquier momento; confirma siempre la ventaja en el resumen de tu pedido y en las <a href=\"{termsUrl}\" rel=\"noopener\">condiciones oficiales de referidos de Tesla</a>.",
+    "checked": "Oferta comprobada el {checkedOn}. Tesla puede cambiar o finalizar el programa Recomendar y ganar en cualquier momento; confirma siempre la ventaja en el resumen de tu pedido y en las <a href=\"{termsUrl}\" rel=\"noopener\">condiciones oficiales del programa Recomendar y ganar de Tesla</a>.",
     "disclaimer": "Web independiente de un propietario particular de Tesla. Sin relación, respaldo ni patrocinio de Tesla, Inc. Tesla, Model 3, Model Y y Supercharger son marcas de Tesla, Inc."
   },
   "notFound": {
