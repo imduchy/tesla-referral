@@ -119,5 +119,9 @@
   "notFound": {
     "title": "Page not found",
     "link": "Go to the English page"
+  },
+  "photo": {
+    "alt": "Close-up of a white electric car charging, with the cable plugged into its charge port",
+    "credit": "Photo: {name} on Unsplash"
   }
 }

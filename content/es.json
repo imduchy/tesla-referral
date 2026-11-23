@@ -49,28 +49,67 @@
   "benefits": {
     "title": "Qué consigues",
     "items": [
-      { "value": "{km} km", "label": "Supercarga gratis", "text": "Se añaden a tu cuenta de Tesla y se usan en Supercargadores propiedad de Tesla." },
-      { "value": "Model 3 y Y", "label": "Vehículos nuevos", "text": "Pedidos personalizados y coches nuevos en stock. Los coches usados no participan." },
-      { "value": "Europa", "label": "Dónde haces el pedido", "text": "La ventaja depende del país de la web de Tesla en la que haces el pedido." }
+      {
+        "value": "{km} km",
+        "label": "Supercarga gratis",
+        "text": "Se añaden a tu cuenta de Tesla y se usan en Supercargadores propiedad de Tesla."
+      },
+      {
+        "value": "Model 3 y Y",
+        "label": "Vehículos nuevos",
+        "text": "Pedidos personalizados y coches nuevos en stock. Los coches usados no participan."
+      },
+      {
+        "value": "Europa",
+        "label": "Dónde haces el pedido",
+        "text": "La ventaja depende del país de la web de Tesla en la que haces el pedido."
+      }
     ]
   },
   "steps": {
     "title": "Cómo funciona",
     "items": [
-      { "title": "Abre el enlace de referido", "text": "Te lleva a la web oficial de Tesla con el referido ya aplicado." },
-      { "title": "Configura y haz el pedido", "text": "Haz el pedido en la misma visita. Antes de pagar, comprueba que el referido aparece en el resumen del pedido." },
-      { "title": "Disfruta de la Supercarga", "text": "El saldo aparece en tu app de Tesla, normalmente alrededor de la entrega." }
+      {
+        "title": "Abre el enlace de referido",
+        "text": "Te lleva a la web oficial de Tesla con el referido ya aplicado."
+      },
+      {
+        "title": "Configura y haz el pedido",
+        "text": "Haz el pedido en la misma visita. Antes de pagar, comprueba que el referido aparece en el resumen del pedido."
+      },
+      {
+        "title": "Disfruta de la Supercarga",
+        "text": "El saldo aparece en tu app de Tesla, normalmente alrededor de la entrega."
+      }
     ]
   },
   "faq": {
     "title": "Preguntas frecuentes",
     "items": [
-      { "q": "¿Usar el código me cuesta algo?", "a": "No. El precio del coche es el mismo; simplemente recibes la Supercarga gratis además." },
-      { "q": "¿Puedo añadir el código después de hacer el pedido?", "a": "No. Tesla solo aplica el referido si haces el pedido a través del enlace. No se puede añadir a un pedido ya hecho." },
-      { "q": "¿Qué coches participan?", "a": "Model 3 y Model Y nuevos, ya sean pedidos personalizados o coches nuevos en stock. Los coches usados y de ocasión certificados no participan. En coches de demostración, comprueba que el referido aparece en la página del pedido antes de pagar." },
-      { "q": "¿Cuánto tiempo es válido el saldo de Supercarga?", "a": "Según las condiciones de Tesla, las ventajas por referido caducan 12 meses después de concederse. El saldo no se puede canjear por dinero ni transferir, y se pierde si vendes el coche." },
-      { "q": "¿Qué ganas tú con esto?", "a": "Tesla también me da una recompensa por referido; así funciona el programa. A ti no te cuesta nada extra." },
-      { "q": "¿Es esta la web de Tesla?", "a": "No. Es una página independiente de un propietario de Tesla. El pedido se hace por completo en la web oficial de Tesla." }
+      {
+        "q": "¿Usar el código me cuesta algo?",
+        "a": "No. El precio del coche es el mismo; simplemente recibes la Supercarga gratis además."
+      },
+      {
+        "q": "¿Puedo añadir el código después de hacer el pedido?",
+        "a": "No. Tesla solo aplica el referido si haces el pedido a través del enlace. No se puede añadir a un pedido ya hecho."
+      },
+      {
+        "q": "¿Qué coches participan?",
+        "a": "Model 3 y Model Y nuevos, ya sean pedidos personalizados o coches nuevos en stock. Los coches usados y de ocasión certificados no participan. En coches de demostración, comprueba que el referido aparece en la página del pedido antes de pagar."
+      },
+      {
+        "q": "¿Cuánto tiempo es válido el saldo de Supercarga?",
+        "a": "Según las condiciones de Tesla, las ventajas por referido caducan 12 meses después de concederse. El saldo no se puede canjear por dinero ni transferir, y se pierde si vendes el coche."
+      },
+      {
+        "q": "¿Qué ganas tú con esto?",
+        "a": "Tesla también me da una recompensa por referido; así funciona el programa. A ti no te cuesta nada extra."
+      },
+      {
+        "q": "¿Es esta la web de Tesla?",
+        "a": "No. Es una página independiente de un propietario de Tesla. El pedido se hace por completo en la web oficial de Tesla."
+      }
     ]
   },
   "footer": {
@@ -80,5 +119,9 @@
   "notFound": {
     "title": "Página no encontrada",
     "link": "Ir a la página en español"
+  },
+  "photo": {
+    "alt": "Primer plano de un coche eléctrico blanco cargando, con el cable conectado al puerto de carga",
+    "credit": "Foto: {name} en Unsplash"
   }
 }

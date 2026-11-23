@@ -150,6 +150,8 @@ ${goatcounter}
     <p class="independent"><time datetime="${site.offerCheckedOn}">${f(t.hero.updated)}</time> · ${f(t.hero.independent)}</p>
   </section>
 
+  ${renderPhoto(t, prefix)}
+
   ${active ? `
   <section class="section" aria-labelledby="benefits-title">
     <h2 id="benefits-title">${f(t.benefits.title)}</h2>
@@ -193,6 +195,27 @@ ${goatcounter}
 </body>
 </html>
 `;
+}
+
+function renderPhoto(t, prefix) {
+  const set = (name, widths, ext) => widths.map((w) => `${prefix}img/photo-${name}-${w}.${ext} ${w}w`).join(', ');
+  const wide = [800, 1280, 1920];
+  const mobile = [480, 800, 1200];
+  const wideSizes = '(max-width: 1072px) calc(100vw - 32px), 1040px';
+  const credit = site.photoCredit && site.photoCredit.name
+    ? `<figcaption>${t.photo.credit.replace('{name}', site.photoCredit.url
+        ? `<a href="${escapeHtml(site.photoCredit.url)}" rel="noopener">${escapeHtml(site.photoCredit.name)}</a>`
+        : escapeHtml(site.photoCredit.name))}</figcaption>`
+    : '';
+  return `<figure class="photo">
+    <picture>
+      <source media="(max-width: 760px)" type="image/webp" srcset="${set('mobile', mobile, 'webp')}" sizes="calc(100vw - 32px)" width="1200" height="900">
+      <source media="(max-width: 760px)" srcset="${set('mobile', mobile, 'jpg')}" sizes="calc(100vw - 32px)" width="1200" height="900">
+      <source type="image/webp" srcset="${set('wide', wide, 'webp')}" sizes="${wideSizes}">
+      <img src="${prefix}img/photo-wide-1280.jpg" srcset="${set('wide', wide, 'jpg')}" sizes="${wideSizes}" width="1920" height="1080" alt="${escapeHtml(t.photo.alt)}" loading="lazy" decoding="async">
+    </picture>
+    ${credit}
+  </figure>`;
 }
 
 function render404() {
@@ -241,7 +264,7 @@ ${urls}
 
 rmSync(OUT, { recursive: true, force: true });
 mkdirSync(OUT, { recursive: true });
-for (const asset of ['styles.css', 'app.js', 'favicon.svg', 'fonts', 'og']) {
+for (const asset of ['styles.css', 'app.js', 'favicon.svg', 'fonts', 'og', 'img']) {
   if (existsSync(join('src', asset))) cpSync(join('src', asset), join(OUT, asset), { recursive: true });
 }
 

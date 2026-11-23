@@ -6,5 +6,9 @@
   "superchargingKm": 1000,
   "termsUrl": "https://www.tesla.com/en_IE/support/refer-and-earn",
   "goatcounterCode": "jholomani",
-  "siteUrl": "https://teslareferralcode.eu"
+  "siteUrl": "https://teslareferralcode.eu",
+  "photoCredit": {
+    "name": "",
+    "url": "https://unsplash.com/photos/KSAG1EYQ2UY"
+  }
 }

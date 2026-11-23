@@ -196,6 +196,12 @@ h1 {
 
 :focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
 
+/* Photo */
+.photo { max-width: var(--max); margin: 0 auto; padding: 0 16px; }
+.photo img { display: block; width: 100%; height: auto; border-radius: 12px; background: var(--surface); }
+.photo figcaption { margin-top: 8px; font-size: 12px; color: var(--muted); text-align: right; }
+.photo figcaption a { color: inherit; }
+
 /* Sections */
 .section {
   max-width: var(--max);
