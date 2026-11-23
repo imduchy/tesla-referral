@@ -25,13 +25,15 @@
     "copied": "Kopiert",
     "cta": "Bestill med vervelenke",
     "secondary": "Slik fungerer det",
+    "adLabel": "Reklame",
+    "disclosure": "Dette er min personlige vervelenke til Tesla. Hvis du bestiller via den, gir Tesla også meg en vervebelønning. Prisen din blir den samme.",
     "independent": "Uavhengig side drevet av en eier, ikke tilknyttet Tesla, Inc.",
     "updated": "Oppdatert {checkedOn}"
   },
   "status": {
     "active": {
       "headline": "{km} km gratis Supercharging",
-      "subline": "Bestill en ny Model 3 eller Model Y via vervelenken min, så legger Tesla {km} km gratis Supercharging til kontoen din."
+      "subline": "Bestill din første nye Model 3 eller Model Y via vervelenken min, så får du {km} km gratis Supercharging med Teslas nåværende vervetilbud i Europa."
     },
     "ended": {
       "title": "Tesla vervekode – fordelene er satt på pause",
@@ -50,8 +52,8 @@
     "title": "Dette får du",
     "items": [
       { "value": "{km} km", "label": "Gratis Supercharging", "text": "Legges til Tesla-kontoen din og kan brukes på Superchargere som eies av Tesla." },
-      { "value": "Model 3 og Y", "label": "Nye biler", "text": "Bestilte biler og nye lagerbiler. Bruktbiler gir ikke fordelen." },
-      { "value": "Europa", "label": "Hvor du bestiller", "text": "Fordelen avhenger av landet til Tesla-siden du bestiller på." }
+      { "value": "Model 3 og Y", "label": "Nye biler", "text": "Din første Model 3 eller Model Y, bestilt eller ny fra lager. Bruktbiler gir ikke fordelen." },
+      { "value": "Europa", "label": "Hvor du bestiller", "text": "Tesla fastsetter fordelen per land. Det ordreoversikten på Teslas nettside viser, er det du får." }
     ]
   },
   "steps": {
@@ -59,20 +61,21 @@
     "items": [
       { "title": "Åpne vervelenken", "text": "Den tar deg til Teslas offisielle nettside med vervingen allerede lagt inn." },
       { "title": "Konfigurer og bestill", "text": "Bestill i samme besøk. Sjekk at vervingen vises i ordreoversikten før du betaler." },
-      { "title": "Nyt Superchargingen", "text": "Kreditten vises i Tesla-appen, vanligvis rundt levering." }
+      { "title": "Nyt Superchargingen", "text": "Kreditten tildeles når du tar imot bilen, og vises deretter i Tesla-appen." }
     ]
   },
   "faq": {
     "title": "Vanlige spørsmål",
     "items": [
-      { "q": "Koster det noe å bruke koden?", "a": "Nei. Prisen på bilen er den samme – du får bare gratis Supercharging i tillegg." },
-      { "q": "Gir Tesla-verving rabatt i Europa?", "a": "Ikke på prisen. I Europa får kjøpere gratis Supercharging i stedet for rabatt – nå {km} km ved kjøp av ny Model 3 eller Model Y." },
-      { "q": "Gjelder koden for Model S eller Model X?", "a": "Nei. I Europa gjelder vervingsprogrammet nå bare nye Model 3 og Model Y." },
+      { "q": "Koster det noe å bruke koden?", "a": "Nei. Prisen på bilen er den samme med eller uten verving. Du får gratis Supercharging i tillegg hvis vervingen vises i ordreoversikten, så sjekk det før du betaler." },
+      { "q": "Gir Tesla-verving rabatt i Europa?", "a": "Ikke på prisen. For Model 3 og Model Y gir Teslas vervetilbud i Europa nå kjøpere {km} km gratis Supercharging (sjekket {checkedOn}) i stedet for rabatt på bilen." },
+      { "q": "Gjelder koden for Model S eller Model X?", "a": "Vervelenken min viser nå bare en fordel for nye Model 3 og Model Y. For Model S eller Model X: sjekk Teslas vervevilkår for ditt land." },
       { "q": "Kan jeg bruke koden hvis jeg bestiller i et annet europeisk land?", "a": "Lenken åpner Teslas nettside, der du velger landet du bestiller i. Du får fordelen Tesla tilbyr i det landet, så sjekk at den vises i ordreoversikten før du betaler." },
       { "q": "Kan jeg legge til koden etter at jeg har bestilt?", "a": "Nei. Tesla legger bare til vervingen hvis du bestiller via lenken. Den kan ikke legges til en eksisterende bestilling." },
       { "q": "Hvilke biler gjelder det?", "a": "Nye Model 3 og Model Y, enten bestilt eller fra lager. Bruktbiler, også sertifiserte, gjelder ikke. For demobiler: sjekk at vervingen vises på bestillingssiden før du betaler." },
-      { "q": "Hvor lenge er Supercharging-kreditten gyldig?", "a": "Ifølge Teslas vilkår utløper vervefordeler 12 måneder etter at de er tildelt. Kreditten kan ikke byttes i penger eller overføres, og den opphører hvis du selger bilen." },
-      { "q": "Hva får du ut av det?", "a": "Tesla gir meg også en vervebelønning – slik fungerer programmet. Det koster deg ingenting ekstra." },
+      { "q": "Kan jeg bruke koden hvis jeg allerede eier en Tesla?", "a": "Bare hvis det er din første Model 3 eller Model Y. Tesla gir kjøperfordelen én gang, ved ditt første kvalifiserte kjøp via en vervelenke, og du må være minst 18 år. Eksisterende eiere kan i stedet få Teslas lojalitetsfordeler." },
+      { "q": "Hvor lenge er Supercharging-kreditten gyldig?", "a": "Ifølge Teslas vilkår utløper fordelen 12 måneder etter at den er tildelt, noe som skjer når du tar imot bilen. Den har ingen kontantverdi, kan ikke overføres, kan bare brukes på Superchargere som eies av Tesla, og opphører hvis du selger bilen. Hvis Tesla avslutter programmet, kan ubrukte fordeler bli kansellert." },
+      { "q": "Hva får du ut av det?", "a": "Når du bestiller via lenken min, gir Tesla også meg en vervebelønning (Supercharging-kreditt eller Tesla Credits). Det er derfor denne siden finnes. Prisen din er den samme uansett." },
       { "q": "Er dette Teslas nettside?", "a": "Nei. Dette er en uavhengig side drevet av en Tesla-eier. Selve bestillingen skjer helt på Teslas offisielle nettside." }
     ]
   },

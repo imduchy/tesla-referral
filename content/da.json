@@ -25,13 +25,15 @@
     "copied": "Kopieret",
     "cta": "Bestil med henvisning",
     "secondary": "Sådan virker det",
+    "adLabel": "Reklame",
+    "disclosure": "Dette er mit personlige henvisningslink til Tesla. Hvis du bestiller via det, giver Tesla også mig en henvisningsbelønning. Din pris forbliver den samme.",
     "independent": "Uafhængig side drevet af en ejer, ikke tilknyttet Tesla, Inc.",
     "updated": "Opdateret {checkedOn}"
   },
   "status": {
     "active": {
       "headline": "{km} km gratis Supercharging",
-      "subline": "Bestil en ny Model 3 eller Model Y via mit henvisningslink, så tilføjer Tesla {km} km gratis Supercharging til din konto."
+      "subline": "Bestil din første nye Model 3 eller Model Y via mit henvisningslink, så får du med Teslas nuværende henvisningstilbud i Europa {km} km gratis Supercharging."
     },
     "ended": {
       "headline": "Henvisningsfordelene er sat på pause",
@@ -57,12 +59,12 @@
       {
         "value": "Model 3 og Y",
         "label": "Nye biler",
-        "text": "Bestilte biler og nye lagerbiler. Brugte biler giver ikke fordelen."
+        "text": "Din første Model 3 eller Model Y, bestilt efter eget valg eller som ny lagerbil. Brugte biler giver ikke fordelen."
       },
       {
         "value": "Europa",
         "label": "Hvor du bestiller",
-        "text": "Fordelen afhænger af landet for den Tesla-side, du bestiller på."
+        "text": "Tesla fastsætter fordelen for hvert land. Det, din ordreoversigt på Teslas hjemmeside viser, er det, du får."
       }
     ]
   },
@@ -79,7 +81,7 @@
       },
       {
         "title": "Nyd din Supercharging",
-        "text": "Kreditten vises i Tesla-appen, typisk omkring leveringen."
+        "text": "Kreditten tildeles, når du får bilen leveret, og vises derefter i Tesla-appen."
       }
     ]
   },
@@ -88,15 +90,15 @@
     "items": [
       {
         "q": "Koster det noget at bruge koden?",
-        "a": "Nej. Prisen på bilen er den samme – du får bare gratis Supercharging oveni."
+        "a": "Nej. Bilens pris er den samme med eller uden henvisning. Du får gratis Supercharging oveni, hvis henvisningen står i din ordreoversigt, så tjek det, før du betaler."
       },
       {
         "q": "Giver en Tesla-henvisning rabat i Europa?",
-        "a": "Ikke på prisen. I Europa er køberfordelen ved henvisning gratis Supercharging – lige nu {km} km på en ny Model 3 eller Model Y – i stedet for rabat på bilen."
+        "a": "Ikke på prisen. For Model 3 og Model Y giver Teslas henvisningstilbud i Europa i øjeblikket købere {km} km gratis Supercharging (tjekket {checkedOn}) i stedet for rabat på bilen."
       },
       {
         "q": "Virker koden til Model S eller Model X?",
-        "a": "Nej. I Europa gælder henvisningsprogrammet i øjeblikket kun bestillinger af nye Model 3 og Model Y."
+        "a": "Mit henvisningslink viser i øjeblikket kun en fordel for nye Model 3 og Model Y. For Model S eller Model X: tjek Teslas henvisningsvilkår for dit land."
       },
       {
         "q": "Kan jeg bruge koden, hvis jeg bestiller i et andet europæisk land?",
@@ -111,12 +113,16 @@
         "a": "Nye Model 3 og Model Y, enten bestilt efter eget valg eller købt som ny lagerbil. Brugte og certificerede brugte biler er ikke omfattet. For demobiler: tjek, at henvisningen står på bestillingssiden, før du betaler."
       },
       {
+        "q": "Kan jeg bruge koden, hvis jeg allerede ejer en Tesla?",
+        "a": "Kun hvis det er din første Model 3 eller Model Y. Tesla giver køberfordelen én gang, ved dit første kvalificerende køb via et henvisningslink, og du skal være mindst 18 år. Eksisterende ejere kan i stedet få Teslas loyalitetsfordele."
+      },
+      {
         "q": "Hvor længe gælder Supercharging-kreditten?",
-        "a": "Ifølge Teslas vilkår udløber henvisningsfordele 12 måneder efter, at de er tildelt. Kreditten kan ikke veksles til kontanter eller overdrages, og den bortfalder, hvis du sælger bilen."
+        "a": "Ifølge Teslas vilkår udløber fordelen 12 måneder efter, at den er tildelt, hvilket sker, når du får bilen leveret. Den har ingen kontantværdi, kan ikke overdrages, kan kun bruges på Superchargere, som Tesla ejer, og bortfalder, hvis du sælger bilen. Hvis Tesla afslutter programmet, kan ubrugte fordele blive annulleret."
       },
       {
         "q": "Hvad får du selv ud af det?",
-        "a": "Tesla giver også mig en henvisningsbelønning – sådan fungerer programmet. Det koster ikke dig noget ekstra."
+        "a": "Når du bestiller via mit link, giver Tesla også mig en henvisningsbelønning (Supercharging-kredit eller Tesla Credits). Det er derfor, denne side findes. Din pris er den samme uanset hvad."
       },
       {
         "q": "Er dette Teslas hjemmeside?",

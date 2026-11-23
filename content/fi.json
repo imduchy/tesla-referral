@@ -25,13 +25,15 @@
     "copied": "Kopioitu",
     "cta": "Tilaa suosituksella",
     "secondary": "Näin se toimii",
+    "adLabel": "Mainos",
+    "disclosure": "Tämä on henkilökohtainen Tesla-suosittelulinkkini. Jos tilaat sen kautta, Tesla antaa myös minulle suosittelupalkkion. Hintasi pysyy samana.",
     "independent": "Omistajan itsenäinen sivu, ei yhteydessä Tesla, Inc. -yhtiöön.",
     "updated": "Päivitetty {checkedOn}"
   },
   "status": {
     "active": {
       "headline": "{km} km ilmaista Supercharging-latausta",
-      "subline": "Tilaa uusi Model 3 tai Model Y suosittelulinkkini kautta, niin Tesla lisää tilillesi {km} km ilmaista Supercharging-latausta."
+      "subline": "Tilaa ensimmäinen uusi Model 3 tai Model Y -autosi suosittelulinkkini kautta, niin Teslan nykyisellä Euroopan suosittelutarjouksella saat {km} km ilmaista Supercharging-latausta."
     },
     "ended": {
       "headline": "Suosittelun edut ovat tauolla",
@@ -57,12 +59,12 @@
       {
         "value": "Model 3 ja Y",
         "label": "Uudet autot",
-        "text": "Tilausautot ja uudet varastoautot. Käytetyt autot eivät oikeuta etuun."
+        "text": "Ensimmäinen Model 3 tai Model Y -autosi, tilausautona tai uutena varastoautona. Käytetyt autot eivät oikeuta etuun."
       },
       {
         "value": "Eurooppa",
         "label": "Missä tilaat",
-        "text": "Etu määräytyy sen maan mukaan, jonka Tesla-sivustolla teet tilauksen."
+        "text": "Tesla määrittää edun maakohtaisesti. Saat sen, mitä tilauksesi yhteenveto Teslan sivustolla näyttää."
       }
     ]
   },
@@ -79,7 +81,7 @@
       },
       {
         "title": "Nauti latauksesta",
-        "text": "Krediitti näkyy Tesla-sovelluksessa, yleensä toimituksen aikoihin."
+        "text": "Krediitti myönnetään, kun otat auton vastaan, ja se näkyy sen jälkeen Tesla-sovelluksessa."
       }
     ]
   },
@@ -88,15 +90,15 @@
     "items": [
       {
         "q": "Maksaako koodin käyttö minulle jotain?",
-        "a": "Ei. Auton hinta pysyy samana – saat vain ilmaisen Supercharging-latauksen lisäksi."
+        "a": "Ei. Auton hinta on sama suosittelun kanssa tai ilman. Saat ilmaisen Supercharging-latauksen lisäksi, jos suosittelu näkyy tilauksesi yhteenvedossa, joten tarkista se ennen maksamista."
       },
       {
         "q": "Saako Teslan suosittelulla alennusta Euroopassa?",
-        "a": "Ei hinnasta. Euroopassa ostajan suositteluetu on ilmainen Supercharging-lataus – tällä hetkellä {km} km uuteen Model 3:een tai Model Y:hyn – eikä alennus auton hinnasta."
+        "a": "Ei hinnasta. Model 3:n ja Model Y:n osalta Teslan suosittelutarjous Euroopassa antaa ostajille tällä hetkellä {km} km ilmaista Supercharging-latausta (tarkistettu {checkedOn}) eikä alennusta auton hinnasta."
       },
       {
         "q": "Toimiiko koodi Model S:ssä tai Model X:ssä?",
-        "a": "Ei. Euroopassa suositteluohjelma koskee tällä hetkellä vain uusien Model 3:n ja Model Y:n tilauksia."
+        "a": "Suosittelulinkkini näyttää tällä hetkellä edun vain uusille Model 3- ja Model Y -autoille. Model S:n tai Model X:n osalta tarkista Teslan suositteluehdot omassa maassasi."
       },
       {
         "q": "Voinko käyttää koodia, jos tilaan toisesta Euroopan maasta?",
@@ -111,12 +113,16 @@
         "a": "Uudet Model 3 ja Model Y, joko omien valintojen mukaan tilattuina tai uusina varastoautoina. Käytetyt ja sertifioidut käytetyt autot eivät oikeuta etuun. Esittelyautoissa tarkista ennen maksamista, että suosittelu näkyy tilaussivulla."
       },
       {
+        "q": "Voinko käyttää koodia, jos omistan jo Teslan?",
+        "a": "Vain jos kyseessä on ensimmäinen Model 3 tai Model Y -autosi. Tesla antaa ostajan edun kerran, ensimmäisestä suosittelulinkin kautta tehdystä etuun oikeuttavasta ostostasi, ja sinun on oltava vähintään 18-vuotias. Nykyiset omistajat voivat sen sijaan saada Teslan kanta-asiakasetuja."
+      },
+      {
         "q": "Kuinka kauan Supercharging-krediitti on voimassa?",
-        "a": "Teslan ehtojen mukaan suositteluedut vanhenevat 12 kuukauden kuluttua myöntämisestä. Krediittiä ei voi vaihtaa rahaksi tai siirtää, ja se päättyy, jos myyt auton."
+        "a": "Teslan ehtojen mukaan etu vanhenee 12 kuukauden kuluttua myöntämisestä, mikä tapahtuu, kun otat auton vastaan. Sillä ei ole rahallista arvoa, sitä ei voi siirtää, se toimii vain Teslan omistamilla Superchargereilla ja se päättyy, jos myyt auton. Jos Tesla lopettaa ohjelman, käyttämättömät edut voidaan perua."
       },
       {
         "q": "Mitä sinä hyödyt tästä?",
-        "a": "Tesla antaa myös minulle suosittelupalkkion – näin ohjelma toimii. Se ei maksa sinulle mitään ylimääräistä."
+        "a": "Kun tilaat linkkini kautta, Tesla antaa myös minulle suosittelupalkkion (Supercharging-krediittiä tai Tesla Credits -krediittejä). Siksi tämä sivu on olemassa. Hintasi on sama kummassakin tapauksessa."
       },
       {
         "q": "Onko tämä Teslan sivusto?",

@@ -25,13 +25,15 @@
     "copied": "Kopierad",
     "cta": "Beställ med referral",
     "secondary": "Så fungerar det",
+    "adLabel": "Reklam",
+    "disclosure": "Det här är min personliga referrallänk till Tesla. Om du beställer via den ger Tesla också mig en referralbelöning. Ditt pris blir detsamma.",
     "independent": "Oberoende sida som drivs av en ägare, inte knuten till Tesla, Inc.",
     "updated": "Uppdaterad {checkedOn}"
   },
   "status": {
     "active": {
       "headline": "{km} km gratis Supercharging",
-      "subline": "Beställ en ny Model 3 eller Model Y via min referrallänk så lägger Tesla till {km} km gratis Supercharging på ditt konto."
+      "subline": "Beställ din första nya Model 3 eller Model Y via min referrallänk så får du, med Teslas nuvarande referralerbjudande i Europa, {km} km gratis Supercharging."
     },
     "ended": {
       "title": "Tesla referralkod – förmånerna är pausade",
@@ -50,8 +52,8 @@
     "title": "Det här får du",
     "items": [
       { "value": "{km} km", "label": "Gratis Supercharging", "text": "Läggs till på ditt Tesla-konto och kan användas på Superchargers som ägs av Tesla." },
-      { "value": "Model 3 och Y", "label": "Nya bilar", "text": "Beställda bilar och nya lagerbilar. Begagnade bilar omfattas inte." },
-      { "value": "Europa", "label": "Var du beställer", "text": "Förmånen beror på landet för den Tesla-sida där du beställer." }
+      { "value": "Model 3 och Y", "label": "Nya bilar", "text": "Din första Model 3 eller Model Y, beställd eller ny från lager. Begagnade bilar omfattas inte." },
+      { "value": "Europa", "label": "Var du beställer", "text": "Tesla bestämmer förmånen per land. Det som ordersammanfattningen på Teslas webbplats visar är det du får." }
     ]
   },
   "steps": {
@@ -59,20 +61,21 @@
     "items": [
       { "title": "Öppna referrallänken", "text": "Den tar dig till Teslas officiella webbplats med referralen redan tillagd." },
       { "title": "Konfigurera och beställ", "text": "Beställ under samma besök. Kontrollera att referralen syns i ordersammanfattningen innan du betalar." },
-      { "title": "Njut av Superchargingen", "text": "Krediten syns i Tesla-appen, oftast runt leveransen." }
+      { "title": "Njut av Superchargingen", "text": "Krediten tilldelas när du tar emot bilen och syns sedan i Tesla-appen." }
     ]
   },
   "faq": {
     "title": "Vanliga frågor",
     "items": [
-      { "q": "Kostar det något att använda koden?", "a": "Nej. Priset på bilen är detsamma – du får bara gratis Supercharging på köpet." },
-      { "q": "Ger Teslas referral rabatt i Europa?", "a": "Inte på priset. I Europa får köpare gratis Supercharging i stället för rabatt – just nu {km} km vid köp av ny Model 3 eller Model Y." },
-      { "q": "Gäller koden för Model S eller Model X?", "a": "Nej. I Europa omfattar referralprogrammet just nu bara nya Model 3 och Model Y." },
+      { "q": "Kostar det något att använda koden?", "a": "Nej. Bilens pris är detsamma med eller utan referral. Du får gratis Supercharging på köpet om referralen syns i ordersammanfattningen, så kontrollera det innan du betalar." },
+      { "q": "Ger Teslas referral rabatt i Europa?", "a": "Inte på priset. För Model 3 och Model Y ger Teslas referralerbjudande i Europa just nu köpare {km} km gratis Supercharging (kontrollerat {checkedOn}) i stället för rabatt på bilen." },
+      { "q": "Gäller koden för Model S eller Model X?", "a": "Min referrallänk visar just nu bara en förmån för nya Model 3 och Model Y. För Model S eller Model X, se Teslas referralvillkor för ditt land." },
       { "q": "Kan jag använda koden om jag beställer i ett annat europeiskt land?", "a": "Länken öppnar Teslas webbplats, där du väljer land för beställningen. Du får den förmån Tesla erbjuder i det landet, så kontrollera att den syns i ordersammanfattningen innan du betalar." },
       { "q": "Kan jag lägga till koden efter att jag har beställt?", "a": "Nej. Tesla lägger bara till referralen om du beställer via länken. Den kan inte läggas till i en befintlig beställning." },
       { "q": "Vilka bilar omfattas?", "a": "Nya Model 3 och Model Y, beställda eller från lager. Begagnade bilar, även certifierade, omfattas inte. För demobilar: kontrollera att referralen syns på beställningssidan innan du betalar." },
-      { "q": "Hur länge gäller Supercharging-krediten?", "a": "Enligt Teslas villkor upphör referralförmåner 12 månader efter att de tilldelats. Krediten kan inte bytas mot pengar eller överlåtas, och den upphör om du säljer bilen." },
-      { "q": "Vad får du ut av det?", "a": "Tesla ger mig också en referralbelöning – så fungerar programmet. Det kostar dig inget extra." },
+      { "q": "Kan jag använda koden om jag redan äger en Tesla?", "a": "Bara om det är din första Model 3 eller Model Y. Tesla ger köparförmånen en gång, vid ditt första kvalificerande köp via en referrallänk, och du måste vara minst 18 år. Befintliga ägare kan i stället få Teslas lojalitetsförmåner." },
+      { "q": "Hur länge gäller Supercharging-krediten?", "a": "Enligt Teslas villkor upphör förmånen 12 månader efter att den tilldelats, vilket sker när du tar emot bilen. Den har inget kontantvärde, kan inte överlåtas, fungerar bara på Superchargers som ägs av Tesla och upphör om du säljer bilen. Om Tesla avslutar programmet kan oanvända förmåner annulleras." },
+      { "q": "Vad får du ut av det?", "a": "När du beställer via min länk ger Tesla också mig en referralbelöning (Supercharging-kredit eller Tesla Credits). Det är därför den här sidan finns. Ditt pris är detsamma oavsett." },
       { "q": "Är det här Teslas webbplats?", "a": "Nej. Det här är en oberoende sida som drivs av en Tesla-ägare. Själva beställningen görs helt på Teslas officiella webbplats." }
     ]
   },

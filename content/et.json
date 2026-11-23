@@ -25,13 +25,15 @@
     "copied": "Kopeeritud",
     "cta": "Telli soovitusega",
     "secondary": "Kuidas see toimib",
+    "adLabel": "Reklaam",
+    "disclosure": "See on minu isiklik Tesla soovituslink. Kui tellid selle kaudu, annab Tesla ka mulle soovitustasu. Sinu hind jääb samaks.",
     "independent": "Omaniku sõltumatu leht, ei ole seotud ettevõttega Tesla, Inc.",
     "updated": "Uuendatud {checkedOn}"
   },
   "status": {
     "active": {
       "headline": "{km} km tasuta Superchargeri laadimist",
-      "subline": "Telli uus Model 3 või Model Y minu soovituslingi kaudu ja Tesla lisab sinu kontole {km} km tasuta Superchargeri laadimist."
+      "subline": "Telli oma esimene uus Model 3 või Model Y minu soovituslingi kaudu ja Tesla praeguse Euroopa soovituspakkumisega saad {km} km tasuta Superchargeri laadimist."
     },
     "ended": {
       "headline": "Soovitushüved on peatatud",
@@ -57,12 +59,12 @@
       {
         "value": "Model 3 ja Y",
         "label": "Uued autod",
-        "text": "Tellimusautod ja uued laoautod. Kasutatud autod hüve ei saa."
+        "text": "Sinu esimene Model 3 või Model Y, tellimusautona või uue laoautona. Kasutatud autod hüve ei saa."
       },
       {
         "value": "Euroopa",
         "label": "Kus sa tellid",
-        "text": "Hüve sõltub riigist, mille Tesla veebilehel tellimuse teed."
+        "text": "Tesla määrab hüve riigiti. Saad selle, mida sinu tellimuse kokkuvõte Tesla veebilehel näitab."
       }
     ]
   },
@@ -79,7 +81,7 @@
       },
       {
         "title": "Naudi laadimist",
-        "text": "Krediit ilmub Tesla äppi, tavaliselt üleandmise paiku."
+        "text": "Krediit antakse auto üleandmisel ja ilmub seejärel Tesla äppi."
       }
     ]
   },
@@ -88,15 +90,15 @@
     "items": [
       {
         "q": "Kas koodi kasutamine maksab mulle midagi?",
-        "a": "Ei. Auto hind jääb samaks – saad lihtsalt lisaks tasuta Superchargeri laadimist."
+        "a": "Ei. Auto hind on soovitusega ja ilma sama. Tasuta Superchargeri laadimise saad lisaks, kui soovitus on tellimuse kokkuvõttes näha, seega kontrolli seda enne maksmist."
       },
       {
         "q": "Kas Tesla soovitusega saab Euroopas allahindlust?",
-        "a": "Hinnast mitte. Euroopas on ostja soovitushüve tasuta Superchargeri laadimine – praegu {km} km uue Model 3 või Model Y puhul – mitte allahindlus auto hinnast."
+        "a": "Hinnast mitte. Model 3 ja Model Y puhul annab Tesla soovituspakkumine Euroopas ostjatele praegu {km} km tasuta Superchargeri laadimist (kontrollitud {checkedOn}), mitte allahindlust auto hinnast."
       },
       {
         "q": "Kas kood kehtib Model S või Model X puhul?",
-        "a": "Ei. Euroopas hõlmab soovitusprogramm praegu ainult uute Model 3 ja Model Y tellimusi."
+        "a": "Minu soovituslink näitab praegu hüve ainult uute Model 3 ja Model Y puhul. Model S või Model X puhul vaata oma riigi Tesla soovitusprogrammi tingimusi."
       },
       {
         "q": "Kas saan koodi kasutada, kui tellin mõnes teises Euroopa riigis?",
@@ -111,12 +113,16 @@
         "a": "Uued Model 3 ja Model Y, kas oma valikute järgi tellitud või uue laoautona ostetud. Kasutatud ja sertifitseeritud kasutatud autod ei sobi. Demoautode puhul kontrolli enne maksmist, et soovitus oleks tellimuse lehel näha."
       },
       {
+        "q": "Kas saan koodi kasutada, kui mul juba on Tesla?",
+        "a": "Ainult siis, kui see on sinu esimene Model 3 või Model Y. Tesla annab ostja hüve üks kord, sinu esimese soovituslingi kaudu tehtud nõuetele vastava ostu puhul, ja pead olema vähemalt 18-aastane. Olemasolevad omanikud võivad selle asemel saada Tesla lojaalsushüvesid."
+      },
+      {
         "q": "Kui kaua Superchargeri krediit kehtib?",
-        "a": "Tesla tingimuste järgi aeguvad soovitushüved 12 kuud pärast nende andmist. Krediiti ei saa rahaks vahetada ega teisele üle anda ning see lõpeb, kui auto müüd."
+        "a": "Tesla tingimuste järgi aegub hüve 12 kuud pärast selle andmist, mis toimub auto üleandmisel. Sellel puudub rahaline väärtus, seda ei saa teisele üle anda, see kehtib ainult Teslale kuuluvates Superchargerites ja lõpeb, kui auto müüd. Kui Tesla programmi lõpetab, võidakse kasutamata hüved tühistada."
       },
       {
         "q": "Mida sina sellest saad?",
-        "a": "Tesla annab ka mulle soovitustasu – nii programm toimib. Sinule ei maksa see midagi lisaks."
+        "a": "Kui tellid minu lingi kaudu, annab Tesla ka mulle soovitustasu (Superchargeri krediiti või Tesla Credits'e). Seepärast see leht ongi olemas. Sinu hind on igal juhul sama."
       },
       {
         "q": "Kas see on Tesla veebileht?",

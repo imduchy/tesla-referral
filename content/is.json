@@ -25,13 +25,15 @@
     "copied": "Afritað",
     "cta": "Panta með boði",
     "secondary": "Svona virkar þetta",
+    "adLabel": "Auglýsing",
+    "disclosure": "Þetta er minn persónulegi boðstengill frá Tesla. Ef þú pantar í gegnum hann veitir Tesla mér líka umbun fyrir boðið. Verðið þitt helst óbreytt.",
     "independent": "Óháð síða í umsjá eiganda, ekki tengd Tesla, Inc.",
     "updated": "Uppfært {checkedOn}"
   },
   "status": {
     "active": {
       "headline": "{km} km ókeypis Supercharger-hleðsla",
-      "subline": "Pantaðu nýjan Model 3 eða Model Y í gegnum boðstengilinn minn og Tesla bætir {km} km ókeypis Supercharger-hleðslu við reikninginn þinn."
+      "subline": "Pantaðu fyrsta nýja Model 3 eða Model Y bílinn þinn í gegnum boðstengilinn minn og með núverandi boðstilboði Tesla í Evrópu færðu {km} km ókeypis Supercharger-hleðslu."
     },
     "ended": {
       "headline": "Boðsfríðindi eru í biðstöðu",
@@ -57,12 +59,12 @@
       {
         "value": "Model 3 og Y",
         "label": "Nýir bílar",
-        "text": "Sérpantaðir bílar og nýir lagerbílar. Notaðir bílar eiga ekki rétt á fríðindunum."
+        "text": "Fyrsti Model 3 eða Model Y bíllinn þinn, sérpantaður eða nýr af lager. Notaðir bílar eiga ekki rétt á fríðindunum."
       },
       {
         "value": "Evrópa",
         "label": "Hvar þú pantar",
-        "text": "Fríðindin ráðast af landinu á þeirri Tesla-síðu sem þú pantar á."
+        "text": "Tesla ákveður fríðindin fyrir hvert land. Það sem pöntunaryfirlitið á vefsíðu Tesla sýnir er það sem þú færð."
       }
     ]
   },
@@ -79,7 +81,7 @@
       },
       {
         "title": "Njóttu hleðslunnar",
-        "text": "Inneignin birtist í Tesla-appinu, yfirleitt um það leyti sem bíllinn er afhentur."
+        "text": "Inneignin er veitt þegar þú færð bílinn afhentan og birtist síðan í Tesla-appinu."
       }
     ]
   },
@@ -88,15 +90,15 @@
     "items": [
       {
         "q": "Kostar það mig eitthvað að nota kóðann?",
-        "a": "Nei. Verð bílsins er það sama – þú færð bara ókeypis Supercharger-hleðslu að auki."
+        "a": "Nei. Verð bílsins er það sama með eða án boðs. Þú færð ókeypis Supercharger-hleðslu að auki ef boðið sést í pöntunaryfirlitinu, svo athugaðu það áður en þú greiðir."
       },
       {
         "q": "Fæst afsláttur með Tesla-boði í Evrópu?",
-        "a": "Ekki af verðinu. Í Evrópu eru boðsfríðindi kaupanda ókeypis Supercharger-hleðsla – nú {km} km á nýjan Model 3 eða Model Y – en ekki afsláttur af bílnum."
+        "a": "Ekki af verðinu. Fyrir Model 3 og Model Y veitir boðstilboð Tesla í Evrópu kaupendum nú {km} km ókeypis Supercharger-hleðslu (athugað {checkedOn}) en ekki afslátt af bílnum."
       },
       {
         "q": "Virkar kóðinn fyrir Model S eða Model X?",
-        "a": "Nei. Í Evrópu nær boðskerfið sem stendur aðeins til pantana á nýjum Model 3 og Model Y."
+        "a": "Boðstengillinn minn sýnir sem stendur aðeins fríðindi fyrir nýja Model 3 og Model Y. Fyrir Model S eða Model X skaltu skoða boðsskilmála Tesla í þínu landi."
       },
       {
         "q": "Get ég notað kóðann ef ég panta í öðru Evrópulandi?",
@@ -111,12 +113,16 @@
         "a": "Nýir Model 3 og Model Y, annaðhvort sérpantaðir eða keyptir sem nýir lagerbílar. Notaðir bílar, líka vottaðir notaðir bílar, eiga ekki rétt á þeim. Fyrir sýningarbíla skaltu ganga úr skugga um að boðið sjáist á pöntunarsíðunni áður en þú greiðir."
       },
       {
+        "q": "Get ég notað kóðann ef ég á nú þegar Tesla?",
+        "a": "Aðeins ef þetta er fyrsti Model 3 eða Model Y bíllinn þinn. Tesla veitir kaupandafríðindin einu sinni, við fyrstu gjaldgengu kaupin þín í gegnum boðstengil, og þú verður að vera að minnsta kosti 18 ára. Núverandi eigendur geta í staðinn fengið tryggðarfríðindi Tesla."
+      },
+      {
         "q": "Hve lengi gildir Supercharger-inneignin?",
-        "a": "Samkvæmt skilmálum Tesla renna boðsfríðindi út 12 mánuðum eftir að þau eru veitt. Ekki er hægt að skipta inneigninni í peninga eða framselja hana og hún fellur niður ef þú selur bílinn."
+        "a": "Samkvæmt skilmálum Tesla renna fríðindin út 12 mánuðum eftir að þau eru veitt, sem gerist þegar þú færð bílinn afhentan. Þau hafa ekkert peningagildi, ekki er hægt að framselja þau, þau gilda aðeins á Supercharger-stöðvum í eigu Tesla og falla niður ef þú selur bílinn. Ef Tesla hættir með kerfið geta ónotuð fríðindi verið felld niður."
       },
       {
         "q": "Hvað færð þú út úr þessu?",
-        "a": "Tesla veitir mér líka umbun fyrir boðið – þannig virkar kerfið. Þú borgar ekkert aukalega fyrir það."
+        "a": "Þegar þú pantar í gegnum tengilinn minn veitir Tesla mér líka umbun fyrir boðið (Supercharger-inneign eða Tesla Credits). Þess vegna er þessi síða til. Verðið þitt er það sama hvort sem er."
       },
       {
         "q": "Er þetta vefsíða Tesla?",
