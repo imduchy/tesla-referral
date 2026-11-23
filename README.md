@@ -12,11 +12,23 @@ Everyday changes only touch **`site.json`**:
 | `offerStatus` | `active`, `ended` (Tesla paused buyer benefits) or `capReached` (you hit the 10 referrals/year cap) |
 | `offerCheckedOn` | Date you last checked the offer (`YYYY-MM-DD`), shown in the footer |
 | `superchargingKm` | Free Supercharging distance for the buyer |
-| `termsUrl` | Tesla's official referral terms page |
+| `termsUrl` | Fallback link to Tesla's referral terms (each language can set its own) |
 | `goatcounterCode` | Your GoatCounter site code (e.g. `mysite` for `mysite.goatcounter.com`); empty disables analytics |
 | `siteUrl` | Public URL, used for the canonical link (optional) |
 
-All page text lives in **`content/en.json`**. To add a language, copy it to e.g. `content/sk.json`, set `"lang": "sk"` / `"locale": "sk-SK"` and translate — it builds to `/sk/`.
+All page text lives in **`content/<lang>.json`** (`en` at `/`, `de` at `/de/`, `es` at `/es/`). To add a language, copy `content/en.json` to e.g. `content/sk.json`, set `lang`, `locale`, `langName` and `termsUrl`, translate, and run the share-image script below. The language switcher, hreflang tags and sitemap pick it up automatically.
+
+When you re-check the offer, update `offerCheckedOn`: it drives the "Updated" line, the month in the page title and the sitemap `lastmod`.
+
+### Share images
+
+`src/og/og-<lang>.png` (1200×630) are generated from the `og` texts and committed. Re-run after changing the km amount, the code or those texts:
+
+```bash
+node scripts/og-images.cjs
+```
+
+(needs Playwright with Chromium installed).
 
 ## Build
 
@@ -24,7 +36,7 @@ All page text lives in **`content/en.json`**. To add a language, copy it to e.g.
 node build.mjs
 ```
 
-Output goes to `dist/` (no dependencies). Pushing to `main` deploys to GitHub Pages via `.github/workflows/static.yml` (Settings → Pages → Source: GitHub Actions) and is served at https://teslareferralcode.eu.
+Output goes to `dist/` (no dependencies): one page per language, `404.html`, `robots.txt` and `sitemap.xml`. Pushing to `main` deploys to GitHub Pages via `.github/workflows/static.yml` (Settings → Pages → Source: GitHub Actions) and is served at https://teslareferralcode.eu.
 
 ## Rules we follow
 
