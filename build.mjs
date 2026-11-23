@@ -87,13 +87,13 @@ function renderPage(t) {
   };
 
   const langSwitch = `<details class="lang-menu">
-      <summary aria-label="${escapeHtml(t.nav.languageLabel)}: ${escapeHtml(t.langName)}">${t.lang.toUpperCase()}<span aria-hidden="true"> ▾</span></summary>
+      <summary><span class="flag flag-${t.lang}" aria-hidden="true"></span>${t.lang.toUpperCase()}<span class="sr-only"> – ${escapeHtml(t.nav.languageLabel)}</span><span aria-hidden="true">▾</span></summary>
       <ul>
         ${languages
           .map((l) =>
             l.lang === t.lang
-              ? `<li><span aria-current="page">${escapeHtml(l.langName)}</span></li>`
-              : `<li><a href="${prefix}${l.lang === DEFAULT_LANG ? '' : `${l.lang}/`}" hreflang="${l.lang}" lang="${l.lang}">${escapeHtml(l.langName)}</a></li>`,
+              ? `<li><span aria-current="page"><span class="flag flag-${l.lang}" aria-hidden="true"></span>${escapeHtml(l.langName)}</span></li>`
+              : `<li><a href="${prefix}${l.lang === DEFAULT_LANG ? '' : `${l.lang}/`}" hreflang="${l.lang}" lang="${l.lang}"><span class="flag flag-${l.lang}" aria-hidden="true"></span>${escapeHtml(l.langName)}</a></li>`,
           )
           .join('\n        ')}
       </ul>
@@ -224,7 +224,7 @@ function renderPhoto(t, prefix) {
       <source media="(max-width: 760px)" type="image/webp" srcset="${set('mobile', mobile, 'webp')}" sizes="calc(100vw - 32px)" width="1080" height="720">
       <source media="(max-width: 760px)" srcset="${set('mobile', mobile, 'jpg')}" sizes="calc(100vw - 32px)" width="1080" height="720">
       <source type="image/webp" srcset="${set('wide', wide, 'webp')}" sizes="${wideSizes}">
-      <img src="${prefix}img/photo-wide-1200.jpg" srcset="${set('wide', wide, 'jpg')}" sizes="${wideSizes}" width="1600" height="800" alt="${escapeHtml(t.photo.alt)}" loading="lazy" decoding="async">
+      <img src="${prefix}img/photo-wide-1200.jpg" srcset="${set('wide', wide, 'jpg')}" sizes="${wideSizes}" width="1600" height="800" alt="${escapeHtml(t.photo.alt)}" decoding="async">
     </picture>
     ${credit}
   </figure>`;
