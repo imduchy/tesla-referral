@@ -1,0 +1,139 @@
+{
+  "lang": "it",
+  "locale": "it-IT",
+  "langName": "Italiano",
+  "termsUrl": "https://www.tesla.com/it_IT/support/refer-and-earn",
+  "meta": {
+    "title": "Codice referral Tesla ({monthShort}) – {km} km Supercharging gratis",
+    "description": "Codice referral Tesla {code}: ordina una Model 3 o Model Y nuova in Europa e ricevi {km} km di Supercharging gratuito. Offerta verificata il {checkedOn}."
+  },
+  "og": {
+    "kicker": "Codice referral Tesla · Europa",
+    "headline": "{km} km di Supercharging gratis",
+    "sub": "Model 3 e Model Y nuove · Codice {code}",
+    "alt": "Codice referral Tesla Europa: {km} km di Supercharging gratuito con una Model 3 o Model Y nuova"
+  },
+  "nav": {
+    "siteName": "Codice referral Tesla",
+    "terms": "Termini ufficiali",
+    "languageLabel": "Lingua"
+  },
+  "hero": {
+    "eyebrow": "Codice referral Tesla · Europa",
+    "codeLabel": "Codice referral",
+    "copy": "Copia",
+    "copied": "Copiato",
+    "cta": "Ordina con referral",
+    "secondary": "Come funziona",
+    "independent": "Sito indipendente di un proprietario, non affiliato a Tesla, Inc.",
+    "updated": "Aggiornato il {checkedOn}"
+  },
+  "status": {
+    "active": {
+      "headline": "{km} km di Supercharging gratis",
+      "subline": "Ordina una Model 3 o Model Y nuova con il mio link referral e Tesla aggiunge {km} km di Supercharging gratuito al tuo account."
+    },
+    "ended": {
+      "title": "Codice referral Tesla Europa – vantaggi sospesi",
+      "headline": "I vantaggi referral sono sospesi",
+      "subline": "Tesla ha sospeso per ora i vantaggi per chi acquista un'auto nuova con referral in Europa. Aggiornerò questa pagina se torneranno.",
+      "notice": "Al momento usare il codice non dà alcun vantaggio aggiuntivo. Controlla i termini ufficiali di Tesla per la situazione attuale."
+    },
+    "capReached": {
+      "title": "Codice referral Tesla Europa – codice esaurito per quest'anno",
+      "headline": "Questo codice è esaurito per quest'anno",
+      "subline": "Tesla limita il numero di referral per proprietario e anno solare, e questo codice ha raggiunto il limite.",
+      "notice": "Gli ordini con questo codice non riceveranno il vantaggio fino al 1° gennaio. Chiedi il codice a un altro proprietario o consulta i termini ufficiali di Tesla."
+    }
+  },
+  "benefits": {
+    "title": "Cosa ottieni",
+    "items": [
+      {
+        "value": "{km} km",
+        "label": "Supercharging gratuito",
+        "text": "Accreditati sul tuo account Tesla, utilizzabili ai Supercharger di proprietà Tesla."
+      },
+      {
+        "value": "Model 3 e Y",
+        "label": "Veicoli nuovi",
+        "text": "Ordini personalizzati e auto nuove in pronta consegna. Le auto usate sono escluse."
+      },
+      {
+        "value": "Europa",
+        "label": "Dove ordini",
+        "text": "Il vantaggio dipende dal Paese del sito Tesla su cui effettui l'ordine."
+      }
+    ]
+  },
+  "steps": {
+    "title": "Come funziona",
+    "items": [
+      {
+        "title": "Apri il link referral",
+        "text": "Ti porta sul sito ufficiale di Tesla con il referral già applicato."
+      },
+      {
+        "title": "Configura e ordina",
+        "text": "Ordina nella stessa visita. Prima di pagare, controlla che il referral compaia nel riepilogo dell'ordine."
+      },
+      {
+        "title": "Goditi il Supercharging",
+        "text": "Il credito compare nella tua app Tesla, di solito intorno alla consegna."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Domande frequenti",
+    "items": [
+      {
+        "q": "Usare il codice mi costa qualcosa?",
+        "a": "No. Il prezzo dell'auto resta lo stesso: ricevi semplicemente il Supercharging gratuito in più."
+      },
+      {
+        "q": "Esiste uno sconto referral Tesla in Europa?",
+        "a": "Non sul prezzo. In Europa chi acquista con referral riceve Supercharging gratuito – attualmente {km} km con una Model 3 o Model Y nuova – invece di uno sconto."
+      },
+      {
+        "q": "Il codice vale per Model S o Model X?",
+        "a": "No. In Europa il programma referral copre attualmente solo gli ordini di Model 3 e Model Y nuove."
+      },
+      {
+        "q": "Posso usare il codice se ordino in un altro Paese europeo?",
+        "a": "Il link apre il sito di Tesla, dove scegli il Paese dell'ordine. Ricevi il vantaggio che Tesla offre in quel Paese, quindi controlla che compaia nel riepilogo prima di pagare."
+      },
+      {
+        "q": "Posso aggiungere il codice dopo aver ordinato?",
+        "a": "No. Tesla applica il referral solo se ordini tramite il link. Non può essere aggiunto a un ordine esistente."
+      },
+      {
+        "q": "Quali auto sono incluse?",
+        "a": "Model 3 e Model Y nuove, ordinate su misura o in pronta consegna. Le auto usate, anche certificate, sono escluse. Per le auto dimostrative, controlla che il referral compaia nella pagina dell'ordine prima di pagare."
+      },
+      {
+        "q": "Quanto dura il credito di Supercharging?",
+        "a": "Secondo i termini di Tesla, i vantaggi referral scadono 12 mesi dopo l'assegnazione. Il credito non è convertibile in denaro né trasferibile, e termina se vendi l'auto."
+      },
+      {
+        "q": "Tu cosa ci guadagni?",
+        "a": "Anche io ricevo un premio referral da Tesla: è così che funziona il programma. Per te non c'è alcun costo aggiuntivo."
+      },
+      {
+        "q": "È il sito di Tesla?",
+        "a": "No. È una pagina indipendente gestita da un proprietario di Tesla. L'ordine avviene interamente sul sito ufficiale di Tesla."
+      }
+    ]
+  },
+  "footer": {
+    "checked": "Offerta verificata il {checkedOn}. Tesla può modificare o terminare il programma referral in qualsiasi momento: verifica sempre il vantaggio nel riepilogo dell'ordine e nei <a href=\"{termsUrl}\" rel=\"noopener\">termini ufficiali del programma referral di Tesla</a>.",
+    "disclaimer": "Sito indipendente gestito da un proprietario privato di Tesla. Non affiliato, approvato o sponsorizzato da Tesla, Inc. Tesla, Model 3, Model Y e Supercharger sono marchi di Tesla, Inc."
+  },
+  "notFound": {
+    "title": "Pagina non trovata",
+    "link": "Vai alla pagina in italiano"
+  },
+  "photo": {
+    "alt": "Primo piano di un'auto elettrica bianca in carica, con il cavo inserito nella presa di ricarica",
+    "credit": "Foto: {name} su Unsplash"
+  }
+}

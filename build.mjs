@@ -81,13 +81,18 @@ function renderPage(t) {
     ],
   };
 
-  const langSwitch = languages
-    .map((l) =>
-      l.lang === t.lang
-        ? `<span aria-current="page">${l.lang.toUpperCase()}</span>`
-        : `<a href="${prefix}${l.lang === DEFAULT_LANG ? '' : `${l.lang}/`}" hreflang="${l.lang}" lang="${l.lang}" title="${escapeHtml(l.langName)}">${l.lang.toUpperCase()}</a>`,
-    )
-    .join('');
+  const langSwitch = `<details class="lang-menu">
+      <summary aria-label="${escapeHtml(t.nav.languageLabel)}: ${escapeHtml(t.langName)}">${t.lang.toUpperCase()}<span aria-hidden="true"> ▾</span></summary>
+      <ul>
+        ${languages
+          .map((l) =>
+            l.lang === t.lang
+              ? `<li><span aria-current="page">${escapeHtml(l.langName)}</span></li>`
+              : `<li><a href="${prefix}${l.lang === DEFAULT_LANG ? '' : `${l.lang}/`}" hreflang="${l.lang}" lang="${l.lang}">${escapeHtml(l.langName)}</a></li>`,
+          )
+          .join('\n        ')}
+      </ul>
+    </details>`;
 
   const goatcounter = site.goatcounterCode
     ? `<script data-goatcounter="https://${escapeHtml(site.goatcounterCode)}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>`
@@ -127,7 +132,7 @@ ${goatcounter}
 <header class="nav">
   <a class="nav-name" href="./">${f(t.nav.siteName)}</a>
   <nav class="nav-right" aria-label="${escapeHtml(t.nav.languageLabel)}">
-    <span class="lang-switch">${langSwitch}</span>
+    ${langSwitch}
     <a class="nav-link" href="${vars.termsUrl}" rel="noopener" target="_blank">${f(t.nav.terms)} <span aria-hidden="true">↗</span></a>
   </nav>
 </header>

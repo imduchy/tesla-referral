@@ -1,6 +1,6 @@
 # Tesla Referral Code
 
-Source of **[teslareferralcode.eu](https://teslareferralcode.eu)**, a small independent page where I share my Tesla referral code with people ordering a new Model 3 or Model Y in Europe. Available in English, German and Spanish.
+Source of **[teslareferralcode.eu](https://teslareferralcode.eu)**, a small independent page where I share my Tesla referral code with people ordering a new Model 3 or Model Y in Europe. Available in English, German, Spanish, French, Italian and Dutch.
 
 It is a plain static site: HTML, CSS and a few lines of JavaScript, with no framework and no dependencies. A tiny build script turns the text files into pages, and GitHub Pages hosts them.
 
@@ -10,7 +10,7 @@ It is a plain static site: HTML, CSS and a few lines of JavaScript, with no fram
 
 ```
 site.json            Referral code, offer status, km amount, analytics, domain
-content/<lang>.json  All page text, one file per language (en, de, es)
+content/<lang>.json  All page text, one file per language (en, de, es, fr, it, nl)
 src/                 CSS, JS, fonts, favicon and generated images
 build.mjs            Builds everything into dist/
 scripts/             Image helpers (photo crops, social share images)

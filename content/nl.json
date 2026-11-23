@@ -1,0 +1,91 @@
+{
+  "lang": "nl",
+  "locale": "nl-NL",
+  "langName": "Nederlands",
+  "termsUrl": "https://www.tesla.com/nl_NL/support/refer-and-earn",
+  "meta": {
+    "title": "Tesla referral code ({monthShort}) – {km} km gratis Superchargen",
+    "description": "Tesla referral code {code}: bestel een nieuwe Model 3 of Model Y in Europa en krijg {km} km gratis Superchargen. Aanbod gecontroleerd op {checkedOn}."
+  },
+  "og": {
+    "kicker": "Tesla referral code · Europa",
+    "headline": "{km} km gratis Superchargen",
+    "sub": "Nieuwe Model 3 & Model Y · Code {code}",
+    "alt": "Tesla referral code Europa: {km} km gratis Superchargen bij een nieuwe Model 3 of Model Y"
+  },
+  "nav": {
+    "siteName": "Tesla referral code",
+    "terms": "Officiële voorwaarden",
+    "languageLabel": "Taal"
+  },
+  "hero": {
+    "eyebrow": "Tesla referral code · Europa",
+    "codeLabel": "Referralcode",
+    "copy": "Kopiëren",
+    "copied": "Gekopieerd",
+    "cta": "Bestellen met referral",
+    "secondary": "Zo werkt het",
+    "independent": "Onafhankelijke site van een eigenaar, niet verbonden aan Tesla, Inc.",
+    "updated": "Bijgewerkt op {checkedOn}"
+  },
+  "status": {
+    "active": {
+      "headline": "{km} km gratis Superchargen",
+      "subline": "Bestel een nieuwe Model 3 of Model Y via mijn referrallink en Tesla zet {km} km gratis Superchargen op je account."
+    },
+    "ended": {
+      "title": "Tesla referral code Europa – voordelen gepauzeerd",
+      "headline": "Referralvoordelen zijn gepauzeerd",
+      "subline": "Tesla heeft de voordelen voor kopers van nieuwe auto's via een referral in Europa tijdelijk stopgezet. Ik werk deze pagina bij zodra ze terug zijn.",
+      "notice": "De code geeft je op dit moment geen extra voordeel. Bekijk de officiële voorwaarden van Tesla voor de actuele stand."
+    },
+    "capReached": {
+      "title": "Tesla referral code Europa – code voor dit jaar opgebruikt",
+      "headline": "Deze code is voor dit jaar opgebruikt",
+      "subline": "Tesla beperkt het aantal referrals per eigenaar per kalenderjaar, en deze code heeft die limiet bereikt.",
+      "notice": "Bestellingen met deze code krijgen tot 1 januari geen kopersvoordeel. Vraag een andere eigenaar om zijn code of bekijk de officiële voorwaarden van Tesla."
+    }
+  },
+  "benefits": {
+    "title": "Wat je krijgt",
+    "items": [
+      { "value": "{km} km", "label": "Gratis Superchargen", "text": "Bijgeschreven op je Tesla-account, te gebruiken bij Superchargers van Tesla." },
+      { "value": "Model 3 & Y", "label": "Nieuwe auto's", "text": "Bestellingen op maat en nieuwe voorraadauto's. Occasions komen niet in aanmerking." },
+      { "value": "Europa", "label": "Waar je bestelt", "text": "Het voordeel hangt af van het land van de Tesla-website waarop je bestelt." }
+    ]
+  },
+  "steps": {
+    "title": "Zo werkt het",
+    "items": [
+      { "title": "Open de referrallink", "text": "Je komt op de officiële website van Tesla, met de referral al toegepast." },
+      { "title": "Configureer en bestel", "text": "Bestel in hetzelfde bezoek. Controleer vóór het betalen of de referral in je besteloverzicht staat." },
+      { "title": "Geniet van het Superchargen", "text": "Het tegoed verschijnt in je Tesla-app, meestal rond de levering." }
+    ]
+  },
+  "faq": {
+    "title": "Veelgestelde vragen",
+    "items": [
+      { "q": "Kost de code mij iets?", "a": "Nee. De prijs van de auto blijft hetzelfde – je krijgt het gratis Superchargen er gewoon bij." },
+      { "q": "Is er een Tesla referral-korting in Europa?", "a": "Niet op de prijs. In Europa krijgen kopers via een referral gratis Superchargen – momenteel {km} km bij een nieuwe Model 3 of Model Y – in plaats van korting." },
+      { "q": "Werkt de code voor de Model S of Model X?", "a": "Nee. In Europa geldt het referralprogramma momenteel alleen voor nieuwe Model 3 en Model Y." },
+      { "q": "Kan ik de code gebruiken als ik in een ander Europees land bestel?", "a": "De link opent de website van Tesla, waar je het land van je bestelling kiest. Je krijgt het voordeel dat Tesla in dat land biedt, dus controleer vóór het betalen of het in je besteloverzicht staat." },
+      { "q": "Kan ik de code na mijn bestelling nog toevoegen?", "a": "Nee. Tesla past een referral alleen toe als je via de link bestelt. Achteraf toevoegen kan niet." },
+      { "q": "Welke auto's komen in aanmerking?", "a": "Nieuwe Model 3 en Model Y, op maat besteld of uit voorraad. Occasions en gecertificeerde occasions komen niet in aanmerking. Controleer bij een demoauto vóór het betalen of de referral op de bestelpagina staat." },
+      { "q": "Hoe lang is het Supercharge-tegoed geldig?", "a": "Volgens de voorwaarden van Tesla vervallen referralvoordelen 12 maanden na toekenning. Het tegoed is niet inwisselbaar voor geld of overdraagbaar, en vervalt als je de auto verkoopt." },
+      { "q": "Wat heb jij eraan?", "a": "Tesla geeft mij ook een referralbeloning – zo werkt het programma. Het kost jou niets extra." },
+      { "q": "Is dit de website van Tesla?", "a": "Nee. Dit is een onafhankelijke pagina van een Tesla-eigenaar. De bestelling zelf verloopt volledig via de officiële website van Tesla." }
+    ]
+  },
+  "footer": {
+    "checked": "Aanbod gecontroleerd op {checkedOn}. Tesla kan het referralprogramma op elk moment wijzigen of beëindigen – controleer het voordeel altijd in je besteloverzicht en in de <a href=\"{termsUrl}\" rel=\"noopener\">officiële referralvoorwaarden van Tesla</a>.",
+    "disclaimer": "Onafhankelijke site van een particuliere Tesla-eigenaar. Niet verbonden aan, goedgekeurd of gesponsord door Tesla, Inc. Tesla, Model 3, Model Y en Supercharger zijn handelsmerken van Tesla, Inc."
+  },
+  "notFound": {
+    "title": "Pagina niet gevonden",
+    "link": "Naar de Nederlandse pagina"
+  },
+  "photo": {
+    "alt": "Close-up van een witte elektrische auto die laadt, met de kabel in de laadpoort",
+    "credit": "Foto: {name} op Unsplash"
+  }
+}
