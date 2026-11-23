@@ -3,6 +3,7 @@
 // plus sitemap.xml, robots.txt and 404.html.
 import { readFileSync, writeFileSync, mkdirSync, cpSync, rmSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
+import { createHash } from 'node:crypto';
 
 const OUT = 'dist';
 const STATUSES = ['active', 'ended', 'capReached'];
@@ -18,6 +19,10 @@ const languages = readdirSync('content')
   .filter((n) => n.endsWith('.json'))
   .map((n) => JSON.parse(readFileSync(join('content', n), 'utf8')))
   .sort((a, b) => (a.lang === DEFAULT_LANG ? -1 : b.lang === DEFAULT_LANG ? 1 : a.lang.localeCompare(b.lang)));
+
+// Cache-busting: asset URLs carry a hash of their content, so browsers never mix a new page with an old stylesheet.
+const version = (file) => createHash('sha256').update(readFileSync(join('src', file))).digest('hex').slice(0, 10);
+const v = { css: version('styles.css'), js: version('app.js') };
 
 const pathFor = (lang) => (lang === DEFAULT_LANG ? '/' : `/${lang}/`);
 const absUrl = (path) => siteUrl + path;
@@ -123,9 +128,9 @@ ${ogImage ? `<meta property="og:image" content="${ogImage}">
 <link rel="icon" href="${prefix}favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="${prefix}apple-touch-icon.png">
 <link rel="preload" href="${prefix}fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="${prefix}styles.css">
+<link rel="stylesheet" href="${prefix}styles.css?v=${v.css}">
 <script type="application/ld+json">${JSON.stringify(jsonLd).replace(/</g, '\\u003c')}</script>
-<script src="${prefix}app.js" defer></script>
+<script src="${prefix}app.js?v=${v.js}" defer></script>
 ${goatcounter}
 </head>
 <body class="status-${site.offerStatus}">
@@ -206,9 +211,9 @@ ${goatcounter}
 
 function renderPhoto(t, prefix) {
   const set = (name, widths, ext) => widths.map((w) => `${prefix}img/photo-${name}-${w}.${ext} ${w}w`).join(', ');
-  const wide = [800, 1280, 1920];
-  const mobile = [480, 800, 1200];
-  const wideSizes = '(max-width: 1072px) calc(100vw - 32px), 1040px';
+  const wide = [800, 1200, 1600];
+  const mobile = [480, 720, 1080];
+  const wideSizes = '(max-width: 832px) calc(100vw - 32px), 800px';
   const credit = site.photoCredit && site.photoCredit.name
     ? `<figcaption>${t.photo.credit.replace('{name}', site.photoCredit.url
         ? `<a href="${escapeHtml(site.photoCredit.url)}" rel="noopener">${escapeHtml(site.photoCredit.name)}</a>`
@@ -216,10 +221,10 @@ function renderPhoto(t, prefix) {
     : '';
   return `<figure class="photo">
     <picture>
-      <source media="(max-width: 760px)" type="image/webp" srcset="${set('mobile', mobile, 'webp')}" sizes="calc(100vw - 32px)" width="1200" height="900">
-      <source media="(max-width: 760px)" srcset="${set('mobile', mobile, 'jpg')}" sizes="calc(100vw - 32px)" width="1200" height="900">
+      <source media="(max-width: 760px)" type="image/webp" srcset="${set('mobile', mobile, 'webp')}" sizes="calc(100vw - 32px)" width="1080" height="720">
+      <source media="(max-width: 760px)" srcset="${set('mobile', mobile, 'jpg')}" sizes="calc(100vw - 32px)" width="1080" height="720">
       <source type="image/webp" srcset="${set('wide', wide, 'webp')}" sizes="${wideSizes}">
-      <img src="${prefix}img/photo-wide-1280.jpg" srcset="${set('wide', wide, 'jpg')}" sizes="${wideSizes}" width="1920" height="1080" alt="${escapeHtml(t.photo.alt)}" loading="lazy" decoding="async">
+      <img src="${prefix}img/photo-wide-1200.jpg" srcset="${set('wide', wide, 'jpg')}" sizes="${wideSizes}" width="1600" height="800" alt="${escapeHtml(t.photo.alt)}" loading="lazy" decoding="async">
     </picture>
     ${credit}
   </figure>`;
@@ -238,7 +243,7 @@ function render404() {
 <title>${escapeHtml(en.notFound.title)}</title>
 <meta name="robots" content="noindex">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/styles.css?v=${v.css}">
 </head>
 <body>
 <main>

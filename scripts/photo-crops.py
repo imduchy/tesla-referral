@@ -12,8 +12,8 @@ OUT = ROOT / "src/img"
 # Focus point (fraction of width/height) — the charge port.
 FOCUS = (0.42, 0.40)
 CROPS = {
-    "wide": (16, 9, [800, 1280, 1920]),   # desktop, below the hero
-    "mobile": (4, 3, [480, 800, 1200]),   # phones
+    "wide": (2, 1, [800, 1200, 1600]),    # desktop, below the hero
+    "mobile": (3, 2, [480, 720, 1080]),   # phones
     "og": (5, 6, [500]),                  # share-image panel (500×600)
 }
 
