@@ -1,4 +1,4 @@
-# Simple workflow for deploying static content to GitHub Pages
+# Builds the site with build.mjs and deploys dist/ to GitHub Pages.
 name: Deploy static content to Pages
 
 on:
@@ -22,11 +22,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Single job: build the site with build.mjs, then deploy dist/
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -44,11 +40,34 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:
-          # Upload the built site only
-          path: 'dist'
+          path: dist
+
+  # Separate job: deploy-pages can only see the artifact once the job that uploaded it has finished.
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+
+  notify:
+    needs: deploy
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Setup Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: 22
       - name: Notify search engines (IndexNow)
         continue-on-error: true
         run: node scripts/indexnow.mjs
