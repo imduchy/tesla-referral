@@ -78,3 +78,18 @@ The localized titles of Tesla's **global** page ([/support/refer-and-earn](https
 | FR | Parrainez et gagnez | programme de parrainage, lien de parrainage, Superchargeur, Supercharge | ✅ same |
 | NL | Refereren en verdienen | referral link, Supercharging | ✅ referral/referrallink. The site writes "Superchargen" (verb), which is common Dutch usage |
 | IT | (no Italian page found) | — | "codice referral", "Supercharging" follow the common Italian usage |
+
+## Primary source: Tesla Spain terms (es_ES, read in full by the site owner, 2026-11-23)
+
+[tesla.com/es_es/support/refer-and-earn](https://www.tesla.com/es_es/support/refer-and-earn) ("Recomendar y ganar"), terms effective 16 Oct 2024, last updated 4 Jun 2025. The page shows **no** sign of the 30 Oct 2026 US/global change.
+
+- **Buyer benefits only on your first eligible Tesla product** (eligible = Model 3, Model Y): "no puedes haber tenido un producto de Tesla elegible en el pasado". Existing owners get loyalty benefits instead (max 10 per account lifetime). ⚠️ The site must state this.
+- Buyer and referrer benefits expire 12 months after the Grant Date; the Grant Date is when the buyer **accepts delivery**. Benefits show as "pending" in the Tesla app until then.
+- Referral links can't be applied after the order is placed, and can't be used on the same Tesla Account more than once.
+- 18+, non-transferable, no cash value. The customer is responsible for local taxes.
+- Max 10 referrals per calendar year; at the limit, buyers using that link get **no** buyer benefit.
+- Certified pre-owned cars don't qualify; it has to be a custom order or a new inventory car.
+- Not allowed: paid advertising, selling links, paying for or offering incentives for using referral links.
+- The program "no permanecerá abierto indefinidamente", and unused benefits may be cancelled after it ends.
+- Referrer benefits are paid as Supercharging credits or Tesla Credits. Tesla Credits in EUR can only pay for Supercharging billed in EUR.
+- The amount isn't in the terms. It is on the personal referral pages: the Greek, Czech, Hungarian and Romanian referral pages on tesla.com show "1,000 km" of free Supercharging (found by the localisation agents via search snippets).
