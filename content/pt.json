@@ -1,0 +1,91 @@
+{
+  "lang": "pt",
+  "locale": "pt-PT",
+  "langName": "Português",
+  "termsUrl": "https://www.tesla.com/pt_PT/support/refer-and-earn",
+  "meta": {
+    "title": "Código de referência Tesla ({monthShort}) – {km} km de Supercharging grátis",
+    "description": "Código de referência Tesla {code}: encomende um Model 3 ou Model Y novo na Europa e receba {km} km de Supercharging gratuito. Verificado: {checkedOn}."
+  },
+  "og": {
+    "kicker": "Código de referência Tesla · Europa",
+    "headline": "{km} km de Supercharging grátis",
+    "sub": "Model 3 e Model Y novos · Código {code}",
+    "alt": "Código de referência Tesla: {km} km de Supercharging gratuito com um Model 3 ou Model Y novo"
+  },
+  "nav": {
+    "siteName": "Código de referência Tesla",
+    "terms": "Termos oficiais",
+    "languageLabel": "Idioma"
+  },
+  "hero": {
+    "eyebrow": "Código de referência Tesla · Europa",
+    "codeLabel": "Código de referência",
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "cta": "Encomendar com referência",
+    "secondary": "Como funciona",
+    "independent": "Site independente de um proprietário, sem ligação à Tesla, Inc.",
+    "updated": "Atualizado a {checkedOn}"
+  },
+  "status": {
+    "active": {
+      "headline": "{km} km de Supercharging grátis",
+      "subline": "Encomende um Model 3 ou Model Y novo através da minha ligação de referência e a Tesla adiciona {km} km de Supercharging gratuito à sua conta."
+    },
+    "ended": {
+      "title": "Código de referência Tesla – benefícios suspensos",
+      "headline": "Os benefícios de referência estão suspensos",
+      "subline": "A Tesla suspendeu temporariamente os benefícios para compradores de carros novos com referência na Europa. Vou atualizar esta página se regressarem.",
+      "notice": "Neste momento, usar o código não dá nenhum benefício adicional. Consulte os termos oficiais da Tesla para saber a situação atual."
+    },
+    "capReached": {
+      "title": "Código de referência Tesla – código esgotado este ano",
+      "headline": "Este código está esgotado este ano",
+      "subline": "A Tesla limita o número de referências por proprietário e por ano civil, e este código atingiu esse limite.",
+      "notice": "As encomendas com este código não receberão o benefício até 1 de janeiro. Peça o código a outro proprietário ou consulte os termos oficiais da Tesla."
+    }
+  },
+  "benefits": {
+    "title": "O que recebe",
+    "items": [
+      { "value": "{km} km", "label": "Supercharging grátis", "text": "Creditados na sua conta Tesla, para usar em Superchargers da Tesla." },
+      { "value": "Model 3 e Y", "label": "Veículos novos", "text": "Encomendas personalizadas e carros novos em stock. Carros usados não estão incluídos." },
+      { "value": "Europa", "label": "Onde encomenda", "text": "O benefício depende do país do site da Tesla onde faz a encomenda." }
+    ]
+  },
+  "steps": {
+    "title": "Como funciona",
+    "items": [
+      { "title": "Abra a ligação de referência", "text": "Leva-o ao site oficial da Tesla com a referência já aplicada." },
+      { "title": "Configure e encomende", "text": "Encomende na mesma visita. Antes de pagar, confirme que a referência aparece no resumo da encomenda." },
+      { "title": "Aproveite o Supercharging", "text": "O crédito aparece na sua app Tesla, normalmente perto da entrega." }
+    ]
+  },
+  "faq": {
+    "title": "Perguntas frequentes",
+    "items": [
+      { "q": "Usar o código custa-me alguma coisa?", "a": "Não. O preço do carro é o mesmo – recebe apenas o Supercharging gratuito como extra." },
+      { "q": "Existe desconto de referência Tesla na Europa?", "a": "Não no preço. Na Europa, quem compra com referência recebe Supercharging gratuito em vez de desconto – atualmente {km} km com um Model 3 ou Model Y novo." },
+      { "q": "O código funciona para o Model S ou Model X?", "a": "Não. Na Europa, o programa de referências abrange atualmente apenas encomendas de Model 3 e Model Y novos." },
+      { "q": "Posso usar o código se encomendar noutro país europeu?", "a": "A ligação abre o site da Tesla, onde escolhe o país da encomenda. Recebe o benefício que a Tesla oferece nesse país, por isso confirme que aparece no resumo da encomenda antes de pagar." },
+      { "q": "Posso adicionar o código depois de encomendar?", "a": "Não. A Tesla só aplica a referência se encomendar através da ligação. Não pode ser adicionada a uma encomenda existente." },
+      { "q": "Que carros estão incluídos?", "a": "Model 3 e Model Y novos, encomendados ou em stock. Carros usados, incluindo certificados, não estão incluídos. Em carros de demonstração, confirme que a referência aparece na página da encomenda antes de pagar." },
+      { "q": "Durante quanto tempo é válido o crédito de Supercharging?", "a": "Segundo os termos da Tesla, os benefícios de referência expiram 12 meses após a atribuição. O crédito não é convertível em dinheiro nem transmissível, e termina se vender o carro." },
+      { "q": "O que ganha com isto?", "a": "A Tesla também me dá uma recompensa de referência – é assim que o programa funciona. Para si não tem qualquer custo extra." },
+      { "q": "Este é o site da Tesla?", "a": "Não. É uma página independente gerida por um proprietário de Tesla. A encomenda é feita inteiramente no site oficial da Tesla." }
+    ]
+  },
+  "footer": {
+    "checked": "Oferta verificada a {checkedOn}. A Tesla pode alterar ou terminar o programa de referências a qualquer momento – confirme sempre o benefício no resumo da encomenda e nos <a href=\"{termsUrl}\" rel=\"noopener\">termos oficiais de referência da Tesla</a>.",
+    "disclaimer": "Site independente gerido por um proprietário particular de Tesla. Sem ligação, aprovação ou patrocínio da Tesla, Inc. Tesla, Model 3, Model Y e Supercharger são marcas da Tesla, Inc."
+  },
+  "notFound": {
+    "title": "Página não encontrada",
+    "link": "Ir para a página em português"
+  },
+  "photo": {
+    "alt": "Grande plano de um carro elétrico branco a carregar, com o cabo ligado à porta de carregamento",
+    "credit": "Foto: {name} no Unsplash"
+  }
+}

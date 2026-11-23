@@ -1,0 +1,91 @@
+{
+  "lang": "pl",
+  "locale": "pl-PL",
+  "langName": "Polski",
+  "termsUrl": "https://www.tesla.com/pl_PL/support/refer-and-earn",
+  "meta": {
+    "title": "Kod polecający Tesla ({monthShort}) – {km} km darmowego Superchargingu",
+    "description": "Kod polecający Tesla {code}: zamów nowy Model 3 lub Model Y w Europie i odbierz {km} km darmowego ładowania na Superchargerach. Sprawdzono: {checkedOn}."
+  },
+  "og": {
+    "kicker": "Kod polecający Tesla · Europa",
+    "headline": "{km} km darmowego Superchargingu",
+    "sub": "Nowy Model 3 i Model Y · Kod {code}",
+    "alt": "Kod polecający Tesla: {km} km darmowego ładowania na Superchargerach przy zakupie nowego Model 3 lub Model Y"
+  },
+  "nav": {
+    "siteName": "Kod polecający Tesla",
+    "terms": "Oficjalny regulamin",
+    "languageLabel": "Język"
+  },
+  "hero": {
+    "eyebrow": "Kod polecający Tesla · Europa",
+    "codeLabel": "Kod polecający",
+    "copy": "Kopiuj",
+    "copied": "Skopiowano",
+    "cta": "Zamów z poleceniem",
+    "secondary": "Jak to działa",
+    "independent": "Niezależna strona właściciela, niepowiązana z Tesla, Inc.",
+    "updated": "Aktualizacja: {checkedOn}"
+  },
+  "status": {
+    "active": {
+      "headline": "{km} km darmowego Superchargingu",
+      "subline": "Zamów nowy Model 3 lub Model Y przez mój link polecający, a Tesla doda do Twojego konta {km} km darmowego ładowania na Superchargerach."
+    },
+    "ended": {
+      "title": "Kod polecający Tesla – korzyści wstrzymane",
+      "headline": "Korzyści z poleceń są wstrzymane",
+      "subline": "Tesla tymczasowo wstrzymała korzyści dla kupujących nowe auta z polecenia w Europie. Zaktualizuję tę stronę, gdy wrócą.",
+      "notice": "Użycie kodu nie daje teraz żadnej dodatkowej korzyści. Aktualny stan znajdziesz w oficjalnym regulaminie Tesli."
+    },
+    "capReached": {
+      "title": "Kod polecający Tesla – limit na ten rok wyczerpany",
+      "headline": "Ten kod wyczerpał limit na ten rok",
+      "subline": "Tesla ogranicza liczbę poleceń jednego właściciela w roku kalendarzowym, a ten kod osiągnął limit.",
+      "notice": "Zamówienia z tym kodem nie otrzymają korzyści do 1 stycznia. Poproś o kod innego właściciela lub sprawdź oficjalny regulamin Tesli."
+    }
+  },
+  "benefits": {
+    "title": "Co otrzymujesz",
+    "items": [
+      { "value": "{km} km", "label": "Darmowy Supercharging", "text": "Dodawane do Twojego konta Tesla, do wykorzystania na Superchargerach należących do Tesli." },
+      { "value": "Model 3 i Y", "label": "Nowe auta", "text": "Zamówienia konfigurowane i nowe auta z magazynu. Auta używane nie są objęte programem." },
+      { "value": "Europa", "label": "Gdzie zamawiasz", "text": "Korzyść zależy od kraju strony Tesli, na której składasz zamówienie." }
+    ]
+  },
+  "steps": {
+    "title": "Jak to działa",
+    "items": [
+      { "title": "Otwórz link polecający", "text": "Przeniesie Cię na oficjalną stronę Tesli z już dodanym poleceniem." },
+      { "title": "Skonfiguruj i zamów", "text": "Zamów podczas tej samej wizyty. Przed płatnością sprawdź, czy polecenie widnieje w podsumowaniu zamówienia." },
+      { "title": "Korzystaj z Superchargingu", "text": "Środki pojawią się w aplikacji Tesla, zwykle w okolicy dostawy." }
+    ]
+  },
+  "faq": {
+    "title": "Najczęstsze pytania",
+    "items": [
+      { "q": "Czy użycie kodu coś kosztuje?", "a": "Nie. Cena auta jest taka sama – po prostu dostajesz dodatkowo darmowe ładowanie na Superchargerach." },
+      { "q": "Czy polecenie Tesli daje zniżkę w Europie?", "a": "Nie na cenę. W Europie kupujący z polecenia dostaje zamiast zniżki darmowe ładowanie – obecnie {km} km przy nowym Model 3 lub Model Y." },
+      { "q": "Czy kod działa dla Model S lub Model X?", "a": "Nie. W Europie program poleceń obejmuje obecnie tylko nowe Model 3 i Model Y." },
+      { "q": "Czy mogę użyć kodu, zamawiając w innym kraju europejskim?", "a": "Link otwiera stronę Tesli, na której wybierasz kraj zamówienia. Otrzymasz korzyść, którą Tesla oferuje w tym kraju – sprawdź przed płatnością, czy widnieje w podsumowaniu zamówienia." },
+      { "q": "Czy mogę dodać kod po złożeniu zamówienia?", "a": "Nie. Tesla uwzględnia polecenie tylko wtedy, gdy zamawiasz przez link. Nie można go dodać do istniejącego zamówienia." },
+      { "q": "Jakie auta są objęte programem?", "a": "Nowe Model 3 i Model Y, zamawiane indywidualnie lub z magazynu. Auta używane, także certyfikowane, nie są objęte. W przypadku aut demonstracyjnych sprawdź przed płatnością, czy polecenie widnieje na stronie zamówienia." },
+      { "q": "Jak długo ważne są środki na Supercharging?", "a": "Zgodnie z regulaminem Tesli korzyści z poleceń wygasają 12 miesięcy po ich przyznaniu. Nie można ich wymienić na gotówkę ani przenieść, a wygasają, jeśli sprzedasz auto." },
+      { "q": "Co Ty z tego masz?", "a": "Tesla daje mi również nagrodę za polecenie – tak działa ten program. Ciebie nic to dodatkowo nie kosztuje." },
+      { "q": "Czy to strona Tesli?", "a": "Nie. To niezależna strona prowadzona przez właściciela Tesli. Samo zamówienie odbywa się w całości na oficjalnej stronie Tesli." }
+    ]
+  },
+  "footer": {
+    "checked": "Ofertę sprawdzono: {checkedOn}. Tesla może w każdej chwili zmienić lub zakończyć program poleceń – zawsze sprawdź korzyść w podsumowaniu zamówienia i w <a href=\"{termsUrl}\" rel=\"noopener\">oficjalnym regulaminie poleceń Tesli</a>.",
+    "disclaimer": "Niezależna strona prowadzona przez prywatnego właściciela Tesli. Niepowiązana z Tesla, Inc. ani przez nią zatwierdzona czy sponsorowana. Tesla, Model 3, Model Y i Supercharger są znakami towarowymi Tesla, Inc."
+  },
+  "notFound": {
+    "title": "Nie znaleziono strony",
+    "link": "Przejdź do polskiej strony"
+  },
+  "photo": {
+    "alt": "Zbliżenie białego samochodu elektrycznego podczas ładowania, z kablem w gnieździe ładowania",
+    "credit": "Zdjęcie: {name} na Unsplash"
+  }
+}
