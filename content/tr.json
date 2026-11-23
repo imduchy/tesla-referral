@@ -25,13 +25,15 @@
     "copied": "Kopyalandı",
     "cta": "Referansla sipariş ver",
     "secondary": "Nasıl çalışır?",
+    "adLabel": "Reklam",
+    "disclosure": "Bu benim kişisel Tesla referans bağlantımdır. Bu bağlantı üzerinden sipariş verirseniz Tesla bana da bir referans ödülü verir. Ödeyeceğiniz fiyat değişmez.",
     "independent": "Bağımsız bir Tesla sahibinin sitesidir, Tesla, Inc. ile bağlantılı değildir.",
     "updated": "Güncelleme: {checkedOn}"
   },
   "status": {
     "active": {
       "headline": "{km} km ücretsiz Supercharge",
-      "subline": "Referans bağlantım üzerinden yeni bir Model 3 veya Model Y sipariş edin, Tesla hesabınıza {km} km ücretsiz Supercharge eklesin."
+      "subline": "İlk yeni Model 3 veya Model Y'nizi referans bağlantım üzerinden sipariş edin; Tesla'nın Avrupa'daki güncel referans teklifiyle {km} km ücretsiz Supercharge alırsınız."
     },
     "ended": {
       "headline": "Referans avantajları duraklatıldı",
@@ -57,12 +59,12 @@
       {
         "value": "Model 3 ve Y",
         "label": "Yeni araçlar",
-        "text": "Özel siparişler ve stoktaki yeni araçlar. İkinci el araçlar kapsam dışıdır."
+        "text": "İlk Model 3 veya Model Y'niz; özel sipariş ya da stoktaki yeni araç. İkinci el araçlar kapsam dışıdır."
       },
       {
         "value": "Avrupa",
         "label": "Sipariş verdiğiniz yer",
-        "text": "Avantajı, sipariş verdiğiniz Tesla sitesinin ülkesi belirler."
+        "text": "Tesla avantajı ülkeye göre belirler. Tesla sitesindeki sipariş özetinizde ne görünüyorsa onu alırsınız."
       }
     ]
   },
@@ -79,7 +81,7 @@
       },
       {
         "title": "Supercharge'ın keyfini çıkarın",
-        "text": "Kredi, genellikle teslimat civarında Tesla uygulamanızda görünür."
+        "text": "Kredi, aracı teslim aldığınızda tanımlanır ve ardından Tesla uygulamanızda görünür."
       }
     ]
   },
@@ -88,15 +90,15 @@
     "items": [
       {
         "q": "Kodu kullanmak bana bir maliyet getirir mi?",
-        "a": "Hayır. Aracın fiyatı aynı kalır; ücretsiz Supercharge ek olarak gelir."
+        "a": "Hayır. Aracın fiyatı referansla da referanssız da aynıdır. Referans sipariş özetinizde görünüyorsa ücretsiz Supercharge ek olarak gelir; bu yüzden ödeme yapmadan önce kontrol edin."
       },
       {
         "q": "Avrupa'da Tesla referans indirimi var mı?",
-        "a": "Fiyatta yok. Avrupa'da alıcılar için referans avantajı araçta indirim değil, ücretsiz Supercharge'dır: şu anda yeni bir Model 3 veya Model Y için {km} km."
+        "a": "Fiyatta yok. Model 3 ve Model Y için Tesla'nın Avrupa'daki referans teklifi şu anda alıcılara araçta indirim yerine {km} km ücretsiz Supercharge sağlıyor ({checkedOn} tarihinde kontrol edildi)."
       },
       {
         "q": "Kod Model S veya Model X için geçerli mi?",
-        "a": "Hayır. Avrupa'da tavsiye programı şu anda yalnızca yeni Model 3 ve Model Y siparişlerini kapsıyor."
+        "a": "Referans bağlantım şu anda yalnızca yeni Model 3 ve Model Y için avantaj gösteriyor. Model S veya Model X için ülkenizdeki Tesla referans koşullarını kontrol edin."
       },
       {
         "q": "Başka bir Avrupa ülkesinde sipariş verirsem kodu kullanabilir miyim?",
@@ -111,12 +113,16 @@
         "a": "Özel sipariş edilen veya stoktan yeni olarak alınan yeni Model 3 ve Model Y. İkinci el ve sertifikalı ikinci el (Certified Pre-Owned) araçlar kapsam dışıdır. Demo araçlarda, ödeme yapmadan önce referansın sipariş sayfasında göründüğünü kontrol edin."
       },
       {
+        "q": "Zaten bir Tesla'm varsa kodu kullanabilir miyim?",
+        "a": "Yalnızca ilk Model 3 veya Model Y'nizse. Tesla alıcı avantajını, referans bağlantısıyla yaptığınız ilk uygun satın alımda bir kez verir ve en az 18 yaşında olmanız gerekir. Mevcut sahipler bunun yerine Tesla'nın sadakat avantajlarından yararlanabilir."
+      },
+      {
         "q": "Supercharge kredisi ne kadar süre geçerli?",
-        "a": "Tesla'nın koşullarına göre referans avantajlarının süresi, tanımlandıkları tarihten 12 ay sonra dolar. Kredi nakde çevrilemez, devredilemez ve aracı satarsanız sona erer."
+        "a": "Tesla'nın koşullarına göre avantajın süresi, tanımlandığı tarihten 12 ay sonra dolar; tanımlama da aracı teslim aldığınızda yapılır. Nakit değeri yoktur, devredilemez, yalnızca Tesla'ya ait Supercharger'larda kullanılabilir ve aracı satarsanız sona erer. Tesla programı sonlandırırsa kullanılmamış avantajlar iptal edilebilir."
       },
       {
         "q": "Sizin bundan kazancınız ne?",
-        "a": "Tesla bana da bir referans ödülü veriyor; program bu şekilde işliyor. Bunun için ek bir ücret ödemezsiniz."
+        "a": "Bağlantım üzerinden sipariş verdiğinizde Tesla bana da bir referans ödülü verir (Supercharge kredisi veya Tesla Credits). Bu sayfanın var olma nedeni de bu. Fiyatınız her durumda aynıdır."
       },
       {
         "q": "Bu Tesla'nın web sitesi mi?",

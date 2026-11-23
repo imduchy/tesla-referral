@@ -25,13 +25,15 @@
     "copied": "Nokopēts",
     "cta": "Pasūtīt ar ieteikumu",
     "secondary": "Kā tas darbojas",
+    "adLabel": "Reklāma",
+    "disclosure": "Šī ir mana personīgā Tesla ieteikuma saite. Ja pasūtāt, izmantojot to, Tesla arī man piešķir ieteikuma atlīdzību. Jūsu cena paliek nemainīga.",
     "independent": "Neatkarīga īpašnieka vietne, nav saistīta ar Tesla, Inc.",
     "updated": "Atjaunināts: {checkedOn}"
   },
   "status": {
     "active": {
       "headline": "{km} km bezmaksas Supercharger uzlādes",
-      "subline": "Pasūtiet jaunu Model 3 vai Model Y, izmantojot manu ieteikuma saiti, un Tesla jūsu kontam pievienos {km} km bezmaksas Supercharger uzlādes."
+      "subline": "Pasūtiet savu pirmo jauno Model 3 vai Model Y, izmantojot manu ieteikuma saiti, un saskaņā ar pašreizējo Tesla ieteikumu piedāvājumu Eiropā jūs saņemsiet {km} km bezmaksas Supercharger uzlādes."
     },
     "ended": {
       "headline": "Ieteikumu priekšrocības ir apturētas",
@@ -57,12 +59,12 @@
       {
         "value": "Model 3 un Y",
         "label": "Jauni automobiļi",
-        "text": "Individuāli pasūtījumi un jauni automobiļi no noliktavas. Lietoti automobiļi neatbilst."
+        "text": "Jūsu pirmais Model 3 vai Model Y – individuāli pasūtīts vai jauns no noliktavas. Lietoti automobiļi neatbilst."
       },
       {
         "value": "Eiropa",
         "label": "Kur pasūtāt",
-        "text": "Priekšrocību nosaka valsts, kuras Tesla vietnē veicat pasūtījumu."
+        "text": "Tesla nosaka priekšrocību katrai valstij atsevišķi. Jūs saņemat to, kas redzams jūsu pasūtījuma kopsavilkumā Tesla vietnē."
       }
     ]
   },
@@ -79,7 +81,7 @@
       },
       {
         "title": "Izmantojiet Supercharger uzlādi",
-        "text": "Kredīts parādīsies Tesla lietotnē, parasti ap automobiļa piegādes laiku."
+        "text": "Kredīts tiek piešķirts, kad saņemat automobili, un pēc tam parādās Tesla lietotnē."
       }
     ]
   },
@@ -88,15 +90,15 @@
     "items": [
       {
         "q": "Vai koda izmantošana man kaut ko maksā?",
-        "a": "Nē. Automobiļa cena ir tāda pati – jūs vienkārši papildus saņemat bezmaksas Supercharger uzlādi."
+        "a": "Nē. Automobiļa cena ir tāda pati ar ieteikumu vai bez tā. Bezmaksas Supercharger uzlādi papildus saņemat, ja ieteikums ir redzams jūsu pasūtījuma kopsavilkumā, tāpēc pārbaudiet to pirms maksāšanas."
       },
       {
         "q": "Vai Eiropā ir Tesla ieteikuma atlaide?",
-        "a": "Ne cenai. Eiropā pircēji par ieteikumu saņem nevis atlaidi automobiļa cenai, bet bezmaksas Supercharger uzlādi – pašlaik {km} km, pērkot jaunu Model 3 vai Model Y."
+        "a": "Ne cenai. Model 3 un Model Y gadījumā Tesla ieteikumu piedāvājums Eiropā pašlaik pircējiem sniedz nevis atlaidi automobiļa cenai, bet {km} km bezmaksas Supercharger uzlādes (pārbaudīts {checkedOn})."
       },
       {
         "q": "Vai kods derīgs Model S vai Model X?",
-        "a": "Nē. Eiropā ieteikumu programma pašlaik attiecas tikai uz jaunu Model 3 un Model Y pasūtījumiem."
+        "a": "Mana ieteikuma saite pašlaik rāda priekšrocību tikai jauniem Model 3 un Model Y. Par Model S vai Model X skatiet Tesla ieteikumu noteikumus savā valstī."
       },
       {
         "q": "Vai varu izmantot kodu, ja pasūtu citā Eiropas valstī?",
@@ -111,12 +113,16 @@
         "a": "Jauni Model 3 un Model Y – gan individuāli pasūtīti, gan nopirkti kā jauni automobiļi no noliktavas. Lietoti un sertificēti lietoti automobiļi neatbilst. Demonstrācijas automobiļiem pirms maksāšanas pārbaudiet, vai ieteikums ir redzams pasūtījuma lapā."
       },
       {
+        "q": "Vai varu izmantot kodu, ja man jau ir Tesla?",
+        "a": "Tikai tad, ja tas ir jūsu pirmais Model 3 vai Model Y. Tesla pircēja priekšrocību piešķir vienu reizi, par jūsu pirmo atbilstošo pirkumu, izmantojot ieteikuma saiti, un jums jābūt vismaz 18 gadus vecam. Esošie īpašnieki tā vietā var saņemt Tesla lojalitātes priekšrocības."
+      },
+      {
         "q": "Cik ilgi ir derīgs Supercharger uzlādes kredīts?",
-        "a": "Saskaņā ar Tesla noteikumiem ieteikumu priekšrocību derīgums beidzas 12 mēnešus pēc to piešķiršanas. Kredītu nevar apmainīt pret naudu vai nodot citai personai, un tā derīgums beidzas, ja pārdodat automobili."
+        "a": "Saskaņā ar Tesla noteikumiem priekšrocības derīgums beidzas 12 mēnešus pēc tās piešķiršanas, un tā tiek piešķirta, kad saņemat automobili. Tai nav naudas vērtības, to nevar nodot citai personai, tā darbojas tikai Tesla piederošās Supercharger stacijās, un tās derīgums beidzas, ja pārdodat automobili. Ja Tesla izbeigs programmu, neizmantotās priekšrocības var tikt anulētas."
       },
       {
         "q": "Ko jūs no tā iegūstat?",
-        "a": "Arī es no Tesla saņemu ieteikuma atlīdzību – tā darbojas šī programma. Jums par to nekas papildus nav jāmaksā."
+        "a": "Kad pasūtāt, izmantojot manu saiti, arī es no Tesla saņemu ieteikuma atlīdzību (Supercharger uzlādes kredītu vai Tesla Credits). Tāpēc šī lapa pastāv. Jūsu cena jebkurā gadījumā ir tāda pati."
       },
       {
         "q": "Vai šī ir Tesla vietne?",

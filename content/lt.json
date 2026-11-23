@@ -25,13 +25,15 @@
     "copied": "Nukopijuota",
     "cta": "Užsakyti su rekomendacija",
     "secondary": "Kaip tai veikia",
+    "adLabel": "Reklama",
+    "disclosure": "Tai mano asmeninė Tesla rekomendacijos nuoroda. Jei užsakysite per ją, Tesla ir man suteiks atlygį už rekomendaciją. Jūsų kaina nesikeičia.",
     "independent": "Nepriklausoma savininko svetainė, nesusijusi su Tesla, Inc.",
     "updated": "Atnaujinta {checkedOn}"
   },
   "status": {
     "active": {
       "headline": "{km} km nemokamo Supercharging įkrovimo",
-      "subline": "Užsisakykite naują Model 3 arba Model Y per mano rekomendacijos nuorodą, ir Tesla į jūsų paskyrą įskaitys {km} km nemokamo Supercharging įkrovimo."
+      "subline": "Užsisakykite savo pirmąjį naują Model 3 arba Model Y per mano rekomendacijos nuorodą ir pagal dabartinį Tesla rekomendacijų pasiūlymą Europoje gausite {km} km nemokamo Supercharging įkrovimo."
     },
     "ended": {
       "headline": "Rekomendacijų privalumai sustabdyti",
@@ -57,12 +59,12 @@
       {
         "value": "Model 3 ir Y",
         "label": "Nauji automobiliai",
-        "text": "Individualūs užsakymai ir nauji automobiliai iš sandėlio. Naudoti automobiliai netinka."
+        "text": "Jūsų pirmasis Model 3 arba Model Y – individualiai užsakytas arba naujas iš sandėlio. Naudoti automobiliai netinka."
       },
       {
         "value": "Europa",
         "label": "Kur užsakote",
-        "text": "Privalumą lemia šalis, kurios Tesla svetainėje pateikiate užsakymą."
+        "text": "Tesla privalumą nustato kiekvienai šaliai atskirai. Gausite tai, kas rodoma jūsų užsakymo suvestinėje Tesla svetainėje."
       }
     ]
   },
@@ -79,7 +81,7 @@
       },
       {
         "title": "Naudokitės Supercharging įkrovimu",
-        "text": "Kreditas atsiras Tesla programėlėje, paprastai maždaug automobilio pristatymo metu."
+        "text": "Kreditas suteikiamas, kai perimate automobilį, ir tada atsiranda Tesla programėlėje."
       }
     ]
   },
@@ -88,15 +90,15 @@
     "items": [
       {
         "q": "Ar kodo naudojimas man ką nors kainuoja?",
-        "a": "Ne. Automobilio kaina nesikeičia – tiesiog papildomai gaunate nemokamą Supercharging įkrovimą."
+        "a": "Ne. Automobilio kaina ta pati – su rekomendacija ar be jos. Nemokamą Supercharging įkrovimą gaunate papildomai, jei rekomendacija rodoma jūsų užsakymo suvestinėje, todėl prieš mokėdami ją patikrinkite."
       },
       {
         "q": "Ar Europoje taikoma Tesla rekomendacijos nuolaida?",
-        "a": "Kaina nemažėja. Europoje pirkėjams skirtas rekomendacijos privalumas yra ne nuolaida automobiliui, o nemokamas Supercharging įkrovimas – šiuo metu {km} km įsigyjant naują Model 3 arba Model Y."
+        "a": "Kaina nemažėja. Model 3 ir Model Y atveju dabartinis Tesla rekomendacijų pasiūlymas Europoje pirkėjams suteikia ne nuolaidą automobiliui, o {km} km nemokamo Supercharging įkrovimo (patikrinta {checkedOn})."
       },
       {
         "q": "Ar kodas galioja Model S arba Model X?",
-        "a": "Ne. Europoje rekomendacijų programa šiuo metu taikoma tik naujų Model 3 ir Model Y užsakymams."
+        "a": "Šiuo metu mano rekomendacijos nuoroda rodo privalumą tik naujiems Model 3 ir Model Y. Dėl Model S ar Model X patikrinkite savo šalies Tesla rekomendacijų sąlygas."
       },
       {
         "q": "Ar galiu naudoti kodą, jei užsakau kitoje Europos šalyje?",
@@ -111,12 +113,16 @@
         "a": "Nauji Model 3 ir Model Y – tiek individualiai užsakyti, tiek įsigyti kaip nauji automobiliai iš sandėlio. Naudoti ir sertifikuoti naudoti automobiliai netinka. Jei perkate demonstracinį automobilį, prieš mokėdami patikrinkite, ar rekomendacija rodoma užsakymo puslapyje."
       },
       {
+        "q": "Ar galiu naudoti kodą, jei jau turiu Tesla?",
+        "a": "Tik jei tai jūsų pirmasis Model 3 arba Model Y. Tesla pirkėjo privalumą suteikia vieną kartą – už pirmąjį tinkamą pirkinį per rekomendacijos nuorodą, be to, jums turi būti bent 18 metų. Esami savininkai vietoj to gali gauti Tesla lojalumo privalumus."
+      },
+      {
         "q": "Kiek laiko galioja Supercharging kreditas?",
-        "a": "Pagal Tesla sąlygas rekomendacijų privalumai nustoja galioti praėjus 12 mėnesių nuo jų suteikimo. Kredito negalima iškeisti į pinigus ar perleisti, o pardavus automobilį jis nustoja galioti."
+        "a": "Pagal Tesla sąlygas privalumas nustoja galioti praėjus 12 mėnesių nuo jo suteikimo, o jis suteikiamas, kai perimate automobilį. Jis neturi piniginės vertės, jo negalima perleisti, jis galioja tik Tesla priklausančiose Supercharger stotyse ir nustoja galioti pardavus automobilį. Jei Tesla nutrauks programą, nepanaudoti privalumai gali būti panaikinti."
       },
       {
         "q": "O ką iš to gaunate jūs?",
-        "a": "Tesla ir man suteikia atlygį už rekomendaciją – taip veikia ši programa. Jums tai nieko papildomai nekainuoja."
+        "a": "Kai užsakote per mano nuorodą, Tesla ir man suteikia atlygį už rekomendaciją (Supercharging kreditą arba Tesla Credits). Todėl ir egzistuoja šis puslapis. Jūsų kaina bet kuriuo atveju ta pati."
       },
       {
         "q": "Ar tai Tesla svetainė?",

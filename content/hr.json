@@ -25,13 +25,15 @@
     "copied": "Kopirano",
     "cta": "Naručite uz preporuku",
     "secondary": "Kako funkcionira",
+    "adLabel": "Oglas",
+    "disclosure": "Ovo je moja osobna Tesla poveznica za preporuku. Ako naručite putem nje, Tesla i meni daje nagradu za preporuku. Vaša cijena ostaje ista.",
     "independent": "Neovisna stranica vlasnika, nije povezana s Tesla, Inc.",
     "updated": "Ažurirano {checkedOn}"
   },
   "status": {
     "active": {
       "headline": "{km} km besplatnog Supercharginga",
-      "subline": "Naručite novi Model 3 ili Model Y putem moje poveznice za preporuku i Tesla će vam na račun dodati {km} km besplatnog Supercharginga."
+      "subline": "Naručite svoj prvi novi Model 3 ili Model Y putem moje poveznice za preporuku i uz Teslinu trenutnu ponudu za preporuke u Europi dobivate {km} km besplatnog Supercharginga."
     },
     "ended": {
       "headline": "Pogodnosti preporuke trenutno su pauzirane",
@@ -57,12 +59,12 @@
       {
         "value": "Model 3 i Y",
         "label": "Nova vozila",
-        "text": "Narudžbe po vlastitoj konfiguraciji i nova vozila iz zalihe. Rabljena vozila nisu obuhvaćena."
+        "text": "Vaš prvi Model 3 ili Model Y, naručen po vlastitoj konfiguraciji ili nov iz zalihe. Rabljena vozila nisu obuhvaćena."
       },
       {
         "value": "Europa",
         "label": "Gdje naručujete",
-        "text": "Pogodnost ovisi o zemlji na čijoj Tesla stranici naručujete."
+        "text": "Tesla određuje pogodnost za svaku zemlju zasebno. Dobivate ono što prikazuje sažetak vaše narudžbe na Teslinoj stranici."
       }
     ]
   },
@@ -79,7 +81,7 @@
       },
       {
         "title": "Uživajte u Superchargingu",
-        "text": "Kredit se pojavljuje u aplikaciji Tesla, obično oko isporuke vozila."
+        "text": "Kredit se dodjeljuje kada preuzmete vozilo, a zatim se pojavljuje u aplikaciji Tesla."
       }
     ]
   },
@@ -88,15 +90,15 @@
     "items": [
       {
         "q": "Košta li me korištenje koda išta?",
-        "a": "Ne. Cijena vozila je ista – uz to samo dobivate besplatan Supercharging."
+        "a": "Ne. Cijena vozila je ista s preporukom ili bez nje. Besplatan Supercharging dobivate uz to ako je preporuka prikazana u sažetku narudžbe, pa to provjerite prije plaćanja."
       },
       {
         "q": "Postoji li u Europi Tesla popust za preporuku?",
-        "a": "Ne na cijenu. U Europi kupac uz preporuku umjesto popusta na cijenu vozila dobiva besplatan Supercharging – trenutno {km} km uz novi Model 3 ili Model Y."
+        "a": "Ne na cijenu. Za Model 3 i Model Y Teslina ponuda za preporuke u Europi kupcima trenutno umjesto popusta na cijenu vozila daje {km} km besplatnog Supercharginga (provjereno {checkedOn})."
       },
       {
         "q": "Vrijedi li kod za Model S ili Model X?",
-        "a": "Ne. U Europi program preporuka trenutno obuhvaća samo narudžbe novih vozila Model 3 i Model Y."
+        "a": "Moja poveznica za preporuku trenutno prikazuje pogodnost samo za nove Model 3 i Model Y. Za Model S ili Model X provjerite Tesline uvjete preporuka za svoju zemlju."
       },
       {
         "q": "Mogu li koristiti kod ako naručujem u drugoj europskoj zemlji?",
@@ -111,12 +113,16 @@
         "a": "Novi Model 3 i Model Y, naručeni po vlastitoj konfiguraciji ili kupljeni kao nova vozila iz zalihe. Rabljena i certificirana rabljena vozila nisu obuhvaćena. Kod demonstracijskih vozila prije plaćanja provjerite je li preporuka prikazana na stranici narudžbe."
       },
       {
+        "q": "Mogu li koristiti kod ako već imam Teslu?",
+        "a": "Samo ako vam je to prvi Model 3 ili Model Y. Tesla kupcu daje pogodnost jednom, pri prvoj prihvatljivoj kupnji putem poveznice za preporuku, a morate imati najmanje 18 godina. Postojeći vlasnici umjesto toga mogu dobiti Tesline pogodnosti za vjernost."
+      },
+      {
         "q": "Koliko dugo vrijedi kredit za Supercharging?",
-        "a": "Prema Teslinim uvjetima pogodnosti preporuke istječu 12 mjeseci nakon dodjele. Kredit se ne može zamijeniti za novac niti prenijeti, a prestaje vrijediti ako prodate vozilo."
+        "a": "Prema Teslinim uvjetima pogodnost istječe 12 mjeseci nakon dodjele, a dodjeljuje se kada preuzmete vozilo. Nema novčanu vrijednost, ne može se prenijeti, vrijedi samo na Superchargerima u Teslinu vlasništvu i prestaje vrijediti ako prodate vozilo. Ako Tesla ukine program, neiskorištene pogodnosti mogu biti poništene."
       },
       {
         "q": "Što vi dobivate od toga?",
-        "a": "I ja od Tesle dobivam nagradu za preporuku – tako program funkcionira. Vi zbog toga ne plaćate ništa dodatno."
+        "a": "Kada naručite putem moje poveznice, i ja od Tesle dobivam nagradu za preporuku (kredit za Supercharging ili Tesla Credits). Zato ova stranica postoji. Vaša je cijena ista u svakom slučaju."
       },
       {
         "q": "Je li ovo Teslina stranica?",

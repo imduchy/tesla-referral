@@ -25,13 +25,15 @@
     "copied": "Kopirano",
     "cta": "Naročite z napotitvijo",
     "secondary": "Kako deluje",
+    "adLabel": "Oglas",
+    "disclosure": "To je moja osebna Teslina napotitvena povezava. Če naročite prek nje, Tesla tudi meni podeli nagrado za napotitev. Vaša cena ostane enaka.",
     "independent": "Neodvisna stran lastnika, ni povezana s Tesla, Inc.",
     "updated": "Posodobljeno: {checkedOn}"
   },
   "status": {
     "active": {
       "headline": "{km} km brezplačnega hitrega polnjenja",
-      "subline": "Naročite nov Model 3 ali Model Y prek moje napotitvene povezave in Tesla vam bo v račun dodala {km} km brezplačnega hitrega polnjenja na polnilnicah Supercharger."
+      "subline": "Naročite svoj prvi nov Model 3 ali Model Y prek moje napotitvene povezave in s trenutno Teslino ponudbo za napotitve v Evropi prejmete {km} km brezplačnega hitrega polnjenja na polnilnicah Supercharger."
     },
     "ended": {
       "headline": "Ugodnosti napotitev so začasno ustavljene",
@@ -57,12 +59,12 @@
       {
         "value": "Model 3 in Y",
         "label": "Nova vozila",
-        "text": "Naročila po meri in nova vozila iz zaloge. Rabljena vozila niso upravičena."
+        "text": "Vaš prvi Model 3 ali Model Y, naročen po meri ali nov iz zaloge. Rabljena vozila niso upravičena."
       },
       {
         "value": "Evropa",
         "label": "Kje naročite",
-        "text": "Ugodnost je odvisna od države, na Teslini spletni strani katere oddate naročilo."
+        "text": "Tesla ugodnost določi za vsako državo posebej. Prejmete tisto, kar je prikazano v povzetku naročila na Teslini spletni strani."
       }
     ]
   },
@@ -79,7 +81,7 @@
       },
       {
         "title": "Uživajte v hitrem polnjenju",
-        "text": "Dobroimetje se prikaže v aplikaciji Tesla, običajno okoli prevzema vozila."
+        "text": "Dobroimetje je dodeljeno ob prevzemu vozila, nato pa se prikaže v aplikaciji Tesla."
       }
     ]
   },
@@ -88,15 +90,15 @@
     "items": [
       {
         "q": "Ali me uporaba kode kaj stane?",
-        "a": "Ne. Cena vozila je enaka – brezplačno hitro polnjenje dobite povrhu."
+        "a": "Ne. Cena vozila je enaka z napotitvijo ali brez nje. Brezplačno hitro polnjenje dobite povrhu, če je napotitev prikazana v povzetku naročila, zato to preverite pred plačilom."
       },
       {
         "q": "Ali v Evropi obstaja Teslin popust za napotitev?",
-        "a": "Ne pri ceni. V Evropi kupec prek napotitve namesto popusta pri ceni vozila prejme brezplačno hitro polnjenje – trenutno {km} km ob nakupu novega vozila Model 3 ali Model Y."
+        "a": "Ne pri ceni. Za Model 3 in Model Y Teslina ponudba za napotitve v Evropi kupcem trenutno namesto popusta pri ceni vozila prinaša {km} km brezplačnega hitrega polnjenja (preverjeno {checkedOn})."
       },
       {
         "q": "Ali koda velja za Model S ali Model X?",
-        "a": "Ne. V Evropi napotitveni program trenutno zajema samo naročila novih vozil Model 3 in Model Y."
+        "a": "Moja napotitvena povezava trenutno prikazuje ugodnost samo za nova vozila Model 3 in Model Y. Za Model S ali Model X preverite Teslina pravila napotitev za svojo državo."
       },
       {
         "q": "Ali lahko kodo uporabim, če naročim v drugi evropski državi?",
@@ -111,12 +113,16 @@
         "a": "Nova vozila Model 3 in Model Y, naročena po meri ali kupljena kot nova vozila iz zaloge. Rabljena in certificirana rabljena vozila niso upravičena. Pri predstavitvenih vozilih pred plačilom preverite, ali je napotitev prikazana na strani naročila."
       },
       {
+        "q": "Ali lahko kodo uporabim, če že imam Teslo?",
+        "a": "Samo če gre za vaš prvi Model 3 ali Model Y. Tesla kupcu ugodnost podeli enkrat, ob prvem upravičenem nakupu prek napotitvene povezave, stari pa morate biti vsaj 18 let. Obstoječi lastniki lahko namesto tega prejmejo Tesline ugodnosti zvestobe."
+      },
+      {
         "q": "Kako dolgo velja dobroimetje za hitro polnjenje?",
-        "a": "Po Teslinih pogojih ugodnosti napotitev potečejo 12 mesecev po dodelitvi. Dobroimetja ni mogoče zamenjati za denar ali prenesti, poteče pa tudi, če vozilo prodate."
+        "a": "Po Teslinih pogojih ugodnost poteče 12 mesecev po dodelitvi, ta pa se zgodi ob prevzemu vozila. Nima denarne vrednosti, ni prenosljiva, velja samo na polnilnicah Supercharger v Teslini lasti in poteče, če vozilo prodate. Če Tesla program ukine, se lahko neporabljene ugodnosti razveljavijo."
       },
       {
         "q": "Kaj imate od tega vi?",
-        "a": "Tesla tudi meni podeli nagrado za napotitev – tako program deluje. Vi za to ne plačate ničesar dodatno."
+        "a": "Ko naročite prek moje povezave, Tesla tudi meni podeli nagrado za napotitev (dobroimetje za hitro polnjenje ali Tesla Credits). Zato ta stran obstaja. Vaša cena je v vsakem primeru enaka."
       },
       {
         "q": "Ali je to Teslina spletna stran?",
