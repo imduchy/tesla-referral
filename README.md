@@ -46,6 +46,7 @@ Everyday changes only touch `site.json`:
 | `termsUrl` | Fallback link to Tesla's referral terms (each language sets its own) |
 | `goatcounterCode` | [GoatCounter](https://www.goatcounter.com) site code. Leave empty to disable analytics |
 | `siteUrl` | Public URL, used for canonical links, hreflang and the sitemap |
+| `operator` | Your name, postal address, email and optional contact URL for the imprint and privacy notice (`legal/*.json`). The /legal/ page and its footer link are only published once name, address and email are filled in |
 | `photoCredit` | Photographer name and link shown under the photo (empty name = no credit line) |
 
 Pushing to `main` deploys automatically via `.github/workflows/static.yml`, which afterwards notifies search engines through [IndexNow](https://www.indexnow.org) (`indexNowKey` in `site.json`; the key is public by design).

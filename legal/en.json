@@ -1,0 +1,15 @@
+{
+  "lang": "en",
+  "title": "Legal notice & privacy",
+  "footerLink": "Legal notice & privacy",
+  "sections": [
+    {
+      "heading": "Legal notice",
+      "body": "<p>Operator and person responsible for the content: {name}, private individual<br>{address}</p><p>Email: <a href=\"mailto:{email}\">{email}</a>{contactLine}</p><p>This is a private, non-business website (no VAT ID). It contains my personal Tesla referral link: if you order through it, Tesla may give me a referral reward. Not affiliated with, endorsed by or sponsored by Tesla, Inc.</p>"
+    },
+    {
+      "heading": "Privacy notice",
+      "body": "<p><strong>Controller:</strong> {name}, {address}, <a href=\"mailto:{email}\">{email}</a>.</p><p><strong>Hosting.</strong> This site is hosted on GitHub Pages (GitHub, Inc., USA). When you open a page, GitHub processes your IP address and technical request data in server logs for security and delivery of the site. Legal basis: Art. 6(1)(f) GDPR (legitimate interest in securely providing the website). Transfers to the USA rely on the EU-US Data Privacy Framework. See the <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\" rel=\"noopener\">GitHub Privacy Statement</a>.</p><p><strong>Visitor statistics.</strong> I use <a href=\"https://www.goatcounter.com\" rel=\"noopener\">GoatCounter</a>, a privacy-friendly analytics service, to count page views and clicks on the referral link and the copy button. GoatCounter sets no cookies. It records the page, the referring site, browser and operating system and the country; your IP address is only used to create a temporary salted hash for counting unique visits and is not stored. GoatCounter processes this data on my behalf (Art. 28 GDPR). Legal basis: Art. 6(1)(f) GDPR (legitimate interest in simple, anonymous usage statistics). See <a href=\"https://www.goatcounter.com/help/privacy\" rel=\"noopener\">GoatCounter's privacy policy</a>. You can object at any time, for example by blocking the script gc.zgo.at in your browser.</p><p><strong>Fonts and images</strong> are served from this site; no requests go to third-party font or image services.</p><p><strong>Tesla.</strong> If you follow the referral link you go to tesla.com, where Tesla's own privacy notice applies.</p><p><strong>Your rights.</strong> You have the right of access, rectification, erasure, restriction of processing, data portability and the right to object (Art. 15–21 GDPR). Contact me at the email above. You can also complain to a supervisory authority, e.g. the Slovak Office for Personal Data Protection (Úrad na ochranu osobných údajov SR, Hraničná 12, 820 07 Bratislava, <a href=\"https://dataprotection.gov.sk\" rel=\"noopener\">dataprotection.gov.sk</a>) or the authority in your country.</p><p>There is no automated decision-making or profiling. Last updated: {updated}.</p>"
+    }
+  ]
+}
