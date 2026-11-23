@@ -14,7 +14,7 @@ _Researched: 2026-11-23. **Not verified against tesla.com directly**: Tesla's si
 - **Free Supercharging distance, not a cash discount.** Amount is disputed:
   - 2,000 km — doubled from 1,000 km around 22–30 Apr 2026 ([Not a Tesla App](https://www.notateslaapp.com/news/4070/tesla-updates-referral-program-in-europe-increases-rewards), [Basenor](https://www.basenor.com/blogs/news/tesla-doubles-europe-referral-rewards-to-2-000-km-free-supercharging))
   - 1,000 km — reportedly reverted on 1 May 2026 (German blogs); most Sep–Nov 2026 listings say 1,000 km.
-  - **Best guess: 1,000 km. Unverified.**
+  - **Confirmed 1,000 km** — confirmed by the site owner on 2026-11-23 (Tesla still advertises 1,000 km in Europe).
 - No per-country differences found within the EU. Model S/X removed from the program in 2026. Cybertruck not sold in the EU.
 
 ## Referrer Reward
@@ -40,6 +40,5 @@ _Researched: 2026-11-23. **Not verified against tesla.com directly**: Tesla's si
 
 ## To verify manually (in a browser or the Tesla app)
 
-1. Does the EU `refer-and-earn` page (e.g. `tesla.com/de_DE/support/refer-and-earn`) still offer vehicle referral benefits?
-2. Current km amount for Model 3 / Model Y.
-3. Whether demo vehicles qualify.
+1. Re-check periodically that EU buyer benefits are still offered (US ended them 30 Oct 2026, Canada 12 Nov 2026).
+2. Whether demo vehicles qualify.

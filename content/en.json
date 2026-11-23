@@ -1,0 +1,68 @@
+{
+  "lang": "en",
+  "locale": "en-GB",
+  "meta": {
+    "title": "Tesla Referral Code – {km} km free Supercharging in Europe",
+    "description": "Order a new Tesla Model 3 or Model Y in Europe with referral code {code} and get {km} km of free Supercharging. Independent owner site."
+  },
+  "nav": {
+    "siteName": "Tesla Referral Code",
+    "terms": "Official terms"
+  },
+  "hero": {
+    "eyebrow": "Model 3 · Model Y · Europe",
+    "codeLabel": "Referral code",
+    "copy": "Copy",
+    "copied": "Copied",
+    "cta": "Order with referral",
+    "secondary": "How it works",
+    "independent": "Independent owner site — not affiliated with Tesla, Inc."
+  },
+  "status": {
+    "active": {
+      "headline": "{km} km of free Supercharging",
+      "subline": "Order a new Model 3 or Model Y through my referral link and Tesla adds {km} km of free Supercharging to your account."
+    },
+    "ended": {
+      "headline": "Referral benefits are paused",
+      "subline": "Tesla has currently paused buyer benefits for new car referrals in Europe. I'll update this page if they come back.",
+      "notice": "Using the code right now gives you no extra benefit. Check Tesla's official terms for the latest status."
+    },
+    "capReached": {
+      "headline": "This code is used up for the year",
+      "subline": "Tesla limits how many referrals one owner can make per calendar year, and this code has reached that limit.",
+      "notice": "Orders through this code won't receive the buyer benefit until 1 January. Ask another owner for their code, or check Tesla's official terms."
+    }
+  },
+  "benefits": {
+    "title": "What you get",
+    "items": [
+      { "value": "{km} km", "label": "Free Supercharging", "text": "Credited to your Tesla account, usable at Tesla-owned Superchargers." },
+      { "value": "Model 3 & Y", "label": "New vehicles", "text": "Custom orders and new inventory cars. Used cars don't qualify." },
+      { "value": "Europe", "label": "Where you order", "text": "The benefit is set by the country whose Tesla site you order on." }
+    ]
+  },
+  "steps": {
+    "title": "How it works",
+    "items": [
+      { "title": "Open the referral link", "text": "It takes you to Tesla's own website with the referral already applied." },
+      { "title": "Configure and order", "text": "Order in the same visit. Check the referral appears in your order summary before you pay." },
+      { "title": "Enjoy the Supercharging", "text": "The credit shows up in your Tesla app, usually around delivery." }
+    ]
+  },
+  "faq": {
+    "title": "Questions",
+    "items": [
+      { "q": "Does using the code cost me anything?", "a": "No. The price of the car is the same — you just get the free Supercharging on top." },
+      { "q": "Can I add the code after I've ordered?", "a": "No. Tesla only applies a referral if you order through the link. It can't be added to an existing order." },
+      { "q": "Which cars qualify?", "a": "New Model 3 and Model Y, either custom ordered or bought as new inventory. Used and certified pre-owned cars don't qualify. For demo cars, check that the referral is shown on the order page before you pay." },
+      { "q": "How long is the Supercharging credit valid?", "a": "Tesla's terms say referral benefits expire 12 months after they're granted. The credit can't be exchanged for cash or transferred, and it ends if you sell the car." },
+      { "q": "What do you get out of it?", "a": "Tesla gives me a referral reward too — that's how the program works. You don't pay anything extra for it." },
+      { "q": "Is this Tesla's website?", "a": "No. This is an independent page run by a Tesla owner. The order itself happens entirely on Tesla's official website." }
+    ]
+  },
+  "footer": {
+    "checked": "Offer checked on {checkedOn}. Tesla can change or end the referral program at any time — always confirm the benefit in your order summary and in <a href=\"{termsUrl}\" rel=\"noopener\">Tesla's official referral terms</a>.",
+    "disclaimer": "Independent site run by a private Tesla owner. Not affiliated with, endorsed by or sponsored by Tesla, Inc. Tesla, Model 3, Model Y and Supercharger are trademarks of Tesla, Inc."
+  }
+}
