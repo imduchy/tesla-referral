@@ -25,13 +25,15 @@
     "copied": "Másolva",
     "cta": "Rendelés ajánlással",
     "secondary": "Hogyan működik?",
+    "adLabel": "Hirdetés",
+    "disclosure": "Ez a saját Tesla ajánlói linkem. Ha ezen keresztül rendelsz, a Tesla nekem is ad ajánlói jutalmat. A te árad ugyanannyi marad.",
     "independent": "Független tulajdonosi oldal, nem kapcsolódik a Tesla, Inc.-hez.",
     "updated": "Frissítve: {checkedOn}"
   },
   "status": {
     "active": {
       "headline": "{km} km ingyenes Supercharge-töltés",
-      "subline": "Rendelj új Model 3-at vagy Model Y-t az ajánlói linkemen keresztül, és a Tesla {km} km ingyenes Supercharge-töltést ír jóvá a fiókodban."
+      "subline": "Rendeld meg az első új Model 3-adat vagy Model Y-odat az ajánlói linkemen keresztül, és a Tesla jelenlegi európai ajánlói ajánlata alapján {km} km ingyenes Supercharge-töltést kapsz."
     },
     "ended": {
       "headline": "Az ajánlói kedvezmények szünetelnek",
@@ -57,12 +59,12 @@
       {
         "value": "Model 3 és Y",
         "label": "Új autók",
-        "text": "Egyedi rendelésű és készleten lévő új autók. A használt autókra nem vonatkozik."
+        "text": "Az első Model 3-ad vagy Model Y-od, egyedi rendeléssel vagy új autóként készletről. A használt autókra nem vonatkozik."
       },
       {
         "value": "Európa",
         "label": "Ahol rendelsz",
-        "text": "A kedvezményt annak az országnak a Tesla-oldala határozza meg, ahol a rendelést leadod."
+        "text": "A Tesla országonként határozza meg a kedvezményt. Azt kapod, amit a rendelés összesítője a Tesla oldalán mutat."
       }
     ]
   },
@@ -79,7 +81,7 @@
       },
       {
         "title": "Élvezd a Supercharge-töltést",
-        "text": "A jóváírás a Tesla alkalmazásban jelenik meg, általában az átadás körül."
+        "text": "A jóváírás az autó átvételekor történik, ezután jelenik meg a Tesla alkalmazásban."
       }
     ]
   },
@@ -88,15 +90,15 @@
     "items": [
       {
         "q": "Kerül nekem valamibe a kód használata?",
-        "a": "Nem. Az autó ára ugyanannyi – az ingyenes Supercharge-töltést pluszban kapod."
+        "a": "Nem. Az autó ára ajánlással és anélkül is ugyanannyi. Az ingyenes Supercharge-töltést pluszban kapod, ha az ajánlás megjelenik a rendelés összesítőjében, ezért fizetés előtt ellenőrizd."
       },
       {
         "q": "Jár kedvezmény a Tesla ajánlói programmal Európában?",
-        "a": "Az árból nem. Európában az ajánlással rendelő vásárló nem árengedményt kap, hanem ingyenes Supercharge-töltést – jelenleg {km} km-t új Model 3-hoz vagy Model Y-hoz."
+        "a": "Az árból nem. Model 3 és Model Y esetén a Tesla európai ajánlói ajánlata jelenleg {km} km ingyenes Supercharge-töltést ad a vásárlóknak (ellenőrizve: {checkedOn}), nem árengedményt az autóból."
       },
       {
         "q": "Működik a kód Model S-re vagy Model X-re?",
-        "a": "Nem. Európában az ajánlói program jelenleg csak az új Model 3 és Model Y rendelésekre vonatkozik."
+        "a": "Az ajánlói linkem jelenleg csak új Model 3-hoz és Model Y-hoz mutat kedvezményt. Model S vagy Model X esetén nézd meg a Tesla ajánlói feltételeit a saját országodra."
       },
       {
         "q": "Használhatom a kódot, ha másik európai országban rendelek?",
@@ -111,12 +113,16 @@
         "a": "Új Model 3-ra és Model Y-ra, akár egyedi rendelésről, akár készleten lévő új autóról van szó. Használt és minősített használt autókra nem vonatkozik. Bemutatóautóknál fizetés előtt ellenőrizd, hogy az ajánlás megjelenik-e a rendelési oldalon."
       },
       {
+        "q": "Használhatom a kódot, ha már van Teslám?",
+        "a": "Csak akkor, ha ez az első Model 3-ad vagy Model Y-od. A Tesla a vásárlói kedvezményt egyszer adja meg, az első jogosult, ajánlói linken keresztüli vásárlásodnál, és legalább 18 évesnek kell lenned. A meglévő tulajdonosok helyette a Tesla hűségkedvezményeit kaphatják meg."
+      },
+      {
         "q": "Meddig érvényes a Supercharge-jóváírás?",
-        "a": "A Tesla feltételei szerint az ajánlói kedvezmények a jóváírásuktól számított 12 hónap után lejárnak. A jóváírás nem váltható készpénzre, nem ruházható át, és megszűnik, ha eladod az autót."
+        "a": "A Tesla feltételei szerint a kedvezmény a jóváírásától számított 12 hónap után lejár; a jóváírás az autó átvételekor történik. Nincs készpénzértéke, nem ruházható át, csak a Tesla tulajdonában lévő Supercharger-állomásokon használható fel, és megszűnik, ha eladod az autót. Ha a Tesla megszünteti a programot, a fel nem használt kedvezmények törölhetők."
       },
       {
         "q": "Neked mi hasznod van belőle?",
-        "a": "A Tesla nekem is ad ajánlói jutalmat – így működik a program. Neked ezért semmivel sem kell többet fizetned."
+        "a": "Ha a linkemen keresztül rendelsz, a Tesla nekem is ad ajánlói jutalmat (Supercharge-jóváírás vagy Tesla Credits formájában). Ezért létezik ez az oldal. A te árad mindkét esetben ugyanannyi."
       },
       {
         "q": "Ez a Tesla weboldala?",

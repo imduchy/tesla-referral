@@ -25,13 +25,15 @@
     "copied": "Skopírované",
     "cta": "Objednať s referral kódom",
     "secondary": "Ako to funguje",
+    "adLabel": "Reklama",
+    "disclosure": "Toto je môj osobný referral odkaz na Teslu. Ak cez neho objednáte, Tesla dá odmenu za odporúčanie aj mne. Vaša cena zostáva rovnaká.",
     "independent": "Nezávislá stránka majiteľa, bez prepojenia so spoločnosťou Tesla, Inc.",
     "updated": "Aktualizované {checkedOn}"
   },
   "status": {
     "active": {
       "headline": "{km} km Supercharging zadarmo",
-      "subline": "Objednajte si nový Model 3 alebo Model Y cez môj referral odkaz a Tesla vám na účet pripíše {km} km nabíjania Supercharging zadarmo."
+      "subline": "Objednajte si svoj prvý nový Model 3 alebo Model Y cez môj referral odkaz a v rámci aktuálnej referral ponuky Tesly v Európe získate {km} km nabíjania Supercharging zadarmo."
     },
     "ended": {
       "headline": "Výhody z odporúčaní sú pozastavené",
@@ -57,12 +59,12 @@
       {
         "value": "Model 3 a Y",
         "label": "Nové autá",
-        "text": "Autá objednané na mieru aj nové autá na sklade. Ojazdené autá sa nerátajú."
+        "text": "Váš prvý Model 3 alebo Model Y, objednaný na mieru alebo nový zo skladu. Ojazdené autá sa nerátajú."
       },
       {
         "value": "Európa",
         "label": "Kde objednávate",
-        "text": "Výhodu určuje krajina, na ktorej webe Tesly objednávku zadáte."
+        "text": "Výhodu určuje Tesla pre každú krajinu zvlášť. Získate to, čo vám ukáže súhrn objednávky na webe Tesly."
       }
     ]
   },
@@ -79,7 +81,7 @@
       },
       {
         "title": "Užívajte si Supercharging",
-        "text": "Kredit sa zobrazí v aplikácii Tesla, zvyčajne okolo odovzdania auta."
+        "text": "Kredit sa udeľuje pri prevzatí auta a potom sa zobrazí v aplikácii Tesla."
       }
     ]
   },
@@ -88,15 +90,15 @@
     "items": [
       {
         "q": "Stojí ma použitie kódu niečo?",
-        "a": "Nie. Cena auta zostáva rovnaká – nabíjanie Supercharging zadarmo dostanete navyše."
+        "a": "Nie. Cena auta je s odporúčaním aj bez neho rovnaká. Nabíjanie Supercharging zadarmo dostanete navyše, ak sa odporúčanie zobrazuje v súhrne objednávky – preto si ho pred zaplatením skontrolujte."
       },
       {
         "q": "Dáva Tesla v Európe za odporúčanie zľavu?",
-        "a": "Nie na cenu. V Európe kupujúci z odporúčania nezískava zľavu z ceny auta, ale nabíjanie Supercharging zadarmo – aktuálne {km} km k novému Model 3 alebo Model Y."
+        "a": "Nie na cenu. Pri Model 3 a Model Y dáva referral ponuka Tesly v Európe kupujúcim aktuálne {km} km nabíjania Supercharging zadarmo (overené {checkedOn}), nie zľavu z ceny auta."
       },
       {
         "q": "Platí kód aj pre Model S alebo Model X?",
-        "a": "Nie. V Európe sa referral program aktuálne vzťahuje len na objednávky nových áut Model 3 a Model Y."
+        "a": "Môj referral odkaz aktuálne zobrazuje výhodu len pri novom Model 3 a Model Y. Pri Model S alebo Model X si pozrite referral podmienky Tesly pre vašu krajinu."
       },
       {
         "q": "Môžem kód použiť, keď objednávam v inej európskej krajine?",
@@ -111,12 +113,16 @@
         "a": "Nové autá Model 3 a Model Y, či už objednané na mieru, alebo kúpené ako nové autá na sklade. Ojazdené ani certifikované ojazdené autá sa nerátajú. Pri predvádzacích autách si pred zaplatením overte, či sa odporúčanie zobrazuje na stránke objednávky."
       },
       {
+        "q": "Môžem kód použiť, ak už Teslu mám?",
+        "a": "Len ak ide o váš prvý Model 3 alebo Model Y. Tesla dáva výhodu pre kupujúceho iba raz, pri vašom prvom oprávnenom nákupe cez referral odkaz, a musíte mať aspoň 18 rokov. Súčasní majitelia môžu namiesto toho získať vernostné výhody Tesly."
+      },
+      {
         "q": "Ako dlho platí kredit na Supercharging?",
-        "a": "Podľa podmienok Tesly výhody z odporúčaní vypršia 12 mesiacov od ich udelenia. Kredit nemožno vymeniť za hotovosť ani previesť na inú osobu a zaniká, ak auto predáte."
+        "a": "Podľa podmienok Tesly výhoda vyprší 12 mesiacov od jej udelenia, ku ktorému dôjde pri prevzatí auta. Nemá hotovostnú hodnotu, nemožno ju previesť na inú osobu, platí len na Superchargeroch, ktoré vlastní Tesla, a zaniká, ak auto predáte. Ak Tesla program ukončí, nevyužité výhody môžu byť zrušené."
       },
       {
         "q": "Čo z toho máte vy?",
-        "a": "Tesla dáva odmenu za odporúčanie aj mne – tak program funguje. Vy za to nič navyše neplatíte."
+        "a": "Keď objednáte cez môj odkaz, Tesla dá odmenu za odporúčanie aj mne (kredit na Supercharging alebo Tesla Credits). Preto táto stránka existuje. Vaša cena je v oboch prípadoch rovnaká."
       },
       {
         "q": "Je toto web Tesly?",

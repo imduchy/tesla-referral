@@ -25,13 +25,15 @@
     "copied": "Copiat",
     "cta": "Comandă cu recomandare",
     "secondary": "Cum funcționează",
+    "adLabel": "Publicitate",
+    "disclosure": "Acesta este linkul meu personal de recomandare Tesla. Dacă comanzi prin el, Tesla îmi oferă și mie o recompensă pentru recomandare. Prețul tău rămâne același.",
     "independent": "Site independent al unui proprietar, neafiliat cu Tesla, Inc.",
     "updated": "Actualizat la {checkedOn}"
   },
   "status": {
     "active": {
       "headline": "{km} km de Supercharging gratuit",
-      "subline": "Comandă un Model 3 sau Model Y nou prin linkul meu de recomandare, iar Tesla îți adaugă în cont {km} km de încărcare gratuită cu Supercharger."
+      "subline": "Comandă primul tău Model 3 sau Model Y nou prin linkul meu de recomandare și, prin oferta actuală de recomandare Tesla din Europa, primești {km} km de încărcare gratuită cu Supercharger."
     },
     "ended": {
       "headline": "Beneficiile din recomandări sunt suspendate",
@@ -57,12 +59,12 @@
       {
         "value": "Model 3 și Y",
         "label": "Mașini noi",
-        "text": "Comenzi personalizate și mașini noi din stoc. Mașinile rulate nu sunt eligibile."
+        "text": "Primul tău Model 3 sau Model Y, comandat personalizat sau nou din stoc. Mașinile rulate nu sunt eligibile."
       },
       {
         "value": "Europa",
         "label": "Unde comanzi",
-        "text": "Beneficiul depinde de țara pe al cărei site Tesla plasezi comanda."
+        "text": "Tesla stabilește beneficiul pentru fiecare țară. Primești ceea ce arată rezumatul comenzii pe site-ul Tesla."
       }
     ]
   },
@@ -79,7 +81,7 @@
       },
       {
         "title": "Bucură-te de Supercharging",
-        "text": "Creditul apare în aplicația Tesla, de obicei în preajma livrării."
+        "text": "Creditul se acordă la preluarea mașinii și apoi apare în aplicația Tesla."
       }
     ]
   },
@@ -88,15 +90,15 @@
     "items": [
       {
         "q": "Mă costă ceva folosirea codului?",
-        "a": "Nu. Prețul mașinii rămâne același – primești doar, în plus, încărcarea gratuită cu Supercharger."
+        "a": "Nu. Prețul mașinii este același, cu sau fără recomandare. Primești în plus încărcarea gratuită cu Supercharger dacă recomandarea apare în rezumatul comenzii, așa că verifică asta înainte să plătești."
       },
       {
         "q": "Există o reducere Tesla prin recomandare în Europa?",
-        "a": "Nu la preț. În Europa, beneficiul pentru cumpărătorii care comandă prin recomandare este încărcarea gratuită cu Supercharger – în prezent {km} km la un Model 3 sau Model Y nou –, nu o reducere din prețul mașinii."
+        "a": "Nu la preț. Pentru Model 3 și Model Y, oferta de recomandare Tesla din Europa le oferă în prezent cumpărătorilor {km} km de încărcare gratuită cu Supercharger (verificat la {checkedOn}), nu o reducere din prețul mașinii."
       },
       {
         "q": "Funcționează codul pentru Model S sau Model X?",
-        "a": "Nu. În Europa, programul de recomandare acoperă în prezent doar comenzile de Model 3 și Model Y noi."
+        "a": "Linkul meu de recomandare afișează în prezent un beneficiu doar pentru Model 3 și Model Y noi. Pentru Model S sau Model X, verifică condițiile programului de recomandare Tesla pentru țara ta."
       },
       {
         "q": "Pot folosi codul dacă comand în altă țară europeană?",
@@ -111,12 +113,16 @@
         "a": "Model 3 și Model Y noi, fie comandate personalizat, fie cumpărate ca mașini noi din stoc. Mașinile rulate și cele rulate certificate nu sunt eligibile. Pentru mașinile demo, verifică înainte să plătești dacă recomandarea apare pe pagina comenzii."
       },
       {
+        "q": "Pot folosi codul dacă am deja o Tesla?",
+        "a": "Doar dacă este primul tău Model 3 sau Model Y. Tesla acordă beneficiul pentru cumpărător o singură dată, la prima ta achiziție eligibilă printr-un link de recomandare, și trebuie să ai cel puțin 18 ani. Proprietarii existenți pot primi în schimb beneficiile de loialitate Tesla."
+      },
+      {
         "q": "Cât timp este valabil creditul de Supercharging?",
-        "a": "Conform condițiilor Tesla, beneficiile din recomandări expiră la 12 luni de la acordare. Creditul nu poate fi schimbat în bani și nu poate fi transferat, iar dacă vinzi mașina, acesta încetează."
+        "a": "Conform condițiilor Tesla, beneficiul expiră la 12 luni de la acordare, care are loc la preluarea mașinii. Nu are valoare în bani, nu poate fi transferat, funcționează doar la Superchargerele deținute de Tesla și încetează dacă vinzi mașina. Dacă Tesla încheie programul, beneficiile nefolosite pot fi anulate."
       },
       {
         "q": "Tu ce câștigi din asta?",
-        "a": "Tesla îmi oferă și mie o recompensă pentru recomandare – așa funcționează programul. Tu nu plătești nimic în plus pentru asta."
+        "a": "Când comanzi prin linkul meu, Tesla îmi oferă și mie o recompensă pentru recomandare (credit de Supercharging sau Tesla Credits). De aceea există această pagină. Prețul tău este același în ambele cazuri."
       },
       {
         "q": "Acesta este site-ul Tesla?",
