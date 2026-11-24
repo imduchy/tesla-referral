@@ -24,9 +24,6 @@ Pushing to `main` builds and deploys via `.github/workflows/static.yml`, then pi
 | `offerCheckedOn` | `YYYY-MM-DD`; drives the "updated" date, the month in the page title and the sitemap |
 | `superchargingKm` | Free Supercharging distance for the buyer |
 | `goatcounterCode` | GoatCounter site code; empty disables analytics |
-| `operator` | Name, address, email for the imprint/privacy page |
-
-The `/legal/` page (texts in `legal/*.json`) is only built once `operator.name`, `address` and `email` are filled in.
 
 ## Adding a language
 

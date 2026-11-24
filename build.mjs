@@ -48,14 +48,6 @@ function helpers(t) {
 
 const EN = languages.find((l) => l.lang === DEFAULT_LANG);
 
-// Imprint + privacy notice (/legal/). Published only once site.json "operator" is filled in.
-const op = site.operator || {};
-const legalEnabled = Boolean(op.name && op.address && op.email);
-const legalTexts = (existsSync('legal') ? readdirSync('legal').filter((n) => n.endsWith('.json')).map((n) => JSON.parse(readFileSync(join('legal', n), 'utf8'))) : [])
-  .sort((a, b) => (a.lang === DEFAULT_LANG ? -1 : b.lang === DEFAULT_LANG ? 1 : a.lang.localeCompare(b.lang)));
-const legalFor = (lang) => legalTexts.find((l) => l.lang === lang) || legalTexts.find((l) => l.lang === DEFAULT_LANG);
-const legalLink = (lang, prefix) =>
-  legalEnabled && legalTexts.length ? `<p class="legal-link"><a href="${prefix}legal/">${escapeHtml(legalFor(lang).footerLink)}</a></p>` : '';
 
 function renderPage(t) {
   // Keys added later fall back to English until a translation exists.
@@ -217,7 +209,6 @@ ${goatcounter}
 <footer class="footer">
   <p>${f(t.footer.checked)}</p>
   <p class="disclaimer">${f(t.footer.disclaimer)}</p>
-  ${legalLink(t.lang, prefix)}
 </footer>
 </body>
 </html>
@@ -245,40 +236,6 @@ function renderPhotoCredit(t) {
     ? `<a href="${escapeHtml(site.photoCredit.url)}" rel="noopener">${escapeHtml(site.photoCredit.name)}</a>`
     : escapeHtml(site.photoCredit.name);
   return `<p class="hero-credit">${t.photo.credit.replace('{name}', name)}</p>`;
-}
-
-function renderLegal() {
-  const fill = (s) =>
-    s.replace(/\{(\w+)\}/g, (m, k) => {
-      if (k === 'contactLine') return op.contactUrl ? `<br><a href="${escapeHtml(op.contactUrl)}" rel="noopener">${escapeHtml(op.contactUrl)}</a>` : '';
-      if (k === 'updated') return site.offerCheckedOn;
-      if (k === 'address') return escapeHtml(op.address).replace(/\n/g, '<br>');
-      return k in op ? escapeHtml(op[k]) : m;
-    });
-  const blocks = legalTexts
-    .map((l) => `<section class="section legal" lang="${l.lang}">
-    <h1>${escapeHtml(l.title)}</h1>
-    ${l.sections.map((s) => `<h2>${escapeHtml(s.heading)}</h2>\n    ${fill(s.body)}`).join('\n    ')}
-  </section>`)
-    .join('\n  ');
-  return `<!doctype html>
-<html lang="${DEFAULT_LANG}">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${escapeHtml(legalTexts.map((l) => l.title).join(' · '))}</title>
-<meta name="robots" content="noindex">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="/styles.css?v=${v.css}">
-</head>
-<body class="legal-page">
-<header class="legal-nav"><a href="/">${escapeHtml(EN.nav.siteName)}</a></header>
-<main>
-  ${blocks}
-</main>
-</body>
-</html>
-`;
 }
 
 function render404() {
@@ -339,13 +296,6 @@ for (const t of languages) {
 }
 
 writeFileSync(join(OUT, '404.html'), render404());
-if (legalEnabled && legalTexts.length) {
-  mkdirSync(join(OUT, 'legal'), { recursive: true });
-  writeFileSync(join(OUT, 'legal', 'index.html'), renderLegal());
-  console.log('built legal/index.html');
-} else {
-  console.log('legal page NOT published: fill in "operator" (name, address, email) in site.json');
-}
 writeFileSync(join(OUT, 'robots.txt'), `User-agent: *\nAllow: /\n${siteUrl ? `\nSitemap: ${absUrl('/sitemap.xml')}\n` : ''}`);
 if (siteUrl) writeFileSync(join(OUT, 'sitemap.xml'), renderSitemap());
 // IndexNow ownership file (the key is public by design; see scripts/indexnow.mjs).
