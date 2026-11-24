@@ -227,10 +227,6 @@ h1 {
 @media (prefers-color-scheme: dark) { .btn-secondary:hover { filter: brightness(1.2); } }
 
 .disclosure { margin-top: 18px; max-width: 34rem; font-size: 14px; line-height: 1.5; color: var(--text); }
-.ad-label {
-  display: inline-block; margin-right: 6px; padding: 1px 7px; border-radius: 4px;
-  border: 1px solid currentColor; font-size: 12px; font-weight: 600; letter-spacing: .02em; vertical-align: 1px;
-}
 .independent { margin-top: 14px; font-size: 12px; color: var(--muted); }
 
 :focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }

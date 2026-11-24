@@ -172,7 +172,7 @@ ${goatcounter}
       <a class="btn btn-secondary" href="${active ? '#how-it-works' : vars.termsUrl}"${active ? '' : ' rel="noopener" target="_blank"'}>${active ? f(t.hero.secondary) : f(t.nav.terms)}</a>
     </div>
 
-    <p class="disclosure"><span class="ad-label">${f(t.hero.adLabel)}</span> ${f(t.hero.disclosure)}</p>
+    <p class="disclosure">${f(t.hero.disclosure)}</p>
 
     <p class="independent"><time datetime="${site.offerCheckedOn}">${f(t.hero.updated)}</time> · ${f(t.hero.independent)}</p>
     ${renderPhotoCredit(t)}

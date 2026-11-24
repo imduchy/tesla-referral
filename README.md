@@ -53,7 +53,7 @@ Pushing to `main` deploys automatically via `.github/workflows/static.yml`, whic
 
 ## Adding a language
 
-Copy `content/en.json` to e.g. `content/fr.json`. Set `lang`, `locale`, `langName` and `termsUrl`, translate the text (including the local word for "Ad" in `hero.adLabel`, which the advertising disclosure needs), then regenerate the share images and add a flag in `src/styles.css`. The language switcher, hreflang tags and sitemap pick it up automatically.
+Copy `content/en.json` to e.g. `content/fr.json`. Set `lang`, `locale`, `langName` and `termsUrl`, translate the text (including `hero.disclosure`, the sentence under the order button saying that you get a referral reward), then regenerate the share images and add a flag in `src/styles.css`. The language switcher, hreflang tags and sitemap pick it up automatically.
 
 ## Images
 
