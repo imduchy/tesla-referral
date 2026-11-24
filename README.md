@@ -1,77 +1,44 @@
 # Tesla Referral Code
 
-Source of **[teslareferralcode.eu](https://teslareferralcode.eu)**, a small independent page where I share my Tesla referral code with people ordering a new Model 3 or Model Y in Europe. Available in 24 languages, covering every European market Tesla sells in.
+Source of [teslareferralcode.eu](https://teslareferralcode.eu), where I share my Tesla referral code for new Model 3 and Model Y orders in Europe. Plain HTML, CSS and a bit of JavaScript, in 24 languages, hosted on GitHub Pages.
 
-It is a plain static site: HTML, CSS and a few lines of JavaScript, with no framework and no dependencies. A tiny build script turns the text files into pages, and GitHub Pages hosts them.
+Not affiliated with Tesla, Inc. Tesla, Model 3, Model Y and Supercharger are trademarks of Tesla, Inc.
 
-> Not affiliated with Tesla, Inc. Tesla, Model 3, Model Y and Supercharger are trademarks of Tesla, Inc.
+## Build
 
-## Project layout
-
-```
-site.json            Referral code, offer status, km amount, analytics, domain
-content/<lang>.json  All page text, one file per language (24 languages)
-src/                 CSS, JS, fonts, favicon and generated images
-build.mjs            Builds everything into dist/
-scripts/             Image helpers (photo crops, social share images)
-assets/              Source photo (not published)
-docs/research/       Notes on the Tesla referral program and its terms
-GLOSSARY.md          Terms used in this project
-```
-
-## Run it locally
-
-Requires Node.js 18 or newer.
+Needs Node.js 18+, no dependencies.
 
 ```bash
-node build.mjs
+node build.mjs                          # writes dist/
+python3 -m http.server -d dist 8000     # preview at http://localhost:8000
 ```
 
-```bash
-python3 -m http.server -d dist 8000
-```
+Pushing to `main` builds and deploys via `.github/workflows/static.yml`, then pings IndexNow with `scripts/indexnow.mjs`.
 
-Then open http://localhost:8000.
+## site.json
 
-## Updating the offer
-
-Everyday changes only touch `site.json`:
-
-| Field | Meaning |
+| Field | |
 | --- | --- |
 | `referralCode`, `referralUrl` | The code and its `ts.la` link |
-| `offerStatus` | `active`, `ended` (Tesla paused buyer benefits) or `capReached` (yearly referral limit reached) |
-| `offerCheckedOn` | Date the offer was last checked (`YYYY-MM-DD`). Drives the "Updated" line, the month in the page title and the sitemap |
+| `offerStatus` | `active`, `ended` or `capReached` |
+| `offerCheckedOn` | `YYYY-MM-DD`; drives the "updated" date, the month in the page title and the sitemap |
 | `superchargingKm` | Free Supercharging distance for the buyer |
-| `termsUrl` | Fallback link to Tesla's referral terms (each language sets its own) |
-| `goatcounterCode` | [GoatCounter](https://www.goatcounter.com) site code. Leave empty to disable analytics |
-| `siteUrl` | Public URL, used for canonical links, hreflang and the sitemap |
-| `operator` | Your name, postal address, email and optional contact URL for the imprint and privacy notice (`legal/*.json`). The /legal/ page and its footer link are only published once name, address and email are filled in |
-| `photoCredit` | Photographer name and link shown under the photo (empty name = no credit line) |
+| `goatcounterCode` | GoatCounter site code; empty disables analytics |
+| `operator` | Name, address, email for the imprint/privacy page |
 
-Pushing to `main` deploys automatically via `.github/workflows/static.yml`, which afterwards notifies search engines through [IndexNow](https://www.indexnow.org) (`indexNowKey` in `site.json`; the key is public by design).
+The `/legal/` page (texts in `legal/*.json`) is only built once `operator.name`, `address` and `email` are filled in.
 
 ## Adding a language
 
-Copy `content/en.json` to e.g. `content/fr.json`. Set `lang`, `locale`, `langName` and `termsUrl`, translate the text (including `hero.disclosure`, the sentence under the order button saying that you get a referral reward), then regenerate the share images and add a flag in `src/styles.css`. The language switcher, hreflang tags and sitemap pick it up automatically.
+Copy `content/en.json` to `content/<lang>.json`, set `lang`, `locale`, `langName` and `termsUrl`, and translate the rest. Add a `.flag-<lang>` rule in `src/styles.css` and regenerate the share images. The language menu, hreflang tags and sitemap pick it up automatically.
 
 ## Images
 
-Both scripts write their output to `src/`, and the results are committed:
+Generated images are committed under `src/`:
 
-- `python3 scripts/photo-crops.py` crops and compresses `assets/hero-source.jpg` into `src/img/`. Needs [Pillow](https://pypi.org/project/pillow/).
-- `node scripts/og-images.cjs` renders the 1200×630 share image for each language into `src/og/`. Needs [Playwright](https://playwright.dev) with Chromium. Re-run it after changing the km amount, the code or the `og` texts.
-
-## Want a page like this for your own code?
-
-Fork the repo, put your code in `site.json`, adjust the texts, and enable GitHub Pages (**Settings → Pages → Source: GitHub Actions**). Please follow [Tesla's referral rules](https://www.tesla.com/support/referral-program). Sharing on your own site or social media is fine. Paid ads, spam, posting codes on deal or aggregator sites, and offering extra incentives for using your code are not allowed.
+- `python3 scripts/photo-crops.py` crops `assets/hero-source.jpg` into `src/img/` (needs Pillow).
+- `node scripts/og-images.cjs` renders the share images into `src/og/` (needs Playwright). Re-run after changing the code, km amount or `og` texts.
 
 ## License
 
-The code is under the [MIT License](LICENSE). This does **not** cover:
-
-- **The photo**, which is from [Unsplash](https://unsplash.com/photos/KSAG1EYQ2UY) under the [Unsplash License](https://unsplash.com/license).
-- **The Inter font**, which is under the [SIL Open Font License](src/fonts/LICENSE-Inter.txt).
-- **Tesla's trademarks.**
-
-Issues and pull requests that fix bugs or translations are welcome.
+Code is MIT ([LICENSE](LICENSE)). The photo is from [Unsplash](https://unsplash.com/photos/KSAG1EYQ2UY) (Unsplash License), the Inter font is under the [SIL Open Font License](src/fonts/LICENSE-Inter.txt), and Tesla's trademarks belong to Tesla.
