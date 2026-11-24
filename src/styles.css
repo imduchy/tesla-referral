@@ -20,6 +20,7 @@
   --bg: #ffffff;
   --bg-hero-top: #eef0f2;
   --surface: #f4f5f6;
+  --accent: #e82127; /* Tesla red: large text and decoration only (4.5:1 on white) */
   --text: #16181c;
   --muted: #62656b;
   --line: #e3e5e8;
@@ -311,7 +312,7 @@ h2 {
 
 .tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
 .tile { background: var(--surface); border-radius: 10px; padding: 28px 24px; text-align: center; }
-.tile-value { font-size: 30px; font-weight: 500; letter-spacing: -0.01em; }
+.tile-value { font-size: 30px; font-weight: 500; letter-spacing: -0.01em; color: var(--accent); }
 .tile-label { margin-top: 2px; font-size: 14px; font-weight: 500; }
 .tile-text { margin-top: 10px; font-size: 14px; color: var(--muted); }
 
@@ -332,7 +333,7 @@ h2 {
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  border: 1px solid var(--line);
+  border: 1.5px solid var(--accent);
   font-size: 14px;
   font-weight: 500;
   margin-bottom: 14px;
