@@ -9,7 +9,7 @@ Not affiliated with Tesla, Inc. Tesla, Model 3, Model Y and Supercharger are tra
 Needs Node.js 18+, no dependencies.
 
 ```bash
-node build.mjs                          # writes dist/
+node build.mjs                          # writes dist/ (pages, sitemap.xml, robots.txt, llms.txt)
 python3 -m http.server -d dist 8000     # preview at http://localhost:8000
 ```
 

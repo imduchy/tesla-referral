@@ -72,6 +72,13 @@ function renderPage(t) {
     '@context': 'https://schema.org',
     '@graph': [
       {
+        '@type': 'WebSite',
+        '@id': absUrl('/#website'),
+        url: absUrl('/'),
+        name: plain(EN.nav.siteName),
+        inLanguage: languages.map((l) => l.lang),
+      },
+      {
         '@type': 'WebPage',
         '@id': absUrl(path),
         url: absUrl(path),
@@ -79,6 +86,7 @@ function renderPage(t) {
         description,
         inLanguage: t.lang,
         dateModified: site.offerCheckedOn,
+        isPartOf: { '@id': absUrl('/#website') },
       },
       {
         '@type': 'FAQPage',
@@ -267,6 +275,36 @@ function render404() {
 `;
 }
 
+// Plain-text summary for AI assistants (https://llmstxt.org). Generated from the same data as the pages.
+function renderLlmsTxt() {
+  const { plain } = helpers(EN);
+  const status = EN.status[site.offerStatus];
+  const lines = [
+    `# ${plain(EN.nav.siteName)}`,
+    '',
+    `> ${plain(EN.meta.description)}`,
+    '',
+    `Independent page run by a private Tesla owner. Not affiliated with Tesla, Inc. Information last checked on ${site.offerCheckedOn}.`,
+    '',
+    '## Key facts',
+    '',
+    `- Referral code: ${site.referralCode}`,
+    `- Referral link: ${site.referralUrl}`,
+    `- Offer status: ${site.offerStatus}. ${plain(status.headline)}. ${plain(status.subline)}${status.notice ? ' ' + plain(status.notice) : ''}`,
+    `- ${plain(EN.hero.disclosure)}`,
+    `- Official Tesla terms: ${EN.termsUrl || site.termsUrl}`,
+    '',
+    '## Questions and answers',
+    '',
+    ...EN.faq.items.flatMap((q) => [`### ${plain(q.q)}`, '', plain(q.a), '']),
+    '## Pages',
+    '',
+    ...languages.map((l) => `- [${l.langName}](${absUrl(pathFor(l.lang))}): ${helpers(l).plain(l.meta.title)}`),
+    '',
+  ];
+  return lines.join('\n');
+}
+
 function renderSitemap() {
   const alt = languages
     .map((l) => `    <xhtml:link rel="alternate" hreflang="${l.lang}" href="${absUrl(pathFor(l.lang))}"/>`)
@@ -296,8 +334,10 @@ for (const t of languages) {
 }
 
 writeFileSync(join(OUT, '404.html'), render404());
+// All crawlers, including search engines and AI assistants (OAI-SearchBot, Claude-SearchBot, PerplexityBot, …), are welcome.
 writeFileSync(join(OUT, 'robots.txt'), `User-agent: *\nAllow: /\n${siteUrl ? `\nSitemap: ${absUrl('/sitemap.xml')}\n` : ''}`);
+if (siteUrl) writeFileSync(join(OUT, 'llms.txt'), renderLlmsTxt());
 if (siteUrl) writeFileSync(join(OUT, 'sitemap.xml'), renderSitemap());
 // IndexNow ownership file (the key is public by design; see scripts/indexnow.mjs).
 if (site.indexNowKey) writeFileSync(join(OUT, `${site.indexNowKey}.txt`), site.indexNowKey);
-console.log('built 404.html, robots.txt' + (siteUrl ? ', sitemap.xml' : ''));
+console.log('built 404.html, robots.txt' + (siteUrl ? ', sitemap.xml, llms.txt' : ''));
